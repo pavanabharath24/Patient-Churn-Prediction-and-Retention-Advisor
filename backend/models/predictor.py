@@ -214,21 +214,31 @@ class ChurnPredictor:
 
         return results
 
-    @staticmethod
-    def compute_feature_contributions(patient: PatientInput) -> List[FeatureContribution]:
-        """Compute relative risk contributions."""
-        vals = {
-            "Days Since Last Visit": min(patient.days_since_last_visit / 730, 1),
-            "Low Satisfaction": 1 - min((patient.overall_satisfaction - 1) / 4, 1),
-            "Distance (miles)": min(patient.distance_to_facility / 50, 1),
-            "High Out-of-Pocket": min(patient.avg_out_of_pocket_cost / 1999, 1),
-            "Short Tenure": 1 - min(patient.tenure_months / 120, 1),
-            "Missed Appointments": min(patient.missed_appointments / 8, 1),
-        }
-        return [
-            FeatureContribution(factor=k, risk_impact=round(v, 4))
-            for k, v in sorted(vals.items(), key=lambda x: x[1])
-        ]
+    def compute_feature_contributions(self, df: pd.DataFrame) -> List[FeatureContribution]:
+        """Compute relative risk contributions using SHAP."""
+        import shap
+        
+        # XGBoost handles TreeExplainer natively and efficiently
+        explainer = shap.TreeExplainer(self.churn_model)
+        shap_values = explainer.shap_values(df)
+        
+        if len(shap_values.shape) > 1:
+            sv = shap_values[0]
+        else:
+            sv = shap_values
+            
+        feature_names = df.columns.tolist()
+        
+        contributions = []
+        for name, val in zip(feature_names, sv):
+            if val != 0:
+                # humanize snake_case slightly
+                human_name = name.replace("_", " ").title()
+                contributions.append(FeatureContribution(factor=human_name, risk_impact=round(float(val), 4)))
+                
+        # Return top 6 by absolute impact magnitude
+        contributions = sorted(contributions, key=lambda x: abs(x.risk_impact), reverse=True)[:6]
+        return contributions
 
     @staticmethod
     def compute_interventions(patient: PatientInput) -> List[Intervention]:
@@ -335,7 +345,7 @@ class ChurnPredictor:
             "primary_churn_reason": primary_reason,
             "retention_advice": retention_advice,
             "metrics": self.compute_metrics(patient),
-            "feature_contributions": self.compute_feature_contributions(patient),
+            "feature_contributions": self.compute_feature_contributions(df),
             "interventions": self.compute_interventions(patient),
         }
 
