@@ -123,7 +123,6 @@ Numeric features: median-imputed, scaled. Categorical features (Sex, City, Hered
 | Model | Weight (5-fold CV AUC on Dataset A) |
 |---|---|
 | Logistic Regression | 0.803 |
-| Random Forest | 0.789 |
 | Gradient Boosting | 0.788 |
 | XGBoost | 0.777 |
 
