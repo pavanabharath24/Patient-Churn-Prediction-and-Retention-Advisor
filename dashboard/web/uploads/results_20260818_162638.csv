@@ -1,0 +1,2001 @@
+MemberID,Churn_Probability,Risk_Tier,Top_Driver,Recommended_Action
+C20000,0.0573,LOW,Days Since Last Visit,Care Outreach
+C20001,0.3104,LOW,Overall Satisfaction,Care Outreach
+C20002,0.4353,MEDIUM,Overall Satisfaction,Care Outreach
+C20003,0.2271,LOW,Overall Satisfaction,Care Outreach
+C20004,0.2841,LOW,Overall Satisfaction,Care Outreach
+C20005,0.2343,LOW,Overall Satisfaction,Care Outreach
+C20006,0.1295,LOW,Overall Satisfaction,Care Outreach
+C20007,0.3662,LOW,Overall Satisfaction,Care Outreach
+C20008,0.1621,LOW,Overall Satisfaction,Care Outreach
+C20009,0.0726,LOW,Days Since Last Visit,Care Outreach
+C20010,0.2418,LOW,Overall Satisfaction,Care Outreach
+C20011,0.1865,LOW,Tenure Months,Wellness & Loyalty
+C20012,0.0727,LOW,Missed Appointments,Care Outreach
+C20013,0.0918,LOW,Overall Satisfaction,Care Outreach
+C20014,0.3319,LOW,Overall Satisfaction,Care Outreach
+C20015,0.253,LOW,Overall Satisfaction,Care Outreach
+C20016,0.2638,LOW,Overall Satisfaction,Care Outreach
+C20017,0.0472,LOW,Missed Appointments,Care Outreach
+C20018,0.3639,LOW,Overall Satisfaction,Care Outreach
+C20019,0.0769,LOW,Days Since Last Visit,Care Outreach
+C20020,0.1035,LOW,Missed Appointments,Care Outreach
+C20021,0.039,LOW,Days Since Last Visit,Care Outreach
+C20022,0.112,LOW,Overall Satisfaction,Care Outreach
+C20023,0.08,LOW,Days Since Last Visit,Care Outreach
+C20024,0.1856,LOW,Overall Satisfaction,Care Outreach
+C20025,0.1555,LOW,Overall Satisfaction,Care Outreach
+C20026,0.3139,LOW,Overall Satisfaction,Care Outreach
+C20027,0.0768,LOW,Missed Appointments,Care Outreach
+C20028,0.0435,LOW,Days Since Last Visit,Care Outreach
+C20029,0.0803,LOW,Days Since Last Visit,Care Outreach
+C20030,0.1026,LOW,Days Since Last Visit,Care Outreach
+C20031,0.1781,LOW,Overall Satisfaction,Care Outreach
+C20032,0.0602,LOW,Overall Satisfaction,Care Outreach
+C20033,0.1781,LOW,Overall Satisfaction,Care Outreach
+C20034,0.1523,LOW,Missed Appointments,Care Outreach
+C20035,0.0777,LOW,Days Since Last Visit,Care Outreach
+C20036,0.1341,LOW,Days Since Last Visit,Care Outreach
+C20037,0.2838,LOW,Overall Satisfaction,Care Outreach
+C20038,0.1353,LOW,Days Since Last Visit,Care Outreach
+C20039,0.0762,LOW,Days Since Last Visit,Care Outreach
+C20040,0.2888,LOW,Overall Satisfaction,Care Outreach
+C20041,0.0933,LOW,Days Since Last Visit,Care Outreach
+C20042,0.2067,LOW,Overall Satisfaction,Care Outreach
+C20043,0.1751,LOW,Overall Satisfaction,Care Outreach
+C20044,0.2051,LOW,Overall Satisfaction,Care Outreach
+C20045,0.0811,LOW,Days Since Last Visit,Care Outreach
+C20046,0.0966,LOW,Overall Satisfaction,Care Outreach
+C20047,0.3513,LOW,Overall Satisfaction,Care Outreach
+C20048,0.1538,LOW,Overall Satisfaction,Care Outreach
+C20049,0.5298,MEDIUM,Overall Satisfaction,Care Outreach
+C20050,0.215,LOW,Overall Satisfaction,Care Outreach
+C20051,0.0577,LOW,Days Since Last Visit,Care Outreach
+C20052,0.0908,LOW,Days Since Last Visit,Care Outreach
+C20053,0.2392,LOW,Overall Satisfaction,Care Outreach
+C20054,0.046,LOW,Days Since Last Visit,Care Outreach
+C20055,0.076,LOW,Distance To Facility Miles,Access Support
+C20056,0.1146,LOW,Overall Satisfaction,Care Outreach
+C20057,0.0769,LOW,Days Since Last Visit,Care Outreach
+C20058,0.2484,LOW,Overall Satisfaction,Care Outreach
+C20059,0.1182,LOW,Distance To Facility Miles,Access Support
+C20060,0.1599,LOW,Overall Satisfaction,Care Outreach
+C20061,0.1043,LOW,Days Since Last Visit,Care Outreach
+C20062,0.0425,LOW,Days Since Last Visit,Care Outreach
+C20063,0.1184,LOW,Overall Satisfaction,Care Outreach
+C20064,0.1027,LOW,Days Since Last Visit,Care Outreach
+C20065,0.2582,LOW,Overall Satisfaction,Care Outreach
+C20066,0.3438,LOW,Overall Satisfaction,Care Outreach
+C20067,0.4875,MEDIUM,Overall Satisfaction,Care Outreach
+C20068,0.4067,MEDIUM,Overall Satisfaction,Care Outreach
+C20069,0.0737,LOW,Days Since Last Visit,Care Outreach
+C20070,0.0757,LOW,Tenure Months,Wellness & Loyalty
+C20071,0.488,MEDIUM,Overall Satisfaction,Care Outreach
+C20072,0.0966,LOW,Days Since Last Visit,Care Outreach
+C20073,0.2512,LOW,Overall Satisfaction,Care Outreach
+C20074,0.0701,LOW,Days Since Last Visit,Care Outreach
+C20075,0.0409,LOW,Days Since Last Visit,Care Outreach
+C20076,0.304,LOW,Overall Satisfaction,Care Outreach
+C20077,0.1068,LOW,Overall Satisfaction,Care Outreach
+C20078,0.0704,LOW,Days Since Last Visit,Care Outreach
+C20079,0.201,LOW,Overall Satisfaction,Care Outreach
+C20080,0.3601,LOW,Overall Satisfaction,Care Outreach
+C20081,0.0813,LOW,Overall Satisfaction,Care Outreach
+C20082,0.3989,LOW,Overall Satisfaction,Care Outreach
+C20083,0.3239,LOW,Overall Satisfaction,Care Outreach
+C20084,0.2228,LOW,Overall Satisfaction,Care Outreach
+C20085,0.246,LOW,Overall Satisfaction,Care Outreach
+C20086,0.4695,MEDIUM,Overall Satisfaction,Care Outreach
+C20087,0.0787,LOW,Days Since Last Visit,Care Outreach
+C20088,0.0894,LOW,Days Since Last Visit,Care Outreach
+C20089,0.111,LOW,Distance To Facility Miles,Access Support
+C20090,0.0946,LOW,Tenure Months,Wellness & Loyalty
+C20091,0.3941,LOW,Overall Satisfaction,Care Outreach
+C20092,0.6988,MEDIUM,Overall Satisfaction,Care Outreach
+C20093,0.1852,LOW,Overall Satisfaction,Care Outreach
+C20094,0.1061,LOW,Days Since Last Visit,Care Outreach
+C20095,0.3084,LOW,Overall Satisfaction,Care Outreach
+C20096,0.145,LOW,Days Since Last Visit,Care Outreach
+C20097,0.3268,LOW,Overall Satisfaction,Care Outreach
+C20098,0.1348,LOW,Overall Satisfaction,Care Outreach
+C20099,0.3432,LOW,Overall Satisfaction,Care Outreach
+C20100,0.0917,LOW,Days Since Last Visit,Care Outreach
+C20101,0.3787,LOW,Overall Satisfaction,Care Outreach
+C20102,0.0728,LOW,Days Since Last Visit,Care Outreach
+C20103,0.0333,LOW,Days Since Last Visit,Care Outreach
+C20104,0.0388,LOW,Days Since Last Visit,Care Outreach
+C20105,0.2435,LOW,Overall Satisfaction,Care Outreach
+C20106,0.1096,LOW,Tenure Months,Wellness & Loyalty
+C20107,0.5036,MEDIUM,Overall Satisfaction,Care Outreach
+C20108,0.2919,LOW,Overall Satisfaction,Care Outreach
+C20109,0.0804,LOW,Days Since Last Visit,Care Outreach
+C20110,0.0744,LOW,Days Since Last Visit,Care Outreach
+C20111,0.0953,LOW,Days Since Last Visit,Care Outreach
+C20112,0.6919,MEDIUM,Overall Satisfaction,Care Outreach
+C20113,0.0906,LOW,Days Since Last Visit,Care Outreach
+C20114,0.0641,LOW,Days Since Last Visit,Care Outreach
+C20115,0.0629,LOW,Days Since Last Visit,Care Outreach
+C20116,0.164,LOW,Overall Satisfaction,Care Outreach
+C20117,0.0823,LOW,Tenure Months,Wellness & Loyalty
+C20118,0.1868,LOW,Tenure Months,Wellness & Loyalty
+C20119,0.2265,LOW,Overall Satisfaction,Care Outreach
+C20120,0.3083,LOW,Overall Satisfaction,Care Outreach
+C20121,0.2014,LOW,Days Since Last Visit,Care Outreach
+C20122,0.0522,LOW,Days Since Last Visit,Care Outreach
+C20123,0.1044,LOW,Missed Appointments,Care Outreach
+C20124,0.1376,LOW,Missed Appointments,Care Outreach
+C20125,0.0363,LOW,Days Since Last Visit,Care Outreach
+C20126,0.3906,LOW,Overall Satisfaction,Care Outreach
+C20127,0.1002,LOW,Overall Satisfaction,Care Outreach
+C20128,0.0568,LOW,Days Since Last Visit,Care Outreach
+C20129,0.0757,LOW,Days Since Last Visit,Care Outreach
+C20130,0.0809,LOW,Distance To Facility Miles,Access Support
+C20131,0.0655,LOW,Days Since Last Visit,Care Outreach
+C20132,0.2254,LOW,Overall Satisfaction,Care Outreach
+C20133,0.1377,LOW,Overall Satisfaction,Care Outreach
+C20134,0.058,LOW,Days Since Last Visit,Care Outreach
+C20135,0.217,LOW,Days Since Last Visit,Care Outreach
+C20136,0.0574,LOW,Days Since Last Visit,Care Outreach
+C20137,0.1007,LOW,Days Since Last Visit,Care Outreach
+C20138,0.0416,LOW,Days Since Last Visit,Care Outreach
+C20139,0.0675,LOW,Days Since Last Visit,Care Outreach
+C20140,0.0554,LOW,Days Since Last Visit,Care Outreach
+C20141,0.0804,LOW,Days Since Last Visit,Care Outreach
+C20142,0.3785,LOW,Overall Satisfaction,Care Outreach
+C20143,0.2407,LOW,Overall Satisfaction,Care Outreach
+C20144,0.5537,MEDIUM,Overall Satisfaction,Care Outreach
+C20145,0.375,LOW,Overall Satisfaction,Care Outreach
+C20146,0.1328,LOW,Overall Satisfaction,Care Outreach
+C20147,0.1796,LOW,Days Since Last Visit,Care Outreach
+C20148,0.1672,LOW,Overall Satisfaction,Care Outreach
+C20149,0.1386,LOW,Distance To Facility Miles,Access Support
+C20150,0.1461,LOW,Distance To Facility Miles,Access Support
+C20151,0.0752,LOW,Distance To Facility Miles,Access Support
+C20152,0.0566,LOW,Days Since Last Visit,Care Outreach
+C20153,0.0977,LOW,Days Since Last Visit,Care Outreach
+C20154,0.0607,LOW,Days Since Last Visit,Care Outreach
+C20155,0.1961,LOW,Overall Satisfaction,Care Outreach
+C20156,0.0345,LOW,BMI,Wellness & Loyalty
+C20157,0.3047,LOW,Overall Satisfaction,Care Outreach
+C20158,0.2061,LOW,Tenure Months,Wellness & Loyalty
+C20159,0.0706,LOW,Days Since Last Visit,Care Outreach
+C20160,0.0436,LOW,Days Since Last Visit,Care Outreach
+C20161,0.3162,LOW,Overall Satisfaction,Care Outreach
+C20162,0.1319,LOW,Distance To Facility Miles,Access Support
+C20163,0.2107,LOW,Distance To Facility Miles,Access Support
+C20164,0.0639,LOW,Distance To Facility Miles,Access Support
+C20165,0.1498,LOW,Tenure Months,Wellness & Loyalty
+C20166,0.1128,LOW,Missed Appointments,Care Outreach
+C20167,0.3296,LOW,Overall Satisfaction,Care Outreach
+C20168,0.0725,LOW,Days Since Last Visit,Care Outreach
+C20169,0.214,LOW,Overall Satisfaction,Care Outreach
+C20170,0.0427,LOW,Days Since Last Visit,Care Outreach
+C20171,0.0985,LOW,Distance To Facility Miles,Access Support
+C20172,0.2855,LOW,Overall Satisfaction,Care Outreach
+C20173,0.104,LOW,Days Since Last Visit,Care Outreach
+C20174,0.1034,LOW,Missed Appointments,Care Outreach
+C20175,0.0953,LOW,Days Since Last Visit,Care Outreach
+C20176,0.0455,LOW,BMI,Wellness & Loyalty
+C20177,0.1445,LOW,Missed Appointments,Care Outreach
+C20178,0.231,LOW,Overall Satisfaction,Care Outreach
+C20179,0.1948,LOW,Overall Satisfaction,Care Outreach
+C20180,0.0382,LOW,Days Since Last Visit,Care Outreach
+C20181,0.2459,LOW,Overall Satisfaction,Care Outreach
+C20182,0.1905,LOW,Overall Satisfaction,Care Outreach
+C20183,0.034,LOW,Days Since Last Visit,Care Outreach
+C20184,0.1394,LOW,Missed Appointments,Care Outreach
+C20185,0.2245,LOW,Overall Satisfaction,Care Outreach
+C20186,0.142,LOW,Days Since Last Visit,Care Outreach
+C20187,0.09,LOW,Days Since Last Visit,Care Outreach
+C20188,0.0883,LOW,Days Since Last Visit,Care Outreach
+C20189,0.2891,LOW,Overall Satisfaction,Care Outreach
+C20190,0.0497,LOW,Missed Appointments,Care Outreach
+C20191,0.16,LOW,Tenure Months,Wellness & Loyalty
+C20192,0.043,LOW,Days Since Last Visit,Care Outreach
+C20193,0.0539,LOW,Days Since Last Visit,Care Outreach
+C20194,0.3848,LOW,Overall Satisfaction,Care Outreach
+C20195,0.1986,LOW,Overall Satisfaction,Care Outreach
+C20196,0.3238,LOW,Overall Satisfaction,Care Outreach
+C20197,0.3849,LOW,Overall Satisfaction,Care Outreach
+C20198,0.2426,LOW,Distance To Facility Miles,Access Support
+C20199,0.3052,LOW,Overall Satisfaction,Care Outreach
+C20200,0.1188,LOW,Distance To Facility Miles,Access Support
+C20201,0.2726,LOW,Overall Satisfaction,Care Outreach
+C20202,0.1351,LOW,Missed Appointments,Care Outreach
+C20203,0.1001,LOW,Days Since Last Visit,Care Outreach
+C20204,0.4421,MEDIUM,Overall Satisfaction,Care Outreach
+C20205,0.0556,LOW,Days Since Last Visit,Care Outreach
+C20206,0.1132,LOW,Days Since Last Visit,Care Outreach
+C20207,0.0402,LOW,Days Since Last Visit,Care Outreach
+C20208,0.3221,LOW,Overall Satisfaction,Care Outreach
+C20209,0.0782,LOW,Days Since Last Visit,Care Outreach
+C20210,0.0697,LOW,Tenure Months,Wellness & Loyalty
+C20211,0.036,LOW,Days Since Last Visit,Care Outreach
+C20212,0.2051,LOW,Overall Satisfaction,Care Outreach
+C20213,0.0544,LOW,Missed Appointments,Care Outreach
+C20214,0.3398,LOW,Overall Satisfaction,Care Outreach
+C20215,0.0637,LOW,Days Since Last Visit,Care Outreach
+C20216,0.0869,LOW,Overall Satisfaction,Care Outreach
+C20217,0.329,LOW,Overall Satisfaction,Care Outreach
+C20218,0.0984,LOW,Tenure Months,Wellness & Loyalty
+C20219,0.1877,LOW,Overall Satisfaction,Care Outreach
+C20220,0.2179,LOW,Overall Satisfaction,Care Outreach
+C20221,0.1296,LOW,Overall Satisfaction,Care Outreach
+C20222,0.0489,LOW,Missed Appointments,Care Outreach
+C20223,0.2455,LOW,Overall Satisfaction,Care Outreach
+C20224,0.0653,LOW,Days Since Last Visit,Care Outreach
+C20225,0.1872,LOW,Distance To Facility Miles,Access Support
+C20226,0.0819,LOW,Days Since Last Visit,Care Outreach
+C20227,0.1438,LOW,Days Since Last Visit,Care Outreach
+C20228,0.0929,LOW,Distance To Facility Miles,Access Support
+C20229,0.2585,LOW,Overall Satisfaction,Care Outreach
+C20230,0.6334,MEDIUM,Overall Satisfaction,Care Outreach
+C20231,0.0542,LOW,Days Since Last Visit,Care Outreach
+C20232,0.1305,LOW,Tenure Months,Wellness & Loyalty
+C20233,0.1964,LOW,Overall Satisfaction,Care Outreach
+C20234,0.0658,LOW,Tenure Months,Wellness & Loyalty
+C20235,0.0617,LOW,Days Since Last Visit,Care Outreach
+C20236,0.0693,LOW,Days Since Last Visit,Care Outreach
+C20237,0.1588,LOW,Overall Satisfaction,Care Outreach
+C20238,0.3221,LOW,Overall Satisfaction,Care Outreach
+C20239,0.0459,LOW,Days Since Last Visit,Care Outreach
+C20240,0.4162,MEDIUM,Overall Satisfaction,Care Outreach
+C20241,0.0693,LOW,Tenure Months,Wellness & Loyalty
+C20242,0.1552,LOW,Tenure Months,Wellness & Loyalty
+C20243,0.041,LOW,Missed Appointments,Care Outreach
+C20244,0.0634,LOW,Days Since Last Visit,Care Outreach
+C20245,0.0483,LOW,Days Since Last Visit,Care Outreach
+C20246,0.0683,LOW,Missed Appointments,Care Outreach
+C20247,0.19,LOW,Overall Satisfaction,Care Outreach
+C20248,0.1222,LOW,Distance To Facility Miles,Access Support
+C20249,0.2291,LOW,Overall Satisfaction,Care Outreach
+C20250,0.0404,LOW,Days Since Last Visit,Care Outreach
+C20251,0.1574,LOW,Overall Satisfaction,Care Outreach
+C20252,0.0924,LOW,Overall Satisfaction,Care Outreach
+C20253,0.0438,LOW,Distance To Facility Miles,Access Support
+C20254,0.0659,LOW,BMI,Wellness & Loyalty
+C20255,0.182,LOW,Overall Satisfaction,Care Outreach
+C20256,0.0843,LOW,Days Since Last Visit,Care Outreach
+C20257,0.0528,LOW,Days Since Last Visit,Care Outreach
+C20258,0.1508,LOW,Distance To Facility Miles,Access Support
+C20259,0.2872,LOW,Overall Satisfaction,Care Outreach
+C20260,0.1438,LOW,Overall Satisfaction,Care Outreach
+C20261,0.2037,LOW,Overall Satisfaction,Care Outreach
+C20262,0.063,LOW,Days Since Last Visit,Care Outreach
+C20263,0.2871,LOW,Overall Satisfaction,Care Outreach
+C20264,0.3469,LOW,Overall Satisfaction,Care Outreach
+C20265,0.0972,LOW,Tenure Months,Wellness & Loyalty
+C20266,0.2069,LOW,Distance To Facility Miles,Access Support
+C20267,0.1058,LOW,Distance To Facility Miles,Access Support
+C20268,0.1352,LOW,Days Since Last Visit,Care Outreach
+C20269,0.1684,LOW,Days Since Last Visit,Care Outreach
+C20270,0.1984,LOW,Overall Satisfaction,Care Outreach
+C20271,0.1513,LOW,Distance To Facility Miles,Access Support
+C20272,0.1312,LOW,Missed Appointments,Care Outreach
+C20273,0.6621,MEDIUM,Overall Satisfaction,Care Outreach
+C20274,0.2655,LOW,Overall Satisfaction,Care Outreach
+C20275,0.0273,LOW,Days Since Last Visit,Care Outreach
+C20276,0.2589,LOW,Overall Satisfaction,Care Outreach
+C20277,0.3519,LOW,Overall Satisfaction,Care Outreach
+C20278,0.3367,LOW,Overall Satisfaction,Care Outreach
+C20279,0.2198,LOW,Overall Satisfaction,Care Outreach
+C20280,0.0729,LOW,Days Since Last Visit,Care Outreach
+C20281,0.246,LOW,Overall Satisfaction,Care Outreach
+C20282,0.0658,LOW,Days Since Last Visit,Care Outreach
+C20283,0.4059,MEDIUM,Overall Satisfaction,Care Outreach
+C20284,0.6317,MEDIUM,Overall Satisfaction,Care Outreach
+C20285,0.0688,LOW,Days Since Last Visit,Care Outreach
+C20286,0.2218,LOW,Overall Satisfaction,Care Outreach
+C20287,0.2439,LOW,Overall Satisfaction,Care Outreach
+C20288,0.0816,LOW,Days Since Last Visit,Care Outreach
+C20289,0.2124,LOW,Days Since Last Visit,Care Outreach
+C20290,0.449,MEDIUM,Overall Satisfaction,Care Outreach
+C20291,0.0997,LOW,Days Since Last Visit,Care Outreach
+C20292,0.1124,LOW,Missed Appointments,Care Outreach
+C20293,0.4634,MEDIUM,Overall Satisfaction,Care Outreach
+C20294,0.2156,LOW,Overall Satisfaction,Care Outreach
+C20295,0.1364,LOW,Days Since Last Visit,Care Outreach
+C20296,0.3043,LOW,Overall Satisfaction,Care Outreach
+C20297,0.1103,LOW,Tenure Months,Wellness & Loyalty
+C20298,0.1192,LOW,Days Since Last Visit,Care Outreach
+C20299,0.3331,LOW,Overall Satisfaction,Care Outreach
+C20300,0.1218,LOW,Distance To Facility Miles,Access Support
+C20301,0.1806,LOW,Distance To Facility Miles,Access Support
+C20302,0.2538,LOW,Overall Satisfaction,Care Outreach
+C20303,0.1252,LOW,Days Since Last Visit,Care Outreach
+C20304,0.0933,LOW,Days Since Last Visit,Care Outreach
+C20305,0.176,LOW,Missed Appointments,Care Outreach
+C20306,0.1697,LOW,Missed Appointments,Care Outreach
+C20307,0.1596,LOW,Missed Appointments,Care Outreach
+C20308,0.1435,LOW,Overall Satisfaction,Care Outreach
+C20309,0.2522,LOW,Overall Satisfaction,Care Outreach
+C20310,0.261,LOW,Overall Satisfaction,Care Outreach
+C20311,0.0632,LOW,Days Since Last Visit,Care Outreach
+C20312,0.2654,LOW,Overall Satisfaction,Care Outreach
+C20313,0.1442,LOW,Overall Satisfaction,Care Outreach
+C20314,0.1814,LOW,Overall Satisfaction,Care Outreach
+C20315,0.2547,LOW,Overall Satisfaction,Care Outreach
+C20316,0.1011,LOW,Missed Appointments,Care Outreach
+C20317,0.103,LOW,Days Since Last Visit,Care Outreach
+C20318,0.1307,LOW,Distance To Facility Miles,Access Support
+C20319,0.4538,MEDIUM,Overall Satisfaction,Care Outreach
+C20320,0.0505,LOW,Days Since Last Visit,Care Outreach
+C20321,0.4811,MEDIUM,Overall Satisfaction,Care Outreach
+C20322,0.1549,LOW,Distance To Facility Miles,Access Support
+C20323,0.2856,LOW,Overall Satisfaction,Care Outreach
+C20324,0.0828,LOW,Days Since Last Visit,Care Outreach
+C20325,0.4051,MEDIUM,Overall Satisfaction,Care Outreach
+C20326,0.0852,LOW,Days Since Last Visit,Care Outreach
+C20327,0.3719,LOW,Overall Satisfaction,Care Outreach
+C20328,0.3353,LOW,Overall Satisfaction,Care Outreach
+C20329,0.1725,LOW,Overall Satisfaction,Care Outreach
+C20330,0.0567,LOW,Days Since Last Visit,Care Outreach
+C20331,0.4181,MEDIUM,Overall Satisfaction,Care Outreach
+C20332,0.1287,LOW,Overall Satisfaction,Care Outreach
+C20333,0.1576,LOW,Overall Satisfaction,Care Outreach
+C20334,0.1113,LOW,Overall Satisfaction,Care Outreach
+C20335,0.165,LOW,Overall Satisfaction,Care Outreach
+C20336,0.1333,LOW,Overall Satisfaction,Care Outreach
+C20337,0.1219,LOW,Distance To Facility Miles,Access Support
+C20338,0.5407,MEDIUM,Overall Satisfaction,Care Outreach
+C20339,0.1768,LOW,Overall Satisfaction,Care Outreach
+C20340,0.3609,LOW,Overall Satisfaction,Care Outreach
+C20341,0.0329,LOW,Days Since Last Visit,Care Outreach
+C20342,0.0744,LOW,Missed Appointments,Care Outreach
+C20343,0.4032,MEDIUM,Overall Satisfaction,Care Outreach
+C20344,0.1398,LOW,Tenure Months,Wellness & Loyalty
+C20345,0.3854,LOW,Overall Satisfaction,Care Outreach
+C20346,0.3059,LOW,Overall Satisfaction,Care Outreach
+C20347,0.107,LOW,Days Since Last Visit,Care Outreach
+C20348,0.0403,LOW,Distance To Facility Miles,Access Support
+C20349,0.25,LOW,Overall Satisfaction,Care Outreach
+C20350,0.0914,LOW,Days Since Last Visit,Care Outreach
+C20351,0.1777,LOW,Overall Satisfaction,Care Outreach
+C20352,0.0971,LOW,Tenure Months,Wellness & Loyalty
+C20353,0.2371,LOW,Overall Satisfaction,Care Outreach
+C20354,0.0896,LOW,Days Since Last Visit,Care Outreach
+C20355,0.0775,LOW,Days Since Last Visit,Care Outreach
+C20356,0.036,LOW,Days Since Last Visit,Care Outreach
+C20357,0.1049,LOW,Missed Appointments,Care Outreach
+C20358,0.096,LOW,Days Since Last Visit,Care Outreach
+C20359,0.0641,LOW,Days Since Last Visit,Care Outreach
+C20360,0.3445,LOW,Overall Satisfaction,Care Outreach
+C20361,0.0792,LOW,Missed Appointments,Care Outreach
+C20362,0.3236,LOW,Overall Satisfaction,Care Outreach
+C20363,0.0322,LOW,Days Since Last Visit,Care Outreach
+C20364,0.2859,LOW,Overall Satisfaction,Care Outreach
+C20365,0.297,LOW,Overall Satisfaction,Care Outreach
+C20366,0.1594,LOW,Days Since Last Visit,Care Outreach
+C20367,0.0559,LOW,Missed Appointments,Care Outreach
+C20368,0.1056,LOW,Days Since Last Visit,Care Outreach
+C20369,0.3492,LOW,Overall Satisfaction,Care Outreach
+C20370,0.0493,LOW,Days Since Last Visit,Care Outreach
+C20371,0.3898,LOW,Overall Satisfaction,Care Outreach
+C20372,0.0727,LOW,Days Since Last Visit,Care Outreach
+C20373,0.0829,LOW,Distance To Facility Miles,Access Support
+C20374,0.0797,LOW,Days Since Last Visit,Care Outreach
+C20375,0.1264,LOW,Overall Satisfaction,Care Outreach
+C20376,0.1096,LOW,Missed Appointments,Care Outreach
+C20377,0.3812,LOW,Overall Satisfaction,Care Outreach
+C20378,0.0856,LOW,Missed Appointments,Care Outreach
+C20379,0.0824,LOW,Days Since Last Visit,Care Outreach
+C20380,0.7525,HIGH,Overall Satisfaction,Care Outreach
+C20381,0.2418,LOW,Overall Satisfaction,Care Outreach
+C20382,0.0682,LOW,Days Since Last Visit,Care Outreach
+C20383,0.3247,LOW,Overall Satisfaction,Care Outreach
+C20384,0.072,LOW,Days Since Last Visit,Care Outreach
+C20385,0.0981,LOW,Days Since Last Visit,Care Outreach
+C20386,0.0601,LOW,Days Since Last Visit,Care Outreach
+C20387,0.2528,LOW,Overall Satisfaction,Care Outreach
+C20388,0.093,LOW,Overall Satisfaction,Care Outreach
+C20389,0.0871,LOW,Days Since Last Visit,Care Outreach
+C20390,0.2796,LOW,Overall Satisfaction,Care Outreach
+C20391,0.431,MEDIUM,Overall Satisfaction,Care Outreach
+C20392,0.108,LOW,Distance To Facility Miles,Access Support
+C20393,0.2025,LOW,Overall Satisfaction,Care Outreach
+C20394,0.099,LOW,Tenure Months,Wellness & Loyalty
+C20395,0.4481,MEDIUM,Overall Satisfaction,Care Outreach
+C20396,0.404,MEDIUM,Overall Satisfaction,Care Outreach
+C20397,0.3391,LOW,Overall Satisfaction,Care Outreach
+C20398,0.0518,LOW,Distance To Facility Miles,Access Support
+C20399,0.1478,LOW,Overall Satisfaction,Care Outreach
+C20400,0.3933,LOW,Overall Satisfaction,Care Outreach
+C20401,0.0818,LOW,Days Since Last Visit,Care Outreach
+C20402,0.2444,LOW,Overall Satisfaction,Care Outreach
+C20403,0.197,LOW,Missed Appointments,Care Outreach
+C20404,0.0885,LOW,Distance To Facility Miles,Access Support
+C20405,0.1404,LOW,Overall Satisfaction,Care Outreach
+C20406,0.3455,LOW,Overall Satisfaction,Care Outreach
+C20407,0.1264,LOW,Days Since Last Visit,Care Outreach
+C20408,0.099,LOW,Tenure Months,Wellness & Loyalty
+C20409,0.2288,LOW,Overall Satisfaction,Care Outreach
+C20410,0.3916,LOW,Overall Satisfaction,Care Outreach
+C20411,0.3051,LOW,Overall Satisfaction,Care Outreach
+C20412,0.4225,MEDIUM,Overall Satisfaction,Care Outreach
+C20413,0.0955,LOW,Missed Appointments,Care Outreach
+C20414,0.1688,LOW,Overall Satisfaction,Care Outreach
+C20415,0.063,LOW,Days Since Last Visit,Care Outreach
+C20416,0.1802,LOW,Tenure Months,Wellness & Loyalty
+C20417,0.1761,LOW,Overall Satisfaction,Care Outreach
+C20418,0.1323,LOW,Days Since Last Visit,Care Outreach
+C20419,0.3053,LOW,Overall Satisfaction,Care Outreach
+C20420,0.0562,LOW,Tenure Months,Wellness & Loyalty
+C20421,0.2076,LOW,Overall Satisfaction,Care Outreach
+C20422,0.1793,LOW,Overall Satisfaction,Care Outreach
+C20423,0.1034,LOW,Missed Appointments,Care Outreach
+C20424,0.081,LOW,Days Since Last Visit,Care Outreach
+C20425,0.035,LOW,Days Since Last Visit,Care Outreach
+C20426,0.0498,LOW,Days Since Last Visit,Care Outreach
+C20427,0.089,LOW,Days Since Last Visit,Care Outreach
+C20428,0.0446,LOW,Days Since Last Visit,Care Outreach
+C20429,0.1191,LOW,Missed Appointments,Care Outreach
+C20430,0.0512,LOW,Missed Appointments,Care Outreach
+C20431,0.136,LOW,Overall Satisfaction,Care Outreach
+C20432,0.4279,MEDIUM,Overall Satisfaction,Care Outreach
+C20433,0.2078,LOW,Overall Satisfaction,Care Outreach
+C20434,0.0747,LOW,Missed Appointments,Care Outreach
+C20435,0.3261,LOW,Overall Satisfaction,Care Outreach
+C20436,0.0995,LOW,Days Since Last Visit,Care Outreach
+C20437,0.0803,LOW,Days Since Last Visit,Care Outreach
+C20438,0.1159,LOW,Missed Appointments,Care Outreach
+C20439,0.0328,LOW,Days Since Last Visit,Care Outreach
+C20440,0.1485,LOW,Overall Satisfaction,Care Outreach
+C20441,0.0662,LOW,Tenure Months,Wellness & Loyalty
+C20442,0.0305,LOW,Days Since Last Visit,Care Outreach
+C20443,0.1593,LOW,Missed Appointments,Care Outreach
+C20444,0.1666,LOW,Overall Satisfaction,Care Outreach
+C20445,0.4189,MEDIUM,Overall Satisfaction,Care Outreach
+C20446,0.0535,LOW,Days Since Last Visit,Care Outreach
+C20447,0.0553,LOW,Days Since Last Visit,Care Outreach
+C20448,0.3535,LOW,Overall Satisfaction,Care Outreach
+C20449,0.3306,LOW,Overall Satisfaction,Care Outreach
+C20450,0.4764,MEDIUM,Overall Satisfaction,Care Outreach
+C20451,0.4035,MEDIUM,Overall Satisfaction,Care Outreach
+C20452,0.3752,LOW,Overall Satisfaction,Care Outreach
+C20453,0.0978,LOW,Days Since Last Visit,Care Outreach
+C20454,0.1429,LOW,Overall Satisfaction,Care Outreach
+C20455,0.0931,LOW,Days Since Last Visit,Care Outreach
+C20456,0.0775,LOW,Days Since Last Visit,Care Outreach
+C20457,0.0551,LOW,Days Since Last Visit,Care Outreach
+C20458,0.0813,LOW,Missed Appointments,Care Outreach
+C20459,0.0835,LOW,Distance To Facility Miles,Access Support
+C20460,0.1066,LOW,Days Since Last Visit,Care Outreach
+C20461,0.0915,LOW,Days Since Last Visit,Care Outreach
+C20462,0.1439,LOW,Distance To Facility Miles,Access Support
+C20463,0.1065,LOW,Days Since Last Visit,Care Outreach
+C20464,0.3044,LOW,Overall Satisfaction,Care Outreach
+C20465,0.147,LOW,Overall Satisfaction,Care Outreach
+C20466,0.1506,LOW,Overall Satisfaction,Care Outreach
+C20467,0.0595,LOW,Days Since Last Visit,Care Outreach
+C20468,0.0796,LOW,Days Since Last Visit,Care Outreach
+C20469,0.1328,LOW,Days Since Last Visit,Care Outreach
+C20470,0.1615,LOW,Overall Satisfaction,Care Outreach
+C20471,0.3809,LOW,Overall Satisfaction,Care Outreach
+C20472,0.0577,LOW,Days Since Last Visit,Care Outreach
+C20473,0.2618,LOW,Overall Satisfaction,Care Outreach
+C20474,0.0732,LOW,Days Since Last Visit,Care Outreach
+C20475,0.0501,LOW,Days Since Last Visit,Care Outreach
+C20476,0.2426,LOW,Overall Satisfaction,Care Outreach
+C20477,0.0727,LOW,Days Since Last Visit,Care Outreach
+C20478,0.0934,LOW,Days Since Last Visit,Care Outreach
+C20479,0.4233,MEDIUM,Overall Satisfaction,Care Outreach
+C20480,0.622,MEDIUM,Overall Satisfaction,Care Outreach
+C20481,0.0441,LOW,Tenure Months,Wellness & Loyalty
+C20482,0.208,LOW,Missed Appointments,Care Outreach
+C20483,0.1877,LOW,Overall Satisfaction,Care Outreach
+C20484,0.0786,LOW,Days Since Last Visit,Care Outreach
+C20485,0.0382,LOW,Days Since Last Visit,Care Outreach
+C20486,0.1012,LOW,Days Since Last Visit,Care Outreach
+C20487,0.1228,LOW,Tenure Months,Wellness & Loyalty
+C20488,0.079,LOW,Distance To Facility Miles,Access Support
+C20489,0.0678,LOW,Days Since Last Visit,Care Outreach
+C20490,0.0832,LOW,Tenure Months,Wellness & Loyalty
+C20491,0.1018,LOW,Distance To Facility Miles,Access Support
+C20492,0.1468,LOW,Tenure Months,Wellness & Loyalty
+C20493,0.2723,LOW,Overall Satisfaction,Care Outreach
+C20494,0.1432,LOW,Overall Satisfaction,Care Outreach
+C20495,0.5626,MEDIUM,Overall Satisfaction,Care Outreach
+C20496,0.3908,LOW,Overall Satisfaction,Care Outreach
+C20497,0.0909,LOW,Days Since Last Visit,Care Outreach
+C20498,0.0379,LOW,Days Since Last Visit,Care Outreach
+C20499,0.1282,LOW,Overall Satisfaction,Care Outreach
+C20500,0.3786,LOW,Overall Satisfaction,Care Outreach
+C20501,0.2725,LOW,Overall Satisfaction,Care Outreach
+C20502,0.078,LOW,Missed Appointments,Care Outreach
+C20503,0.441,MEDIUM,Overall Satisfaction,Care Outreach
+C20504,0.1765,LOW,Tenure Months,Wellness & Loyalty
+C20505,0.0985,LOW,Days Since Last Visit,Care Outreach
+C20506,0.2746,LOW,Overall Satisfaction,Care Outreach
+C20507,0.1505,LOW,Overall Satisfaction,Care Outreach
+C20508,0.2585,LOW,Overall Satisfaction,Care Outreach
+C20509,0.2971,LOW,Overall Satisfaction,Care Outreach
+C20510,0.3599,LOW,Overall Satisfaction,Care Outreach
+C20511,0.1523,LOW,Days Since Last Visit,Care Outreach
+C20512,0.0951,LOW,Tenure Months,Wellness & Loyalty
+C20513,0.1454,LOW,Overall Satisfaction,Care Outreach
+C20514,0.0991,LOW,Missed Appointments,Care Outreach
+C20515,0.1295,LOW,Distance To Facility Miles,Access Support
+C20516,0.3465,LOW,Overall Satisfaction,Care Outreach
+C20517,0.2696,LOW,Overall Satisfaction,Care Outreach
+C20518,0.0914,LOW,Days Since Last Visit,Care Outreach
+C20519,0.31,LOW,Overall Satisfaction,Care Outreach
+C20520,0.1938,LOW,Overall Satisfaction,Care Outreach
+C20521,0.3278,LOW,Overall Satisfaction,Care Outreach
+C20522,0.0604,LOW,Days Since Last Visit,Care Outreach
+C20523,0.0793,LOW,Days Since Last Visit,Care Outreach
+C20524,0.0926,LOW,Days Since Last Visit,Care Outreach
+C20525,0.057,LOW,Days Since Last Visit,Care Outreach
+C20526,0.1888,LOW,Overall Satisfaction,Care Outreach
+C20527,0.0486,LOW,Days Since Last Visit,Care Outreach
+C20528,0.3642,LOW,Overall Satisfaction,Care Outreach
+C20529,0.3558,LOW,Overall Satisfaction,Care Outreach
+C20530,0.1842,LOW,Overall Satisfaction,Care Outreach
+C20531,0.077,LOW,Tenure Months,Wellness & Loyalty
+C20532,0.3095,LOW,Overall Satisfaction,Care Outreach
+C20533,0.1888,LOW,Overall Satisfaction,Care Outreach
+C20534,0.058,LOW,Days Since Last Visit,Care Outreach
+C20535,0.0983,LOW,Days Since Last Visit,Care Outreach
+C20536,0.0966,LOW,Days Since Last Visit,Care Outreach
+C20537,0.2783,LOW,Overall Satisfaction,Care Outreach
+C20538,0.101,LOW,Days Since Last Visit,Care Outreach
+C20539,0.1936,LOW,Overall Satisfaction,Care Outreach
+C20540,0.2624,LOW,Overall Satisfaction,Care Outreach
+C20541,0.0949,LOW,Days Since Last Visit,Care Outreach
+C20542,0.0637,LOW,Distance To Facility Miles,Access Support
+C20543,0.0735,LOW,Days Since Last Visit,Care Outreach
+C20544,0.0913,LOW,Missed Appointments,Care Outreach
+C20545,0.0953,LOW,Days Since Last Visit,Care Outreach
+C20546,0.0574,LOW,Days Since Last Visit,Care Outreach
+C20547,0.1203,LOW,Days Since Last Visit,Care Outreach
+C20548,0.2285,LOW,Overall Satisfaction,Care Outreach
+C20549,0.2392,LOW,Overall Satisfaction,Care Outreach
+C20550,0.2431,LOW,Overall Satisfaction,Care Outreach
+C20551,0.0384,LOW,Days Since Last Visit,Care Outreach
+C20552,0.0619,LOW,Distance To Facility Miles,Access Support
+C20553,0.216,LOW,Overall Satisfaction,Care Outreach
+C20554,0.1195,LOW,Days Since Last Visit,Care Outreach
+C20555,0.2543,LOW,Overall Satisfaction,Care Outreach
+C20556,0.1079,LOW,Days Since Last Visit,Care Outreach
+C20557,0.1077,LOW,Distance To Facility Miles,Access Support
+C20558,0.1576,LOW,Missed Appointments,Care Outreach
+C20559,0.4899,MEDIUM,Overall Satisfaction,Care Outreach
+C20560,0.0487,LOW,Days Since Last Visit,Care Outreach
+C20561,0.2687,LOW,Overall Satisfaction,Care Outreach
+C20562,0.1681,LOW,Overall Satisfaction,Care Outreach
+C20563,0.3244,LOW,Overall Satisfaction,Care Outreach
+C20564,0.0513,LOW,Days Since Last Visit,Care Outreach
+C20565,0.3171,LOW,Overall Satisfaction,Care Outreach
+C20566,0.5518,MEDIUM,Overall Satisfaction,Care Outreach
+C20567,0.05,LOW,Days Since Last Visit,Care Outreach
+C20568,0.1229,LOW,Tenure Months,Wellness & Loyalty
+C20569,0.1217,LOW,Missed Appointments,Care Outreach
+C20570,0.1352,LOW,Tenure Months,Wellness & Loyalty
+C20571,0.0774,LOW,Days Since Last Visit,Care Outreach
+C20572,0.403,MEDIUM,Overall Satisfaction,Care Outreach
+C20573,0.0703,LOW,Days Since Last Visit,Care Outreach
+C20574,0.0861,LOW,Distance To Facility Miles,Access Support
+C20575,0.408,MEDIUM,Overall Satisfaction,Care Outreach
+C20576,0.2004,LOW,Overall Satisfaction,Care Outreach
+C20577,0.106,LOW,Missed Appointments,Care Outreach
+C20578,0.0761,LOW,Days Since Last Visit,Care Outreach
+C20579,0.2671,LOW,Overall Satisfaction,Care Outreach
+C20580,0.0818,LOW,Missed Appointments,Care Outreach
+C20581,0.5145,MEDIUM,Overall Satisfaction,Care Outreach
+C20582,0.1537,LOW,Distance To Facility Miles,Access Support
+C20583,0.392,LOW,Overall Satisfaction,Care Outreach
+C20584,0.2415,LOW,Overall Satisfaction,Care Outreach
+C20585,0.1974,LOW,Overall Satisfaction,Care Outreach
+C20586,0.5549,MEDIUM,Overall Satisfaction,Care Outreach
+C20587,0.2545,LOW,Overall Satisfaction,Care Outreach
+C20588,0.0514,LOW,Missed Appointments,Care Outreach
+C20589,0.0488,LOW,Missed Appointments,Care Outreach
+C20590,0.2792,LOW,Overall Satisfaction,Care Outreach
+C20591,0.1733,LOW,Distance To Facility Miles,Access Support
+C20592,0.309,LOW,Overall Satisfaction,Care Outreach
+C20593,0.3071,LOW,Overall Satisfaction,Care Outreach
+C20594,0.0775,LOW,Tenure Months,Wellness & Loyalty
+C20595,0.4282,MEDIUM,Overall Satisfaction,Care Outreach
+C20596,0.0684,LOW,Days Since Last Visit,Care Outreach
+C20597,0.0961,LOW,Days Since Last Visit,Care Outreach
+C20598,0.0471,LOW,Days Since Last Visit,Care Outreach
+C20599,0.0662,LOW,Days Since Last Visit,Care Outreach
+C20600,0.1757,LOW,Overall Satisfaction,Care Outreach
+C20601,0.086,LOW,Missed Appointments,Care Outreach
+C20602,0.2803,LOW,Overall Satisfaction,Care Outreach
+C20603,0.3842,LOW,Overall Satisfaction,Care Outreach
+C20604,0.1462,LOW,Overall Satisfaction,Care Outreach
+C20605,0.206,LOW,Missed Appointments,Care Outreach
+C20606,0.2387,LOW,Overall Satisfaction,Care Outreach
+C20607,0.073,LOW,Days Since Last Visit,Care Outreach
+C20608,0.2334,LOW,Overall Satisfaction,Care Outreach
+C20609,0.2541,LOW,Overall Satisfaction,Care Outreach
+C20610,0.3608,LOW,Overall Satisfaction,Care Outreach
+C20611,0.3616,LOW,Overall Satisfaction,Care Outreach
+C20612,0.0936,LOW,Overall Satisfaction,Care Outreach
+C20613,0.1915,LOW,Overall Satisfaction,Care Outreach
+C20614,0.0649,LOW,Days Since Last Visit,Care Outreach
+C20615,0.1297,LOW,Tenure Months,Wellness & Loyalty
+C20616,0.4637,MEDIUM,Overall Satisfaction,Care Outreach
+C20617,0.0801,LOW,BMI,Wellness & Loyalty
+C20618,0.2154,LOW,Overall Satisfaction,Care Outreach
+C20619,0.2765,LOW,Overall Satisfaction,Care Outreach
+C20620,0.4464,MEDIUM,Overall Satisfaction,Care Outreach
+C20621,0.0294,LOW,Days Since Last Visit,Care Outreach
+C20622,0.0713,LOW,Days Since Last Visit,Care Outreach
+C20623,0.0614,LOW,Days Since Last Visit,Care Outreach
+C20624,0.1155,LOW,Overall Satisfaction,Care Outreach
+C20625,0.0934,LOW,Missed Appointments,Care Outreach
+C20626,0.0937,LOW,Distance To Facility Miles,Access Support
+C20627,0.1252,LOW,Overall Satisfaction,Care Outreach
+C20628,0.136,LOW,Overall Satisfaction,Care Outreach
+C20629,0.2448,LOW,Overall Satisfaction,Care Outreach
+C20630,0.3308,LOW,Overall Satisfaction,Care Outreach
+C20631,0.0461,LOW,Days Since Last Visit,Care Outreach
+C20632,0.2501,LOW,Overall Satisfaction,Care Outreach
+C20633,0.2601,LOW,Overall Satisfaction,Care Outreach
+C20634,0.1118,LOW,Overall Satisfaction,Care Outreach
+C20635,0.126,LOW,Overall Satisfaction,Care Outreach
+C20636,0.0425,LOW,Days Since Last Visit,Care Outreach
+C20637,0.081,LOW,Missed Appointments,Care Outreach
+C20638,0.1283,LOW,Tenure Months,Wellness & Loyalty
+C20639,0.1057,LOW,Missed Appointments,Care Outreach
+C20640,0.1405,LOW,Overall Satisfaction,Care Outreach
+C20641,0.2433,LOW,Overall Satisfaction,Care Outreach
+C20642,0.0433,LOW,Missed Appointments,Care Outreach
+C20643,0.2051,LOW,Tenure Months,Wellness & Loyalty
+C20644,0.334,LOW,Overall Satisfaction,Care Outreach
+C20645,0.1203,LOW,Days Since Last Visit,Care Outreach
+C20646,0.2258,LOW,Overall Satisfaction,Care Outreach
+C20647,0.309,LOW,Overall Satisfaction,Care Outreach
+C20648,0.1863,LOW,Overall Satisfaction,Care Outreach
+C20649,0.0543,LOW,Days Since Last Visit,Care Outreach
+C20650,0.1233,LOW,Overall Satisfaction,Care Outreach
+C20651,0.2865,LOW,Overall Satisfaction,Care Outreach
+C20652,0.068,LOW,Days Since Last Visit,Care Outreach
+C20653,0.0535,LOW,Days Since Last Visit,Care Outreach
+C20654,0.1163,LOW,Days Since Last Visit,Care Outreach
+C20655,0.3248,LOW,Overall Satisfaction,Care Outreach
+C20656,0.1677,LOW,Missed Appointments,Care Outreach
+C20657,0.0564,LOW,Days Since Last Visit,Care Outreach
+C20658,0.0635,LOW,Days Since Last Visit,Care Outreach
+C20659,0.4046,MEDIUM,Overall Satisfaction,Care Outreach
+C20660,0.0489,LOW,Days Since Last Visit,Care Outreach
+C20661,0.2671,LOW,Overall Satisfaction,Care Outreach
+C20662,0.1177,LOW,Overall Satisfaction,Care Outreach
+C20663,0.146,LOW,Distance To Facility Miles,Access Support
+C20664,0.2539,LOW,Overall Satisfaction,Care Outreach
+C20665,0.1204,LOW,Distance To Facility Miles,Access Support
+C20666,0.3095,LOW,Tenure Months,Wellness & Loyalty
+C20667,0.1733,LOW,Overall Satisfaction,Care Outreach
+C20668,0.081,LOW,Overall Satisfaction,Care Outreach
+C20669,0.0337,LOW,Days Since Last Visit,Care Outreach
+C20670,0.1571,LOW,Overall Satisfaction,Care Outreach
+C20671,0.0677,LOW,Days Since Last Visit,Care Outreach
+C20672,0.2512,LOW,Overall Satisfaction,Care Outreach
+C20673,0.3185,LOW,Overall Satisfaction,Care Outreach
+C20674,0.0876,LOW,Days Since Last Visit,Care Outreach
+C20675,0.1117,LOW,Distance To Facility Miles,Access Support
+C20676,0.3367,LOW,Overall Satisfaction,Care Outreach
+C20677,0.087,LOW,Days Since Last Visit,Care Outreach
+C20678,0.3423,LOW,Overall Satisfaction,Care Outreach
+C20679,0.3076,LOW,Overall Satisfaction,Care Outreach
+C20680,0.0773,LOW,Distance To Facility Miles,Access Support
+C20681,0.271,LOW,Overall Satisfaction,Care Outreach
+C20682,0.0977,LOW,Missed Appointments,Care Outreach
+C20683,0.1086,LOW,Distance To Facility Miles,Access Support
+C20684,0.3157,LOW,Overall Satisfaction,Care Outreach
+C20685,0.03,LOW,Missed Appointments,Care Outreach
+C20686,0.231,LOW,Overall Satisfaction,Care Outreach
+C20687,0.429,MEDIUM,Overall Satisfaction,Care Outreach
+C20688,0.4443,MEDIUM,Overall Satisfaction,Care Outreach
+C20689,0.0725,LOW,Missed Appointments,Care Outreach
+C20690,0.1774,LOW,Overall Satisfaction,Care Outreach
+C20691,0.1364,LOW,Missed Appointments,Care Outreach
+C20692,0.1009,LOW,Days Since Last Visit,Care Outreach
+C20693,0.1303,LOW,Missed Appointments,Care Outreach
+C20694,0.1245,LOW,Days Since Last Visit,Care Outreach
+C20695,0.2369,LOW,Overall Satisfaction,Care Outreach
+C20696,0.1997,LOW,Overall Satisfaction,Care Outreach
+C20697,0.2857,LOW,Overall Satisfaction,Care Outreach
+C20698,0.1954,LOW,Overall Satisfaction,Care Outreach
+C20699,0.1667,LOW,Overall Satisfaction,Care Outreach
+C20700,0.1192,LOW,Distance To Facility Miles,Access Support
+C20701,0.1066,LOW,Days Since Last Visit,Care Outreach
+C20702,0.202,LOW,Overall Satisfaction,Care Outreach
+C20703,0.3725,LOW,Overall Satisfaction,Care Outreach
+C20704,0.2853,LOW,Overall Satisfaction,Care Outreach
+C20705,0.0387,LOW,Days Since Last Visit,Care Outreach
+C20706,0.0499,LOW,Days Since Last Visit,Care Outreach
+C20707,0.2899,LOW,Overall Satisfaction,Care Outreach
+C20708,0.0971,LOW,Distance To Facility Miles,Access Support
+C20709,0.2801,LOW,Overall Satisfaction,Care Outreach
+C20710,0.0416,LOW,Missed Appointments,Care Outreach
+C20711,0.0637,LOW,Distance To Facility Miles,Access Support
+C20712,0.0705,LOW,Days Since Last Visit,Care Outreach
+C20713,0.0337,LOW,Days Since Last Visit,Care Outreach
+C20714,0.2206,LOW,Overall Satisfaction,Care Outreach
+C20715,0.2322,LOW,Overall Satisfaction,Care Outreach
+C20716,0.1383,LOW,Days Since Last Visit,Care Outreach
+C20717,0.2954,LOW,Overall Satisfaction,Care Outreach
+C20718,0.3291,LOW,Overall Satisfaction,Care Outreach
+C20719,0.2148,LOW,Overall Satisfaction,Care Outreach
+C20720,0.2498,LOW,Overall Satisfaction,Care Outreach
+C20721,0.0793,LOW,Days Since Last Visit,Care Outreach
+C20722,0.1361,LOW,Days Since Last Visit,Care Outreach
+C20723,0.4331,MEDIUM,Overall Satisfaction,Care Outreach
+C20724,0.0641,LOW,Distance To Facility Miles,Access Support
+C20725,0.1654,LOW,Missed Appointments,Care Outreach
+C20726,0.0717,LOW,Days Since Last Visit,Care Outreach
+C20727,0.2382,LOW,Overall Satisfaction,Care Outreach
+C20728,0.0428,LOW,Days Since Last Visit,Care Outreach
+C20729,0.2229,LOW,Overall Satisfaction,Care Outreach
+C20730,0.1036,LOW,Overall Satisfaction,Care Outreach
+C20731,0.197,LOW,Overall Satisfaction,Care Outreach
+C20732,0.0972,LOW,Distance To Facility Miles,Access Support
+C20733,0.2081,LOW,Overall Satisfaction,Care Outreach
+C20734,0.1144,LOW,Overall Satisfaction,Care Outreach
+C20735,0.1789,LOW,Missed Appointments,Care Outreach
+C20736,0.3062,LOW,Overall Satisfaction,Care Outreach
+C20737,0.2316,LOW,Overall Satisfaction,Care Outreach
+C20738,0.4606,MEDIUM,Overall Satisfaction,Care Outreach
+C20739,0.2692,LOW,Overall Satisfaction,Care Outreach
+C20740,0.0808,LOW,Days Since Last Visit,Care Outreach
+C20741,0.1499,LOW,Missed Appointments,Care Outreach
+C20742,0.2691,LOW,Overall Satisfaction,Care Outreach
+C20743,0.0984,LOW,Missed Appointments,Care Outreach
+C20744,0.2493,LOW,Overall Satisfaction,Care Outreach
+C20745,0.1092,LOW,Days Since Last Visit,Care Outreach
+C20746,0.2843,LOW,Overall Satisfaction,Care Outreach
+C20747,0.1738,LOW,Overall Satisfaction,Care Outreach
+C20748,0.1011,LOW,Distance To Facility Miles,Access Support
+C20749,0.1361,LOW,Tenure Months,Wellness & Loyalty
+C20750,0.121,LOW,Missed Appointments,Care Outreach
+C20751,0.193,LOW,Days Since Last Visit,Care Outreach
+C20752,0.045,LOW,Distance To Facility Miles,Access Support
+C20753,0.2609,LOW,Overall Satisfaction,Care Outreach
+C20754,0.0824,LOW,Distance To Facility Miles,Access Support
+C20755,0.0841,LOW,Overall Satisfaction,Care Outreach
+C20756,0.0545,LOW,Missed Appointments,Care Outreach
+C20757,0.0707,LOW,Days Since Last Visit,Care Outreach
+C20758,0.121,LOW,Overall Satisfaction,Care Outreach
+C20759,0.0686,LOW,Tenure Months,Wellness & Loyalty
+C20760,0.0513,LOW,Missed Appointments,Care Outreach
+C20761,0.7491,HIGH,Overall Satisfaction,Care Outreach
+C20762,0.2487,LOW,Overall Satisfaction,Care Outreach
+C20763,0.131,LOW,Days Since Last Visit,Care Outreach
+C20764,0.1071,LOW,Tenure Months,Wellness & Loyalty
+C20765,0.5803,MEDIUM,Overall Satisfaction,Care Outreach
+C20766,0.3975,LOW,Overall Satisfaction,Care Outreach
+C20767,0.3054,LOW,Overall Satisfaction,Care Outreach
+C20768,0.1288,LOW,Overall Satisfaction,Care Outreach
+C20769,0.0888,LOW,Days Since Last Visit,Care Outreach
+C20770,0.0692,LOW,Missed Appointments,Care Outreach
+C20771,0.0543,LOW,BMI,Wellness & Loyalty
+C20772,0.4064,MEDIUM,Overall Satisfaction,Care Outreach
+C20773,0.0919,LOW,Tenure Months,Wellness & Loyalty
+C20774,0.0754,LOW,Overall Satisfaction,Care Outreach
+C20775,0.4148,MEDIUM,Overall Satisfaction,Care Outreach
+C20776,0.1671,LOW,Overall Satisfaction,Care Outreach
+C20777,0.0593,LOW,Days Since Last Visit,Care Outreach
+C20778,0.3319,LOW,Overall Satisfaction,Care Outreach
+C20779,0.3186,LOW,Overall Satisfaction,Care Outreach
+C20780,0.212,LOW,Overall Satisfaction,Care Outreach
+C20781,0.0822,LOW,Days Since Last Visit,Care Outreach
+C20782,0.3452,LOW,Overall Satisfaction,Care Outreach
+C20783,0.3593,LOW,Overall Satisfaction,Care Outreach
+C20784,0.0962,LOW,Days Since Last Visit,Care Outreach
+C20785,0.092,LOW,Days Since Last Visit,Care Outreach
+C20786,0.1301,LOW,Tenure Months,Wellness & Loyalty
+C20787,0.2125,LOW,Overall Satisfaction,Care Outreach
+C20788,0.1728,LOW,Overall Satisfaction,Care Outreach
+C20789,0.158,LOW,Days Since Last Visit,Care Outreach
+C20790,0.2633,LOW,Overall Satisfaction,Care Outreach
+C20791,0.1253,LOW,Days Since Last Visit,Care Outreach
+C20792,0.0775,LOW,Days Since Last Visit,Care Outreach
+C20793,0.0787,LOW,Days Since Last Visit,Care Outreach
+C20794,0.1,LOW,Distance To Facility Miles,Access Support
+C20795,0.0428,LOW,Days Since Last Visit,Care Outreach
+C20796,0.1248,LOW,Overall Satisfaction,Care Outreach
+C20797,0.1807,LOW,Overall Satisfaction,Care Outreach
+C20798,0.4263,MEDIUM,Overall Satisfaction,Care Outreach
+C20799,0.1527,LOW,Overall Satisfaction,Care Outreach
+C20800,0.2185,LOW,Overall Satisfaction,Care Outreach
+C20801,0.1125,LOW,Missed Appointments,Care Outreach
+C20802,0.3636,LOW,Overall Satisfaction,Care Outreach
+C20803,0.2262,LOW,Overall Satisfaction,Care Outreach
+C20804,0.0904,LOW,Days Since Last Visit,Care Outreach
+C20805,0.0829,LOW,Missed Appointments,Care Outreach
+C20806,0.0611,LOW,Distance To Facility Miles,Access Support
+C20807,0.0802,LOW,Days Since Last Visit,Care Outreach
+C20808,0.0627,LOW,Days Since Last Visit,Care Outreach
+C20809,0.0602,LOW,Days Since Last Visit,Care Outreach
+C20810,0.063,LOW,Days Since Last Visit,Care Outreach
+C20811,0.097,LOW,Days Since Last Visit,Care Outreach
+C20812,0.0743,LOW,Days Since Last Visit,Care Outreach
+C20813,0.0883,LOW,Days Since Last Visit,Care Outreach
+C20814,0.0821,LOW,Tenure Months,Wellness & Loyalty
+C20815,0.0715,LOW,Days Since Last Visit,Care Outreach
+C20816,0.1738,LOW,Overall Satisfaction,Care Outreach
+C20817,0.1135,LOW,Overall Satisfaction,Care Outreach
+C20818,0.0633,LOW,Missed Appointments,Care Outreach
+C20819,0.1011,LOW,Days Since Last Visit,Care Outreach
+C20820,0.2107,LOW,Missed Appointments,Care Outreach
+C20821,0.3649,LOW,Overall Satisfaction,Care Outreach
+C20822,0.1075,LOW,Distance To Facility Miles,Access Support
+C20823,0.1047,LOW,Days Since Last Visit,Care Outreach
+C20824,0.0589,LOW,Missed Appointments,Care Outreach
+C20825,0.2573,LOW,Overall Satisfaction,Care Outreach
+C20826,0.0728,LOW,Days Since Last Visit,Care Outreach
+C20827,0.3907,LOW,Overall Satisfaction,Care Outreach
+C20828,0.1972,LOW,Overall Satisfaction,Care Outreach
+C20829,0.2223,LOW,Days Since Last Visit,Care Outreach
+C20830,0.1076,LOW,Days Since Last Visit,Care Outreach
+C20831,0.3273,LOW,Overall Satisfaction,Care Outreach
+C20832,0.1194,LOW,Missed Appointments,Care Outreach
+C20833,0.092,LOW,Days Since Last Visit,Care Outreach
+C20834,0.396,LOW,Overall Satisfaction,Care Outreach
+C20835,0.0689,LOW,Tenure Months,Wellness & Loyalty
+C20836,0.2199,LOW,Overall Satisfaction,Care Outreach
+C20837,0.046,LOW,Days Since Last Visit,Care Outreach
+C20838,0.0611,LOW,Days Since Last Visit,Care Outreach
+C20839,0.3122,LOW,Overall Satisfaction,Care Outreach
+C20840,0.0745,LOW,Days Since Last Visit,Care Outreach
+C20841,0.1056,LOW,Missed Appointments,Care Outreach
+C20842,0.1491,LOW,Missed Appointments,Care Outreach
+C20843,0.0598,LOW,Days Since Last Visit,Care Outreach
+C20844,0.0767,LOW,Days Since Last Visit,Care Outreach
+C20845,0.0621,LOW,Days Since Last Visit,Care Outreach
+C20846,0.0713,LOW,Tenure Months,Wellness & Loyalty
+C20847,0.0408,LOW,Days Since Last Visit,Care Outreach
+C20848,0.094,LOW,Days Since Last Visit,Care Outreach
+C20849,0.2921,LOW,Overall Satisfaction,Care Outreach
+C20850,0.4622,MEDIUM,Overall Satisfaction,Care Outreach
+C20851,0.0588,LOW,Tenure Months,Wellness & Loyalty
+C20852,0.1493,LOW,Overall Satisfaction,Care Outreach
+C20853,0.1723,LOW,Days Since Last Visit,Care Outreach
+C20854,0.1149,LOW,Days Since Last Visit,Care Outreach
+C20855,0.2082,LOW,Overall Satisfaction,Care Outreach
+C20856,0.4063,MEDIUM,Overall Satisfaction,Care Outreach
+C20857,0.2951,LOW,Overall Satisfaction,Care Outreach
+C20858,0.0895,LOW,Days Since Last Visit,Care Outreach
+C20859,0.3659,LOW,Overall Satisfaction,Care Outreach
+C20860,0.0613,LOW,Overall Satisfaction,Care Outreach
+C20861,0.0584,LOW,Days Since Last Visit,Care Outreach
+C20862,0.1054,LOW,Days Since Last Visit,Care Outreach
+C20863,0.1672,LOW,Days Since Last Visit,Care Outreach
+C20864,0.0357,LOW,Days Since Last Visit,Care Outreach
+C20865,0.1695,LOW,Tenure Months,Wellness & Loyalty
+C20866,0.428,MEDIUM,Overall Satisfaction,Care Outreach
+C20867,0.1397,LOW,Overall Satisfaction,Care Outreach
+C20868,0.161,LOW,Overall Satisfaction,Care Outreach
+C20869,0.1109,LOW,Days Since Last Visit,Care Outreach
+C20870,0.1152,LOW,Distance To Facility Miles,Access Support
+C20871,0.2255,LOW,Overall Satisfaction,Care Outreach
+C20872,0.0902,LOW,Days Since Last Visit,Care Outreach
+C20873,0.1207,LOW,Distance To Facility Miles,Access Support
+C20874,0.2288,LOW,Overall Satisfaction,Care Outreach
+C20875,0.2019,LOW,Overall Satisfaction,Care Outreach
+C20876,0.0971,LOW,Tenure Months,Wellness & Loyalty
+C20877,0.0845,LOW,Days Since Last Visit,Care Outreach
+C20878,0.5321,MEDIUM,Overall Satisfaction,Care Outreach
+C20879,0.0969,LOW,Days Since Last Visit,Care Outreach
+C20880,0.098,LOW,Tenure Months,Wellness & Loyalty
+C20881,0.2208,LOW,Overall Satisfaction,Care Outreach
+C20882,0.3451,LOW,Overall Satisfaction,Care Outreach
+C20883,0.3462,LOW,Overall Satisfaction,Care Outreach
+C20884,0.1637,LOW,Overall Satisfaction,Care Outreach
+C20885,0.0475,LOW,Days Since Last Visit,Care Outreach
+C20886,0.0367,LOW,Days Since Last Visit,Care Outreach
+C20887,0.0706,LOW,Days Since Last Visit,Care Outreach
+C20888,0.1384,LOW,Overall Satisfaction,Care Outreach
+C20889,0.0376,LOW,Days Since Last Visit,Care Outreach
+C20890,0.07,LOW,Missed Appointments,Care Outreach
+C20891,0.1282,LOW,Distance To Facility Miles,Access Support
+C20892,0.1419,LOW,Missed Appointments,Care Outreach
+C20893,0.2144,LOW,Overall Satisfaction,Care Outreach
+C20894,0.0598,LOW,Days Since Last Visit,Care Outreach
+C20895,0.0512,LOW,Days Since Last Visit,Care Outreach
+C20896,0.0543,LOW,Missed Appointments,Care Outreach
+C20897,0.2925,LOW,Overall Satisfaction,Care Outreach
+C20898,0.2905,LOW,Overall Satisfaction,Care Outreach
+C20899,0.076,LOW,Tenure Months,Wellness & Loyalty
+C20900,0.4917,MEDIUM,Overall Satisfaction,Care Outreach
+C20901,0.2903,LOW,Overall Satisfaction,Care Outreach
+C20902,0.1556,LOW,Overall Satisfaction,Care Outreach
+C20903,0.3256,LOW,Overall Satisfaction,Care Outreach
+C20904,0.3472,LOW,Overall Satisfaction,Care Outreach
+C20905,0.2248,LOW,Overall Satisfaction,Care Outreach
+C20906,0.0573,LOW,Days Since Last Visit,Care Outreach
+C20907,0.0565,LOW,Days Since Last Visit,Care Outreach
+C20908,0.121,LOW,Tenure Months,Wellness & Loyalty
+C20909,0.0579,LOW,Days Since Last Visit,Care Outreach
+C20910,0.4198,MEDIUM,Overall Satisfaction,Care Outreach
+C20911,0.4131,MEDIUM,Overall Satisfaction,Care Outreach
+C20912,0.0866,LOW,Distance To Facility Miles,Access Support
+C20913,0.194,LOW,Distance To Facility Miles,Access Support
+C20914,0.1102,LOW,Distance To Facility Miles,Access Support
+C20915,0.06,LOW,Age,Care Management
+C20916,0.0452,LOW,Tenure Months,Wellness & Loyalty
+C20917,0.0723,LOW,Days Since Last Visit,Care Outreach
+C20918,0.1177,LOW,Missed Appointments,Care Outreach
+C20919,0.0722,LOW,Missed Appointments,Care Outreach
+C20920,0.1732,LOW,Overall Satisfaction,Care Outreach
+C20921,0.175,LOW,Overall Satisfaction,Care Outreach
+C20922,0.1061,LOW,Days Since Last Visit,Care Outreach
+C20923,0.0582,LOW,Missed Appointments,Care Outreach
+C20924,0.1264,LOW,Tenure Months,Wellness & Loyalty
+C20925,0.103,LOW,Overall Satisfaction,Care Outreach
+C20926,0.225,LOW,Overall Satisfaction,Care Outreach
+C20927,0.0532,LOW,Days Since Last Visit,Care Outreach
+C20928,0.0812,LOW,Tenure Months,Wellness & Loyalty
+C20929,0.0979,LOW,Tenure Months,Wellness & Loyalty
+C20930,0.0714,LOW,Missed Appointments,Care Outreach
+C20931,0.0405,LOW,Missed Appointments,Care Outreach
+C20932,0.0922,LOW,Distance To Facility Miles,Access Support
+C20933,0.0676,LOW,Days Since Last Visit,Care Outreach
+C20934,0.2619,LOW,Overall Satisfaction,Care Outreach
+C20935,0.248,LOW,Overall Satisfaction,Care Outreach
+C20936,0.135,LOW,Days Since Last Visit,Care Outreach
+C20937,0.0903,LOW,Days Since Last Visit,Care Outreach
+C20938,0.1563,LOW,Days Since Last Visit,Care Outreach
+C20939,0.2201,LOW,Overall Satisfaction,Care Outreach
+C20940,0.1119,LOW,Missed Appointments,Care Outreach
+C20941,0.0702,LOW,Days Since Last Visit,Care Outreach
+C20942,0.0397,LOW,Missed Appointments,Care Outreach
+C20943,0.389,LOW,Overall Satisfaction,Care Outreach
+C20944,0.1909,LOW,Overall Satisfaction,Care Outreach
+C20945,0.2281,LOW,Overall Satisfaction,Care Outreach
+C20946,0.1899,LOW,Missed Appointments,Care Outreach
+C20947,0.1661,LOW,Overall Satisfaction,Care Outreach
+C20948,0.7853,HIGH,Overall Satisfaction,Care Outreach
+C20949,0.0728,LOW,Days Since Last Visit,Care Outreach
+C20950,0.1434,LOW,Overall Satisfaction,Care Outreach
+C20951,0.0829,LOW,Days Since Last Visit,Care Outreach
+C20952,0.068,LOW,Days Since Last Visit,Care Outreach
+C20953,0.251,LOW,Overall Satisfaction,Care Outreach
+C20954,0.2691,LOW,Overall Satisfaction,Care Outreach
+C20955,0.2643,LOW,Overall Satisfaction,Care Outreach
+C20956,0.0656,LOW,Days Since Last Visit,Care Outreach
+C20957,0.0666,LOW,Days Since Last Visit,Care Outreach
+C20958,0.1414,LOW,Days Since Last Visit,Care Outreach
+C20959,0.0899,LOW,Missed Appointments,Care Outreach
+C20960,0.4012,MEDIUM,Overall Satisfaction,Care Outreach
+C20961,0.2901,LOW,Overall Satisfaction,Care Outreach
+C20962,0.0295,LOW,Days Since Last Visit,Care Outreach
+C20963,0.0682,LOW,Days Since Last Visit,Care Outreach
+C20964,0.5946,MEDIUM,Overall Satisfaction,Care Outreach
+C20965,0.2465,LOW,Overall Satisfaction,Care Outreach
+C20966,0.5415,MEDIUM,Overall Satisfaction,Care Outreach
+C20967,0.3493,LOW,Overall Satisfaction,Care Outreach
+C20968,0.0736,LOW,Days Since Last Visit,Care Outreach
+C20969,0.0573,LOW,Days Since Last Visit,Care Outreach
+C20970,0.3098,LOW,Overall Satisfaction,Care Outreach
+C20971,0.0463,LOW,Missed Appointments,Care Outreach
+C20972,0.1976,LOW,Overall Satisfaction,Care Outreach
+C20973,0.1539,LOW,Overall Satisfaction,Care Outreach
+C20974,0.0687,LOW,Missed Appointments,Care Outreach
+C20975,0.0676,LOW,Days Since Last Visit,Care Outreach
+C20976,0.0978,LOW,Days Since Last Visit,Care Outreach
+C20977,0.2083,LOW,Overall Satisfaction,Care Outreach
+C20978,0.0452,LOW,Days Since Last Visit,Care Outreach
+C20979,0.0631,LOW,Days Since Last Visit,Care Outreach
+C20980,0.1109,LOW,Tenure Months,Wellness & Loyalty
+C20981,0.0996,LOW,Tenure Months,Wellness & Loyalty
+C20982,0.1343,LOW,Tenure Months,Wellness & Loyalty
+C20983,0.3606,LOW,Overall Satisfaction,Care Outreach
+C20984,0.103,LOW,Overall Satisfaction,Care Outreach
+C20985,0.0414,LOW,Days Since Last Visit,Care Outreach
+C20986,0.1692,LOW,Overall Satisfaction,Care Outreach
+C20987,0.2683,LOW,Overall Satisfaction,Care Outreach
+C20988,0.0628,LOW,Days Since Last Visit,Care Outreach
+C20989,0.1304,LOW,Overall Satisfaction,Care Outreach
+C20990,0.1403,LOW,Overall Satisfaction,Care Outreach
+C20991,0.3324,LOW,Overall Satisfaction,Care Outreach
+C20992,0.0618,LOW,Days Since Last Visit,Care Outreach
+C20993,0.2049,LOW,Overall Satisfaction,Care Outreach
+C20994,0.4762,MEDIUM,Overall Satisfaction,Care Outreach
+C20995,0.4716,MEDIUM,Overall Satisfaction,Care Outreach
+C20996,0.1427,LOW,Distance To Facility Miles,Access Support
+C20997,0.1327,LOW,Days Since Last Visit,Care Outreach
+C20998,0.0501,LOW,Days Since Last Visit,Care Outreach
+C20999,0.1542,LOW,Overall Satisfaction,Care Outreach
+C21000,0.2852,LOW,Overall Satisfaction,Care Outreach
+C21001,0.0355,LOW,Days Since Last Visit,Care Outreach
+C21002,0.2674,LOW,Overall Satisfaction,Care Outreach
+C21003,0.1024,LOW,Distance To Facility Miles,Access Support
+C21004,0.1497,LOW,Distance To Facility Miles,Access Support
+C21005,0.289,LOW,Overall Satisfaction,Care Outreach
+C21006,0.0573,LOW,Days Since Last Visit,Care Outreach
+C21007,0.0945,LOW,Days Since Last Visit,Care Outreach
+C21008,0.0984,LOW,Tenure Months,Wellness & Loyalty
+C21009,0.2138,LOW,Distance To Facility Miles,Access Support
+C21010,0.0855,LOW,Missed Appointments,Care Outreach
+C21011,0.5054,MEDIUM,Overall Satisfaction,Care Outreach
+C21012,0.0925,LOW,Distance To Facility Miles,Access Support
+C21013,0.0795,LOW,Days Since Last Visit,Care Outreach
+C21014,0.1817,LOW,Overall Satisfaction,Care Outreach
+C21015,0.1981,LOW,Overall Satisfaction,Care Outreach
+C21016,0.2631,LOW,Overall Satisfaction,Care Outreach
+C21017,0.1167,LOW,Overall Satisfaction,Care Outreach
+C21018,0.0931,LOW,Days Since Last Visit,Care Outreach
+C21019,0.0863,LOW,Days Since Last Visit,Care Outreach
+C21020,0.162,LOW,Distance To Facility Miles,Access Support
+C21021,0.4601,MEDIUM,Overall Satisfaction,Care Outreach
+C21022,0.0851,LOW,Days Since Last Visit,Care Outreach
+C21023,0.364,LOW,Overall Satisfaction,Care Outreach
+C21024,0.1835,LOW,Overall Satisfaction,Care Outreach
+C21025,0.0617,LOW,Days Since Last Visit,Care Outreach
+C21026,0.0569,LOW,Days Since Last Visit,Care Outreach
+C21027,0.1803,LOW,Overall Satisfaction,Care Outreach
+C21028,0.3173,LOW,Overall Satisfaction,Care Outreach
+C21029,0.2385,LOW,Overall Satisfaction,Care Outreach
+C21030,0.0677,LOW,Distance To Facility Miles,Access Support
+C21031,0.2455,LOW,Overall Satisfaction,Care Outreach
+C21032,0.2964,LOW,Overall Satisfaction,Care Outreach
+C21033,0.1877,LOW,Overall Satisfaction,Care Outreach
+C21034,0.183,LOW,Overall Satisfaction,Care Outreach
+C21035,0.1863,LOW,Overall Satisfaction,Care Outreach
+C21036,0.1956,LOW,Overall Satisfaction,Care Outreach
+C21037,0.1781,LOW,Overall Satisfaction,Care Outreach
+C21038,0.0456,LOW,Days Since Last Visit,Care Outreach
+C21039,0.2454,LOW,Overall Satisfaction,Care Outreach
+C21040,0.0638,LOW,Missed Appointments,Care Outreach
+C21041,0.0331,LOW,Distance To Facility Miles,Access Support
+C21042,0.3797,LOW,Overall Satisfaction,Care Outreach
+C21043,0.0681,LOW,Tenure Months,Wellness & Loyalty
+C21044,0.4304,MEDIUM,Overall Satisfaction,Care Outreach
+C21045,0.401,MEDIUM,Overall Satisfaction,Care Outreach
+C21046,0.0977,LOW,Days Since Last Visit,Care Outreach
+C21047,0.1087,LOW,Days Since Last Visit,Care Outreach
+C21048,0.152,LOW,Distance To Facility Miles,Access Support
+C21049,0.1407,LOW,Tenure Months,Wellness & Loyalty
+C21050,0.0836,LOW,Overall Satisfaction,Care Outreach
+C21051,0.2073,LOW,Overall Satisfaction,Care Outreach
+C21052,0.1188,LOW,Days Since Last Visit,Care Outreach
+C21053,0.0904,LOW,Tenure Months,Wellness & Loyalty
+C21054,0.0747,LOW,Tenure Months,Wellness & Loyalty
+C21055,0.3917,LOW,Overall Satisfaction,Care Outreach
+C21056,0.0752,LOW,Missed Appointments,Care Outreach
+C21057,0.1624,LOW,Overall Satisfaction,Care Outreach
+C21058,0.0571,LOW,Days Since Last Visit,Care Outreach
+C21059,0.2566,LOW,Overall Satisfaction,Care Outreach
+C21060,0.1773,LOW,Overall Satisfaction,Care Outreach
+C21061,0.0583,LOW,Days Since Last Visit,Care Outreach
+C21062,0.1273,LOW,Overall Satisfaction,Care Outreach
+C21063,0.2873,LOW,Overall Satisfaction,Care Outreach
+C21064,0.0839,LOW,Days Since Last Visit,Care Outreach
+C21065,0.1463,LOW,Distance To Facility Miles,Access Support
+C21066,0.1492,LOW,Overall Satisfaction,Care Outreach
+C21067,0.0471,LOW,Days Since Last Visit,Care Outreach
+C21068,0.0824,LOW,Days Since Last Visit,Care Outreach
+C21069,0.2499,LOW,Overall Satisfaction,Care Outreach
+C21070,0.0525,LOW,Days Since Last Visit,Care Outreach
+C21071,0.1165,LOW,Days Since Last Visit,Care Outreach
+C21072,0.0589,LOW,Missed Appointments,Care Outreach
+C21073,0.1062,LOW,Distance To Facility Miles,Access Support
+C21074,0.5288,MEDIUM,Overall Satisfaction,Care Outreach
+C21075,0.1643,LOW,Overall Satisfaction,Care Outreach
+C21076,0.2047,LOW,Overall Satisfaction,Care Outreach
+C21077,0.1389,LOW,Days Since Last Visit,Care Outreach
+C21078,0.0745,LOW,Missed Appointments,Care Outreach
+C21079,0.0717,LOW,Days Since Last Visit,Care Outreach
+C21080,0.1338,LOW,Days Since Last Visit,Care Outreach
+C21081,0.0723,LOW,Distance To Facility Miles,Access Support
+C21082,0.2333,LOW,Overall Satisfaction,Care Outreach
+C21083,0.1418,LOW,Missed Appointments,Care Outreach
+C21084,0.4269,MEDIUM,Overall Satisfaction,Care Outreach
+C21085,0.1189,LOW,Days Since Last Visit,Care Outreach
+C21086,0.0301,LOW,BMI,Wellness & Loyalty
+C21087,0.0423,LOW,Days Since Last Visit,Care Outreach
+C21088,0.4037,MEDIUM,Overall Satisfaction,Care Outreach
+C21089,0.1161,LOW,Tenure Months,Wellness & Loyalty
+C21090,0.0673,LOW,Days Since Last Visit,Care Outreach
+C21091,0.0969,LOW,Days Since Last Visit,Care Outreach
+C21092,0.1128,LOW,Tenure Months,Wellness & Loyalty
+C21093,0.2477,LOW,Overall Satisfaction,Care Outreach
+C21094,0.0905,LOW,Tenure Months,Wellness & Loyalty
+C21095,0.0965,LOW,Missed Appointments,Care Outreach
+C21096,0.0983,LOW,Overall Satisfaction,Care Outreach
+C21097,0.1681,LOW,Overall Satisfaction,Care Outreach
+C21098,0.0952,LOW,Distance To Facility Miles,Access Support
+C21099,0.264,LOW,Overall Satisfaction,Care Outreach
+C21100,0.266,LOW,Overall Satisfaction,Care Outreach
+C21101,0.0311,LOW,Distance To Facility Miles,Access Support
+C21102,0.0333,LOW,Days Since Last Visit,Care Outreach
+C21103,0.1006,LOW,Days Since Last Visit,Care Outreach
+C21104,0.078,LOW,Days Since Last Visit,Care Outreach
+C21105,0.0978,LOW,Days Since Last Visit,Care Outreach
+C21106,0.0812,LOW,Days Since Last Visit,Care Outreach
+C21107,0.0996,LOW,Tenure Months,Wellness & Loyalty
+C21108,0.0637,LOW,Distance To Facility Miles,Access Support
+C21109,0.1887,LOW,Overall Satisfaction,Care Outreach
+C21110,0.1725,LOW,Overall Satisfaction,Care Outreach
+C21111,0.058,LOW,Days Since Last Visit,Care Outreach
+C21112,0.1276,LOW,Distance To Facility Miles,Access Support
+C21113,0.2327,LOW,Overall Satisfaction,Care Outreach
+C21114,0.0879,LOW,Distance To Facility Miles,Access Support
+C21115,0.1104,LOW,Tenure Months,Wellness & Loyalty
+C21116,0.1018,LOW,Days Since Last Visit,Care Outreach
+C21117,0.2789,LOW,Overall Satisfaction,Care Outreach
+C21118,0.1463,LOW,Overall Satisfaction,Care Outreach
+C21119,0.1509,LOW,Overall Satisfaction,Care Outreach
+C21120,0.2039,LOW,Overall Satisfaction,Care Outreach
+C21121,0.2378,LOW,Overall Satisfaction,Care Outreach
+C21122,0.3063,LOW,Overall Satisfaction,Care Outreach
+C21123,0.1092,LOW,Overall Satisfaction,Care Outreach
+C21124,0.0881,LOW,Overall Satisfaction,Care Outreach
+C21125,0.2357,LOW,Overall Satisfaction,Care Outreach
+C21126,0.1469,LOW,Days Since Last Visit,Care Outreach
+C21127,0.1105,LOW,Days Since Last Visit,Care Outreach
+C21128,0.1876,LOW,Overall Satisfaction,Care Outreach
+C21129,0.0393,LOW,Days Since Last Visit,Care Outreach
+C21130,0.3039,LOW,Overall Satisfaction,Care Outreach
+C21131,0.0726,LOW,Overall Satisfaction,Care Outreach
+C21132,0.0603,LOW,Days Since Last Visit,Care Outreach
+C21133,0.0424,LOW,Days Since Last Visit,Care Outreach
+C21134,0.0838,LOW,Days Since Last Visit,Care Outreach
+C21135,0.139,LOW,Days Since Last Visit,Care Outreach
+C21136,0.6896,MEDIUM,Overall Satisfaction,Care Outreach
+C21137,0.2717,LOW,Overall Satisfaction,Care Outreach
+C21138,0.1254,LOW,Overall Satisfaction,Care Outreach
+C21139,0.2305,LOW,Overall Satisfaction,Care Outreach
+C21140,0.2174,LOW,Overall Satisfaction,Care Outreach
+C21141,0.1677,LOW,Overall Satisfaction,Care Outreach
+C21142,0.0474,LOW,Overall Satisfaction,Care Outreach
+C21143,0.0928,LOW,Days Since Last Visit,Care Outreach
+C21144,0.1007,LOW,Overall Satisfaction,Care Outreach
+C21145,0.0814,LOW,Overall Satisfaction,Care Outreach
+C21146,0.2776,LOW,Overall Satisfaction,Care Outreach
+C21147,0.2866,LOW,Overall Satisfaction,Care Outreach
+C21148,0.0819,LOW,Days Since Last Visit,Care Outreach
+C21149,0.0358,LOW,BMI,Wellness & Loyalty
+C21150,0.0563,LOW,Missed Appointments,Care Outreach
+C21151,0.0493,LOW,Days Since Last Visit,Care Outreach
+C21152,0.3023,LOW,Overall Satisfaction,Care Outreach
+C21153,0.2058,LOW,Overall Satisfaction,Care Outreach
+C21154,0.0526,LOW,Overall Satisfaction,Care Outreach
+C21155,0.0839,LOW,Missed Appointments,Care Outreach
+C21156,0.0434,LOW,Days Since Last Visit,Care Outreach
+C21157,0.0644,LOW,Days Since Last Visit,Care Outreach
+C21158,0.6652,MEDIUM,Overall Satisfaction,Care Outreach
+C21159,0.1354,LOW,Overall Satisfaction,Care Outreach
+C21160,0.0354,LOW,Days Since Last Visit,Care Outreach
+C21161,0.1876,LOW,Missed Appointments,Care Outreach
+C21162,0.0547,LOW,Missed Appointments,Care Outreach
+C21163,0.0715,LOW,Days Since Last Visit,Care Outreach
+C21164,0.24,LOW,Overall Satisfaction,Care Outreach
+C21165,0.1716,LOW,Distance To Facility Miles,Access Support
+C21166,0.3846,LOW,Overall Satisfaction,Care Outreach
+C21167,0.3257,LOW,Overall Satisfaction,Care Outreach
+C21168,0.0523,LOW,Days Since Last Visit,Care Outreach
+C21169,0.0809,LOW,Missed Appointments,Care Outreach
+C21170,0.5266,MEDIUM,Overall Satisfaction,Care Outreach
+C21171,0.0931,LOW,Days Since Last Visit,Care Outreach
+C21172,0.1052,LOW,Distance To Facility Miles,Access Support
+C21173,0.3209,LOW,Overall Satisfaction,Care Outreach
+C21174,0.0775,LOW,Days Since Last Visit,Care Outreach
+C21175,0.2974,LOW,Overall Satisfaction,Care Outreach
+C21176,0.6308,MEDIUM,Overall Satisfaction,Care Outreach
+C21177,0.0857,LOW,Missed Appointments,Care Outreach
+C21178,0.0727,LOW,Days Since Last Visit,Care Outreach
+C21179,0.1961,LOW,Overall Satisfaction,Care Outreach
+C21180,0.2605,LOW,Overall Satisfaction,Care Outreach
+C21181,0.0936,LOW,Days Since Last Visit,Care Outreach
+C21182,0.323,LOW,Overall Satisfaction,Care Outreach
+C21183,0.0915,LOW,Days Since Last Visit,Care Outreach
+C21184,0.6674,MEDIUM,Overall Satisfaction,Care Outreach
+C21185,0.1347,LOW,Overall Satisfaction,Care Outreach
+C21186,0.1112,LOW,Tenure Months,Wellness & Loyalty
+C21187,0.1339,LOW,Days Since Last Visit,Care Outreach
+C21188,0.2685,LOW,Overall Satisfaction,Care Outreach
+C21189,0.146,LOW,Tenure Months,Wellness & Loyalty
+C21190,0.1365,LOW,Overall Satisfaction,Care Outreach
+C21191,0.0878,LOW,Tenure Months,Wellness & Loyalty
+C21192,0.068,LOW,Tenure Months,Wellness & Loyalty
+C21193,0.3528,LOW,Overall Satisfaction,Care Outreach
+C21194,0.3929,LOW,Overall Satisfaction,Care Outreach
+C21195,0.4088,MEDIUM,Overall Satisfaction,Care Outreach
+C21196,0.1946,LOW,Overall Satisfaction,Care Outreach
+C21197,0.3411,LOW,Overall Satisfaction,Care Outreach
+C21198,0.2868,LOW,Overall Satisfaction,Care Outreach
+C21199,0.0735,LOW,Days Since Last Visit,Care Outreach
+C21200,0.1466,LOW,Overall Satisfaction,Care Outreach
+C21201,0.0851,LOW,Days Since Last Visit,Care Outreach
+C21202,0.094,LOW,Days Since Last Visit,Care Outreach
+C21203,0.0855,LOW,Days Since Last Visit,Care Outreach
+C21204,0.0561,LOW,Days Since Last Visit,Care Outreach
+C21205,0.1974,LOW,Overall Satisfaction,Care Outreach
+C21206,0.2364,LOW,Distance To Facility Miles,Access Support
+C21207,0.3726,LOW,Overall Satisfaction,Care Outreach
+C21208,0.1502,LOW,Overall Satisfaction,Care Outreach
+C21209,0.0675,LOW,Days Since Last Visit,Care Outreach
+C21210,0.1878,LOW,Overall Satisfaction,Care Outreach
+C21211,0.0466,LOW,Days Since Last Visit,Care Outreach
+C21212,0.4429,MEDIUM,Overall Satisfaction,Care Outreach
+C21213,0.3366,LOW,Overall Satisfaction,Care Outreach
+C21214,0.3787,LOW,Overall Satisfaction,Care Outreach
+C21215,0.2335,LOW,Overall Satisfaction,Care Outreach
+C21216,0.3426,LOW,Overall Satisfaction,Care Outreach
+C21217,0.1748,LOW,Days Since Last Visit,Care Outreach
+C21218,0.0398,LOW,Days Since Last Visit,Care Outreach
+C21219,0.0687,LOW,Days Since Last Visit,Care Outreach
+C21220,0.2957,LOW,Overall Satisfaction,Care Outreach
+C21221,0.2404,LOW,Overall Satisfaction,Care Outreach
+C21222,0.249,LOW,Overall Satisfaction,Care Outreach
+C21223,0.1542,LOW,Distance To Facility Miles,Access Support
+C21224,0.0424,LOW,Days Since Last Visit,Care Outreach
+C21225,0.1361,LOW,Tenure Months,Wellness & Loyalty
+C21226,0.389,LOW,Overall Satisfaction,Care Outreach
+C21227,0.0706,LOW,Missed Appointments,Care Outreach
+C21228,0.0564,LOW,Days Since Last Visit,Care Outreach
+C21229,0.1392,LOW,Missed Appointments,Care Outreach
+C21230,0.0552,LOW,Days Since Last Visit,Care Outreach
+C21231,0.2309,LOW,Overall Satisfaction,Care Outreach
+C21232,0.2454,LOW,Overall Satisfaction,Care Outreach
+C21233,0.3063,LOW,Overall Satisfaction,Care Outreach
+C21234,0.1096,LOW,Days Since Last Visit,Care Outreach
+C21235,0.1529,LOW,Days Since Last Visit,Care Outreach
+C21236,0.161,LOW,Tenure Months,Wellness & Loyalty
+C21237,0.3255,LOW,Overall Satisfaction,Care Outreach
+C21238,0.0908,LOW,Tenure Months,Wellness & Loyalty
+C21239,0.6977,MEDIUM,Overall Satisfaction,Care Outreach
+C21240,0.508,MEDIUM,Overall Satisfaction,Care Outreach
+C21241,0.2597,LOW,Overall Satisfaction,Care Outreach
+C21242,0.0535,LOW,Tenure Months,Wellness & Loyalty
+C21243,0.0647,LOW,Overall Satisfaction,Care Outreach
+C21244,0.1013,LOW,Missed Appointments,Care Outreach
+C21245,0.0877,LOW,Missed Appointments,Care Outreach
+C21246,0.0884,LOW,Overall Satisfaction,Care Outreach
+C21247,0.0471,LOW,Missed Appointments,Care Outreach
+C21248,0.0811,LOW,Distance To Facility Miles,Access Support
+C21249,0.157,LOW,Overall Satisfaction,Care Outreach
+C21250,0.0595,LOW,Days Since Last Visit,Care Outreach
+C21251,0.3289,LOW,Overall Satisfaction,Care Outreach
+C21252,0.0483,LOW,Days Since Last Visit,Care Outreach
+C21253,0.1039,LOW,Days Since Last Visit,Care Outreach
+C21254,0.0944,LOW,Tenure Months,Wellness & Loyalty
+C21255,0.0371,LOW,Days Since Last Visit,Care Outreach
+C21256,0.1163,LOW,Days Since Last Visit,Care Outreach
+C21257,0.0705,LOW,Missed Appointments,Care Outreach
+C21258,0.4602,MEDIUM,Overall Satisfaction,Care Outreach
+C21259,0.3023,LOW,Overall Satisfaction,Care Outreach
+C21260,0.1354,LOW,Tenure Months,Wellness & Loyalty
+C21261,0.0854,LOW,Days Since Last Visit,Care Outreach
+C21262,0.3654,LOW,Overall Satisfaction,Care Outreach
+C21263,0.0952,LOW,Days Since Last Visit,Care Outreach
+C21264,0.0389,LOW,Days Since Last Visit,Care Outreach
+C21265,0.0699,LOW,Distance To Facility Miles,Access Support
+C21266,0.1414,LOW,Days Since Last Visit,Care Outreach
+C21267,0.3947,LOW,Overall Satisfaction,Care Outreach
+C21268,0.343,LOW,Overall Satisfaction,Care Outreach
+C21269,0.0841,LOW,Days Since Last Visit,Care Outreach
+C21270,0.13,LOW,Overall Satisfaction,Care Outreach
+C21271,0.0431,LOW,Days Since Last Visit,Care Outreach
+C21272,0.4761,MEDIUM,Overall Satisfaction,Care Outreach
+C21273,0.2685,LOW,Overall Satisfaction,Care Outreach
+C21274,0.1013,LOW,Distance To Facility Miles,Access Support
+C21275,0.4178,MEDIUM,Overall Satisfaction,Care Outreach
+C21276,0.0994,LOW,Days Since Last Visit,Care Outreach
+C21277,0.1614,LOW,Distance To Facility Miles,Access Support
+C21278,0.1047,LOW,Overall Satisfaction,Care Outreach
+C21279,0.0827,LOW,Days Since Last Visit,Care Outreach
+C21280,0.0799,LOW,Distance To Facility Miles,Access Support
+C21281,0.1112,LOW,Missed Appointments,Care Outreach
+C21282,0.1514,LOW,Days Since Last Visit,Care Outreach
+C21283,0.3481,LOW,Overall Satisfaction,Care Outreach
+C21284,0.1553,LOW,Days Since Last Visit,Care Outreach
+C21285,0.1207,LOW,Days Since Last Visit,Care Outreach
+C21286,0.0405,LOW,Days Since Last Visit,Care Outreach
+C21287,0.1493,LOW,Days Since Last Visit,Care Outreach
+C21288,0.0796,LOW,Days Since Last Visit,Care Outreach
+C21289,0.0871,LOW,Days Since Last Visit,Care Outreach
+C21290,0.0961,LOW,Days Since Last Visit,Care Outreach
+C21291,0.0984,LOW,Overall Satisfaction,Care Outreach
+C21292,0.075,LOW,Missed Appointments,Care Outreach
+C21293,0.0418,LOW,Days Since Last Visit,Care Outreach
+C21294,0.296,LOW,Overall Satisfaction,Care Outreach
+C21295,0.1278,LOW,Days Since Last Visit,Care Outreach
+C21296,0.2051,LOW,Distance To Facility Miles,Access Support
+C21297,0.0451,LOW,Days Since Last Visit,Care Outreach
+C21298,0.1156,LOW,Overall Satisfaction,Care Outreach
+C21299,0.2386,LOW,Overall Satisfaction,Care Outreach
+C21300,0.0765,LOW,Days Since Last Visit,Care Outreach
+C21301,0.0355,LOW,Missed Appointments,Care Outreach
+C21302,0.0883,LOW,Overall Satisfaction,Care Outreach
+C21303,0.1751,LOW,Overall Satisfaction,Care Outreach
+C21304,0.0833,LOW,Days Since Last Visit,Care Outreach
+C21305,0.0788,LOW,Days Since Last Visit,Care Outreach
+C21306,0.1096,LOW,Days Since Last Visit,Care Outreach
+C21307,0.0854,LOW,Days Since Last Visit,Care Outreach
+C21308,0.3044,LOW,Overall Satisfaction,Care Outreach
+C21309,0.1353,LOW,Overall Satisfaction,Care Outreach
+C21310,0.0905,LOW,Missed Appointments,Care Outreach
+C21311,0.0594,LOW,Days Since Last Visit,Care Outreach
+C21312,0.0871,LOW,Days Since Last Visit,Care Outreach
+C21313,0.0657,LOW,Tenure Months,Wellness & Loyalty
+C21314,0.0382,LOW,Distance To Facility Miles,Access Support
+C21315,0.2699,LOW,Overall Satisfaction,Care Outreach
+C21316,0.0902,LOW,Days Since Last Visit,Care Outreach
+C21317,0.069,LOW,Days Since Last Visit,Care Outreach
+C21318,0.0417,LOW,Distance To Facility Miles,Access Support
+C21319,0.0764,LOW,Days Since Last Visit,Care Outreach
+C21320,0.1471,LOW,Missed Appointments,Care Outreach
+C21321,0.2186,LOW,Overall Satisfaction,Care Outreach
+C21322,0.1271,LOW,Days Since Last Visit,Care Outreach
+C21323,0.3208,LOW,Overall Satisfaction,Care Outreach
+C21324,0.341,LOW,Overall Satisfaction,Care Outreach
+C21325,0.1572,LOW,Missed Appointments,Care Outreach
+C21326,0.0493,LOW,Days Since Last Visit,Care Outreach
+C21327,0.1277,LOW,Overall Satisfaction,Care Outreach
+C21328,0.094,LOW,Days Since Last Visit,Care Outreach
+C21329,0.3995,LOW,Overall Satisfaction,Care Outreach
+C21330,0.4291,MEDIUM,Overall Satisfaction,Care Outreach
+C21331,0.0888,LOW,Days Since Last Visit,Care Outreach
+C21332,0.1127,LOW,Days Since Last Visit,Care Outreach
+C21333,0.3774,LOW,Overall Satisfaction,Care Outreach
+C21334,0.1672,LOW,Overall Satisfaction,Care Outreach
+C21335,0.443,MEDIUM,Overall Satisfaction,Care Outreach
+C21336,0.2916,LOW,Overall Satisfaction,Care Outreach
+C21337,0.2071,LOW,Overall Satisfaction,Care Outreach
+C21338,0.1009,LOW,Overall Satisfaction,Care Outreach
+C21339,0.327,LOW,Overall Satisfaction,Care Outreach
+C21340,0.0532,LOW,Tenure Months,Wellness & Loyalty
+C21341,0.059,LOW,Days Since Last Visit,Care Outreach
+C21342,0.0811,LOW,Days Since Last Visit,Care Outreach
+C21343,0.0836,LOW,Distance To Facility Miles,Access Support
+C21344,0.0675,LOW,Distance To Facility Miles,Access Support
+C21345,0.2682,LOW,Overall Satisfaction,Care Outreach
+C21346,0.1396,LOW,Days Since Last Visit,Care Outreach
+C21347,0.2989,LOW,Overall Satisfaction,Care Outreach
+C21348,0.1827,LOW,Distance To Facility Miles,Access Support
+C21349,0.1275,LOW,Days Since Last Visit,Care Outreach
+C21350,0.4851,MEDIUM,Overall Satisfaction,Care Outreach
+C21351,0.0675,LOW,Days Since Last Visit,Care Outreach
+C21352,0.1329,LOW,Overall Satisfaction,Care Outreach
+C21353,0.0606,LOW,Days Since Last Visit,Care Outreach
+C21354,0.1147,LOW,Overall Satisfaction,Care Outreach
+C21355,0.2149,LOW,Overall Satisfaction,Care Outreach
+C21356,0.2933,LOW,Overall Satisfaction,Care Outreach
+C21357,0.2661,LOW,Overall Satisfaction,Care Outreach
+C21358,0.3916,LOW,Overall Satisfaction,Care Outreach
+C21359,0.2456,LOW,Overall Satisfaction,Care Outreach
+C21360,0.1158,LOW,Days Since Last Visit,Care Outreach
+C21361,0.0948,LOW,Distance To Facility Miles,Access Support
+C21362,0.2462,LOW,Overall Satisfaction,Care Outreach
+C21363,0.0909,LOW,Days Since Last Visit,Care Outreach
+C21364,0.281,LOW,Overall Satisfaction,Care Outreach
+C21365,0.0765,LOW,Days Since Last Visit,Care Outreach
+C21366,0.2478,LOW,Overall Satisfaction,Care Outreach
+C21367,0.4046,MEDIUM,Overall Satisfaction,Care Outreach
+C21368,0.0945,LOW,Days Since Last Visit,Care Outreach
+C21369,0.2227,LOW,Overall Satisfaction,Care Outreach
+C21370,0.1406,LOW,Tenure Months,Wellness & Loyalty
+C21371,0.3268,LOW,Overall Satisfaction,Care Outreach
+C21372,0.2459,LOW,Overall Satisfaction,Care Outreach
+C21373,0.2356,LOW,Overall Satisfaction,Care Outreach
+C21374,0.2822,LOW,Overall Satisfaction,Care Outreach
+C21375,0.2199,LOW,Overall Satisfaction,Care Outreach
+C21376,0.1081,LOW,Missed Appointments,Care Outreach
+C21377,0.3635,LOW,Overall Satisfaction,Care Outreach
+C21378,0.1219,LOW,Distance To Facility Miles,Access Support
+C21379,0.0527,LOW,Missed Appointments,Care Outreach
+C21380,0.3064,LOW,Overall Satisfaction,Care Outreach
+C21381,0.1977,LOW,Overall Satisfaction,Care Outreach
+C21382,0.0358,LOW,Days Since Last Visit,Care Outreach
+C21383,0.2323,LOW,Overall Satisfaction,Care Outreach
+C21384,0.421,MEDIUM,Overall Satisfaction,Care Outreach
+C21385,0.0346,LOW,Days Since Last Visit,Care Outreach
+C21386,0.4789,MEDIUM,Overall Satisfaction,Care Outreach
+C21387,0.2174,LOW,Overall Satisfaction,Care Outreach
+C21388,0.1799,LOW,Days Since Last Visit,Care Outreach
+C21389,0.1663,LOW,Days Since Last Visit,Care Outreach
+C21390,0.0579,LOW,Missed Appointments,Care Outreach
+C21391,0.1017,LOW,Distance To Facility Miles,Access Support
+C21392,0.1708,LOW,Days Since Last Visit,Care Outreach
+C21393,0.1551,LOW,Distance To Facility Miles,Access Support
+C21394,0.0651,LOW,Days Since Last Visit,Care Outreach
+C21395,0.181,LOW,Overall Satisfaction,Care Outreach
+C21396,0.1138,LOW,Days Since Last Visit,Care Outreach
+C21397,0.0505,LOW,Days Since Last Visit,Care Outreach
+C21398,0.0363,LOW,Days Since Last Visit,Care Outreach
+C21399,0.0713,LOW,Tenure Months,Wellness & Loyalty
+C21400,0.0298,LOW,BMI,Wellness & Loyalty
+C21401,0.1159,LOW,Days Since Last Visit,Care Outreach
+C21402,0.1847,LOW,Overall Satisfaction,Care Outreach
+C21403,0.098,LOW,Days Since Last Visit,Care Outreach
+C21404,0.3282,LOW,Overall Satisfaction,Care Outreach
+C21405,0.2006,LOW,Overall Satisfaction,Care Outreach
+C21406,0.3847,LOW,Overall Satisfaction,Care Outreach
+C21407,0.0629,LOW,Days Since Last Visit,Care Outreach
+C21408,0.192,LOW,Overall Satisfaction,Care Outreach
+C21409,0.1166,LOW,Days Since Last Visit,Care Outreach
+C21410,0.0747,LOW,Days Since Last Visit,Care Outreach
+C21411,0.3445,LOW,Overall Satisfaction,Care Outreach
+C21412,0.463,MEDIUM,Overall Satisfaction,Care Outreach
+C21413,0.2659,LOW,Overall Satisfaction,Care Outreach
+C21414,0.4301,MEDIUM,Overall Satisfaction,Care Outreach
+C21415,0.0905,LOW,Distance To Facility Miles,Access Support
+C21416,0.4689,MEDIUM,Overall Satisfaction,Care Outreach
+C21417,0.2889,LOW,Overall Satisfaction,Care Outreach
+C21418,0.1693,LOW,Overall Satisfaction,Care Outreach
+C21419,0.176,LOW,Days Since Last Visit,Care Outreach
+C21420,0.0716,LOW,Days Since Last Visit,Care Outreach
+C21421,0.2425,LOW,Overall Satisfaction,Care Outreach
+C21422,0.1239,LOW,Overall Satisfaction,Care Outreach
+C21423,0.0903,LOW,Distance To Facility Miles,Access Support
+C21424,0.0746,LOW,Days Since Last Visit,Care Outreach
+C21425,0.044,LOW,Days Since Last Visit,Care Outreach
+C21426,0.33,LOW,Overall Satisfaction,Care Outreach
+C21427,0.0876,LOW,Days Since Last Visit,Care Outreach
+C21428,0.1638,LOW,Overall Satisfaction,Care Outreach
+C21429,0.3612,LOW,Overall Satisfaction,Care Outreach
+C21430,0.0574,LOW,Missed Appointments,Care Outreach
+C21431,0.1582,LOW,Overall Satisfaction,Care Outreach
+C21432,0.0741,LOW,Missed Appointments,Care Outreach
+C21433,0.2784,LOW,Overall Satisfaction,Care Outreach
+C21434,0.0482,LOW,Days Since Last Visit,Care Outreach
+C21435,0.276,LOW,Overall Satisfaction,Care Outreach
+C21436,0.1425,LOW,Missed Appointments,Care Outreach
+C21437,0.0859,LOW,Days Since Last Visit,Care Outreach
+C21438,0.0329,LOW,Missed Appointments,Care Outreach
+C21439,0.0873,LOW,Missed Appointments,Care Outreach
+C21440,0.0319,LOW,Days Since Last Visit,Care Outreach
+C21441,0.0802,LOW,Days Since Last Visit,Care Outreach
+C21442,0.5773,MEDIUM,Overall Satisfaction,Care Outreach
+C21443,0.1513,LOW,Overall Satisfaction,Care Outreach
+C21444,0.0474,LOW,Days Since Last Visit,Care Outreach
+C21445,0.2228,LOW,Overall Satisfaction,Care Outreach
+C21446,0.0897,LOW,Tenure Months,Wellness & Loyalty
+C21447,0.0733,LOW,Days Since Last Visit,Care Outreach
+C21448,0.056,LOW,Overall Satisfaction,Care Outreach
+C21449,0.0766,LOW,Tenure Months,Wellness & Loyalty
+C21450,0.0692,LOW,Missed Appointments,Care Outreach
+C21451,0.1321,LOW,Overall Satisfaction,Care Outreach
+C21452,0.3191,LOW,Overall Satisfaction,Care Outreach
+C21453,0.1766,LOW,Overall Satisfaction,Care Outreach
+C21454,0.3483,LOW,Overall Satisfaction,Care Outreach
+C21455,0.2707,LOW,Overall Satisfaction,Care Outreach
+C21456,0.2288,LOW,Overall Satisfaction,Care Outreach
+C21457,0.2668,LOW,Overall Satisfaction,Care Outreach
+C21458,0.0478,LOW,Days Since Last Visit,Care Outreach
+C21459,0.3734,LOW,Overall Satisfaction,Care Outreach
+C21460,0.247,LOW,Overall Satisfaction,Care Outreach
+C21461,0.2311,LOW,Overall Satisfaction,Care Outreach
+C21462,0.2165,LOW,Overall Satisfaction,Care Outreach
+C21463,0.1966,LOW,Overall Satisfaction,Care Outreach
+C21464,0.2685,LOW,Overall Satisfaction,Care Outreach
+C21465,0.3269,LOW,Overall Satisfaction,Care Outreach
+C21466,0.2093,LOW,Overall Satisfaction,Care Outreach
+C21467,0.0763,LOW,Tenure Months,Wellness & Loyalty
+C21468,0.2281,LOW,Overall Satisfaction,Care Outreach
+C21469,0.065,LOW,Distance To Facility Miles,Access Support
+C21470,0.3746,LOW,Overall Satisfaction,Care Outreach
+C21471,0.5388,MEDIUM,Overall Satisfaction,Care Outreach
+C21472,0.1477,LOW,Overall Satisfaction,Care Outreach
+C21473,0.3941,LOW,Overall Satisfaction,Care Outreach
+C21474,0.2194,LOW,Overall Satisfaction,Care Outreach
+C21475,0.1567,LOW,Overall Satisfaction,Care Outreach
+C21476,0.2127,LOW,Tenure Months,Wellness & Loyalty
+C21477,0.1396,LOW,Missed Appointments,Care Outreach
+C21478,0.2131,LOW,Overall Satisfaction,Care Outreach
+C21479,0.0643,LOW,Days Since Last Visit,Care Outreach
+C21480,0.0529,LOW,Missed Appointments,Care Outreach
+C21481,0.1534,LOW,Distance To Facility Miles,Access Support
+C21482,0.3704,LOW,Overall Satisfaction,Care Outreach
+C21483,0.3126,LOW,Overall Satisfaction,Care Outreach
+C21484,0.194,LOW,Overall Satisfaction,Care Outreach
+C21485,0.2684,LOW,Overall Satisfaction,Care Outreach
+C21486,0.0571,LOW,Distance To Facility Miles,Access Support
+C21487,0.0874,LOW,Distance To Facility Miles,Access Support
+C21488,0.238,LOW,Overall Satisfaction,Care Outreach
+C21489,0.1334,LOW,Days Since Last Visit,Care Outreach
+C21490,0.138,LOW,Overall Satisfaction,Care Outreach
+C21491,0.1316,LOW,Overall Satisfaction,Care Outreach
+C21492,0.6238,MEDIUM,Overall Satisfaction,Care Outreach
+C21493,0.5581,MEDIUM,Overall Satisfaction,Care Outreach
+C21494,0.0909,LOW,Distance To Facility Miles,Access Support
+C21495,0.1334,LOW,Overall Satisfaction,Care Outreach
+C21496,0.1961,LOW,Overall Satisfaction,Care Outreach
+C21497,0.1836,LOW,Overall Satisfaction,Care Outreach
+C21498,0.4621,MEDIUM,Overall Satisfaction,Care Outreach
+C21499,0.1935,LOW,Overall Satisfaction,Care Outreach
+C21500,0.0625,LOW,Missed Appointments,Care Outreach
+C21501,0.24,LOW,Overall Satisfaction,Care Outreach
+C21502,0.2162,LOW,Overall Satisfaction,Care Outreach
+C21503,0.6153,MEDIUM,Overall Satisfaction,Care Outreach
+C21504,0.2873,LOW,Overall Satisfaction,Care Outreach
+C21505,0.0379,LOW,Days Since Last Visit,Care Outreach
+C21506,0.0857,LOW,Tenure Months,Wellness & Loyalty
+C21507,0.038,LOW,Distance To Facility Miles,Access Support
+C21508,0.1206,LOW,Distance To Facility Miles,Access Support
+C21509,0.2971,LOW,Overall Satisfaction,Care Outreach
+C21510,0.2801,LOW,Overall Satisfaction,Care Outreach
+C21511,0.2458,LOW,Overall Satisfaction,Care Outreach
+C21512,0.0825,LOW,Distance To Facility Miles,Access Support
+C21513,0.108,LOW,Days Since Last Visit,Care Outreach
+C21514,0.0968,LOW,Overall Satisfaction,Care Outreach
+C21515,0.0903,LOW,Days Since Last Visit,Care Outreach
+C21516,0.1011,LOW,Days Since Last Visit,Care Outreach
+C21517,0.0924,LOW,Distance To Facility Miles,Access Support
+C21518,0.0913,LOW,Missed Appointments,Care Outreach
+C21519,0.2777,LOW,Overall Satisfaction,Care Outreach
+C21520,0.0407,LOW,Days Since Last Visit,Care Outreach
+C21521,0.1384,LOW,Overall Satisfaction,Care Outreach
+C21522,0.3019,LOW,Overall Satisfaction,Care Outreach
+C21523,0.0601,LOW,Distance To Facility Miles,Access Support
+C21524,0.0531,LOW,Days Since Last Visit,Care Outreach
+C21525,0.1952,LOW,Overall Satisfaction,Care Outreach
+C21526,0.2317,LOW,Overall Satisfaction,Care Outreach
+C21527,0.085,LOW,Missed Appointments,Care Outreach
+C21528,0.083,LOW,Days Since Last Visit,Care Outreach
+C21529,0.152,LOW,Overall Satisfaction,Care Outreach
+C21530,0.0663,LOW,Tenure Months,Wellness & Loyalty
+C21531,0.2772,LOW,Overall Satisfaction,Care Outreach
+C21532,0.2985,LOW,Overall Satisfaction,Care Outreach
+C21533,0.0808,LOW,Overall Satisfaction,Care Outreach
+C21534,0.2659,LOW,Overall Satisfaction,Care Outreach
+C21535,0.0436,LOW,Days Since Last Visit,Care Outreach
+C21536,0.1275,LOW,Missed Appointments,Care Outreach
+C21537,0.2422,LOW,Overall Satisfaction,Care Outreach
+C21538,0.2067,LOW,Overall Satisfaction,Care Outreach
+C21539,0.0439,LOW,Missed Appointments,Care Outreach
+C21540,0.0668,LOW,Distance To Facility Miles,Access Support
+C21541,0.0318,LOW,Days Since Last Visit,Care Outreach
+C21542,0.2386,LOW,Overall Satisfaction,Care Outreach
+C21543,0.352,LOW,Overall Satisfaction,Care Outreach
+C21544,0.2513,LOW,Overall Satisfaction,Care Outreach
+C21545,0.0355,LOW,Missed Appointments,Care Outreach
+C21546,0.0532,LOW,Days Since Last Visit,Care Outreach
+C21547,0.1171,LOW,Days Since Last Visit,Care Outreach
+C21548,0.1201,LOW,Tenure Months,Wellness & Loyalty
+C21549,0.2953,LOW,Overall Satisfaction,Care Outreach
+C21550,0.0733,LOW,Days Since Last Visit,Care Outreach
+C21551,0.3179,LOW,Overall Satisfaction,Care Outreach
+C21552,0.0605,LOW,Days Since Last Visit,Care Outreach
+C21553,0.4226,MEDIUM,Overall Satisfaction,Care Outreach
+C21554,0.104,LOW,Overall Satisfaction,Care Outreach
+C21555,0.3453,LOW,Overall Satisfaction,Care Outreach
+C21556,0.2095,LOW,Overall Satisfaction,Care Outreach
+C21557,0.0629,LOW,Missed Appointments,Care Outreach
+C21558,0.0435,LOW,Days Since Last Visit,Care Outreach
+C21559,0.2892,LOW,Overall Satisfaction,Care Outreach
+C21560,0.0641,LOW,Days Since Last Visit,Care Outreach
+C21561,0.1443,LOW,Overall Satisfaction,Care Outreach
+C21562,0.224,LOW,Overall Satisfaction,Care Outreach
+C21563,0.0421,LOW,Days Since Last Visit,Care Outreach
+C21564,0.2695,LOW,Overall Satisfaction,Care Outreach
+C21565,0.0751,LOW,Missed Appointments,Care Outreach
+C21566,0.1632,LOW,Distance To Facility Miles,Access Support
+C21567,0.0948,LOW,Distance To Facility Miles,Access Support
+C21568,0.0922,LOW,Missed Appointments,Care Outreach
+C21569,0.1631,LOW,Days Since Last Visit,Care Outreach
+C21570,0.1272,LOW,Overall Satisfaction,Care Outreach
+C21571,0.2484,LOW,Overall Satisfaction,Care Outreach
+C21572,0.0628,LOW,Days Since Last Visit,Care Outreach
+C21573,0.0919,LOW,Missed Appointments,Care Outreach
+C21574,0.1166,LOW,Distance To Facility Miles,Access Support
+C21575,0.1335,LOW,Overall Satisfaction,Care Outreach
+C21576,0.0989,LOW,Days Since Last Visit,Care Outreach
+C21577,0.0722,LOW,Days Since Last Visit,Care Outreach
+C21578,0.3972,LOW,Overall Satisfaction,Care Outreach
+C21579,0.2064,LOW,Overall Satisfaction,Care Outreach
+C21580,0.3628,LOW,Overall Satisfaction,Care Outreach
+C21581,0.0285,LOW,Missed Appointments,Care Outreach
+C21582,0.0632,LOW,Days Since Last Visit,Care Outreach
+C21583,0.2583,LOW,Overall Satisfaction,Care Outreach
+C21584,0.0888,LOW,Days Since Last Visit,Care Outreach
+C21585,0.0543,LOW,Days Since Last Visit,Care Outreach
+C21586,0.1152,LOW,Distance To Facility Miles,Access Support
+C21587,0.1265,LOW,Missed Appointments,Care Outreach
+C21588,0.3165,LOW,Overall Satisfaction,Care Outreach
+C21589,0.2797,LOW,Overall Satisfaction,Care Outreach
+C21590,0.1444,LOW,Missed Appointments,Care Outreach
+C21591,0.0816,LOW,Days Since Last Visit,Care Outreach
+C21592,0.2729,LOW,Overall Satisfaction,Care Outreach
+C21593,0.2531,LOW,Overall Satisfaction,Care Outreach
+C21594,0.0853,LOW,Distance To Facility Miles,Access Support
+C21595,0.0352,LOW,Days Since Last Visit,Care Outreach
+C21596,0.0561,LOW,Days Since Last Visit,Care Outreach
+C21597,0.2498,LOW,Overall Satisfaction,Care Outreach
+C21598,0.0714,LOW,Days Since Last Visit,Care Outreach
+C21599,0.2201,LOW,Overall Satisfaction,Care Outreach
+C21600,0.123,LOW,Days Since Last Visit,Care Outreach
+C21601,0.1275,LOW,Days Since Last Visit,Care Outreach
+C21602,0.2372,LOW,Overall Satisfaction,Care Outreach
+C21603,0.0688,LOW,Missed Appointments,Care Outreach
+C21604,0.2548,LOW,Overall Satisfaction,Care Outreach
+C21605,0.0865,LOW,Distance To Facility Miles,Access Support
+C21606,0.2042,LOW,Overall Satisfaction,Care Outreach
+C21607,0.0817,LOW,Days Since Last Visit,Care Outreach
+C21608,0.427,MEDIUM,Overall Satisfaction,Care Outreach
+C21609,0.1159,LOW,Overall Satisfaction,Care Outreach
+C21610,0.0846,LOW,Days Since Last Visit,Care Outreach
+C21611,0.0511,LOW,Missed Appointments,Care Outreach
+C21612,0.2605,LOW,Overall Satisfaction,Care Outreach
+C21613,0.048,LOW,Days Since Last Visit,Care Outreach
+C21614,0.3205,LOW,Overall Satisfaction,Care Outreach
+C21615,0.2157,LOW,Overall Satisfaction,Care Outreach
+C21616,0.2444,LOW,Overall Satisfaction,Care Outreach
+C21617,0.0462,LOW,Days Since Last Visit,Care Outreach
+C21618,0.0823,LOW,Days Since Last Visit,Care Outreach
+C21619,0.1508,LOW,Overall Satisfaction,Care Outreach
+C21620,0.3843,LOW,Overall Satisfaction,Care Outreach
+C21621,0.1538,LOW,Overall Satisfaction,Care Outreach
+C21622,0.3774,LOW,Overall Satisfaction,Care Outreach
+C21623,0.2487,LOW,Overall Satisfaction,Care Outreach
+C21624,0.0712,LOW,Days Since Last Visit,Care Outreach
+C21625,0.2583,LOW,Overall Satisfaction,Care Outreach
+C21626,0.0729,LOW,Missed Appointments,Care Outreach
+C21627,0.069,LOW,Tenure Months,Wellness & Loyalty
+C21628,0.2268,LOW,Overall Satisfaction,Care Outreach
+C21629,0.2219,LOW,Overall Satisfaction,Care Outreach
+C21630,0.0815,LOW,Days Since Last Visit,Care Outreach
+C21631,0.0889,LOW,Overall Satisfaction,Care Outreach
+C21632,0.1436,LOW,Days Since Last Visit,Care Outreach
+C21633,0.4833,MEDIUM,Overall Satisfaction,Care Outreach
+C21634,0.1221,LOW,Distance To Facility Miles,Access Support
+C21635,0.1704,LOW,Overall Satisfaction,Care Outreach
+C21636,0.1984,LOW,Overall Satisfaction,Care Outreach
+C21637,0.1382,LOW,Overall Satisfaction,Care Outreach
+C21638,0.0519,LOW,Days Since Last Visit,Care Outreach
+C21639,0.4487,MEDIUM,Overall Satisfaction,Care Outreach
+C21640,0.0723,LOW,Days Since Last Visit,Care Outreach
+C21641,0.2572,LOW,Overall Satisfaction,Care Outreach
+C21642,0.1098,LOW,Overall Satisfaction,Care Outreach
+C21643,0.3132,LOW,Overall Satisfaction,Care Outreach
+C21644,0.2371,LOW,Overall Satisfaction,Care Outreach
+C21645,0.2927,LOW,Overall Satisfaction,Care Outreach
+C21646,0.6162,MEDIUM,Overall Satisfaction,Care Outreach
+C21647,0.0726,LOW,Days Since Last Visit,Care Outreach
+C21648,0.0676,LOW,Days Since Last Visit,Care Outreach
+C21649,0.3839,LOW,Overall Satisfaction,Care Outreach
+C21650,0.0725,LOW,Distance To Facility Miles,Access Support
+C21651,0.33,LOW,Overall Satisfaction,Care Outreach
+C21652,0.066,LOW,Days Since Last Visit,Care Outreach
+C21653,0.3133,LOW,Overall Satisfaction,Care Outreach
+C21654,0.0843,LOW,Days Since Last Visit,Care Outreach
+C21655,0.1512,LOW,Distance To Facility Miles,Access Support
+C21656,0.1324,LOW,Distance To Facility Miles,Access Support
+C21657,0.1605,LOW,Overall Satisfaction,Care Outreach
+C21658,0.2375,LOW,Overall Satisfaction,Care Outreach
+C21659,0.1426,LOW,Overall Satisfaction,Care Outreach
+C21660,0.1014,LOW,Missed Appointments,Care Outreach
+C21661,0.1528,LOW,Distance To Facility Miles,Access Support
+C21662,0.2204,LOW,Overall Satisfaction,Care Outreach
+C21663,0.0337,LOW,Days Since Last Visit,Care Outreach
+C21664,0.5249,MEDIUM,Overall Satisfaction,Care Outreach
+C21665,0.1324,LOW,Distance To Facility Miles,Access Support
+C21666,0.2953,LOW,Overall Satisfaction,Care Outreach
+C21667,0.0916,LOW,Distance To Facility Miles,Access Support
+C21668,0.2256,LOW,Overall Satisfaction,Care Outreach
+C21669,0.2941,LOW,Overall Satisfaction,Care Outreach
+C21670,0.1349,LOW,Days Since Last Visit,Care Outreach
+C21671,0.1885,LOW,Overall Satisfaction,Care Outreach
+C21672,0.3545,LOW,Overall Satisfaction,Care Outreach
+C21673,0.2515,LOW,Distance To Facility Miles,Access Support
+C21674,0.2852,LOW,Overall Satisfaction,Care Outreach
+C21675,0.3428,LOW,Overall Satisfaction,Care Outreach
+C21676,0.1031,LOW,Overall Satisfaction,Care Outreach
+C21677,0.073,LOW,Days Since Last Visit,Care Outreach
+C21678,0.2921,LOW,Overall Satisfaction,Care Outreach
+C21679,0.1298,LOW,Distance To Facility Miles,Access Support
+C21680,0.4693,MEDIUM,Overall Satisfaction,Care Outreach
+C21681,0.083,LOW,Missed Appointments,Care Outreach
+C21682,0.0832,LOW,Days Since Last Visit,Care Outreach
+C21683,0.0966,LOW,Distance To Facility Miles,Access Support
+C21684,0.0877,LOW,Days Since Last Visit,Care Outreach
+C21685,0.0714,LOW,Days Since Last Visit,Care Outreach
+C21686,0.1344,LOW,Tenure Months,Wellness & Loyalty
+C21687,0.1959,LOW,Distance To Facility Miles,Access Support
+C21688,0.3221,LOW,Overall Satisfaction,Care Outreach
+C21689,0.1617,LOW,Days Since Last Visit,Care Outreach
+C21690,0.1738,LOW,Days Since Last Visit,Care Outreach
+C21691,0.2535,LOW,Overall Satisfaction,Care Outreach
+C21692,0.0511,LOW,Days Since Last Visit,Care Outreach
+C21693,0.2936,LOW,Overall Satisfaction,Care Outreach
+C21694,0.1619,LOW,Days Since Last Visit,Care Outreach
+C21695,0.2472,LOW,Overall Satisfaction,Care Outreach
+C21696,0.1078,LOW,Overall Satisfaction,Care Outreach
+C21697,0.1,LOW,Days Since Last Visit,Care Outreach
+C21698,0.068,LOW,Days Since Last Visit,Care Outreach
+C21699,0.0576,LOW,Days Since Last Visit,Care Outreach
+C21700,0.3658,LOW,Overall Satisfaction,Care Outreach
+C21701,0.1177,LOW,Days Since Last Visit,Care Outreach
+C21702,0.1162,LOW,Distance To Facility Miles,Access Support
+C21703,0.4919,MEDIUM,Overall Satisfaction,Care Outreach
+C21704,0.0895,LOW,Days Since Last Visit,Care Outreach
+C21705,0.0677,LOW,Days Since Last Visit,Care Outreach
+C21706,0.0956,LOW,Missed Appointments,Care Outreach
+C21707,0.1949,LOW,Overall Satisfaction,Care Outreach
+C21708,0.073,LOW,Days Since Last Visit,Care Outreach
+C21709,0.053,LOW,Distance To Facility Miles,Access Support
+C21710,0.3153,LOW,Overall Satisfaction,Care Outreach
+C21711,0.0672,LOW,Days Since Last Visit,Care Outreach
+C21712,0.2249,LOW,Overall Satisfaction,Care Outreach
+C21713,0.3904,LOW,Overall Satisfaction,Care Outreach
+C21714,0.0854,LOW,Tenure Months,Wellness & Loyalty
+C21715,0.387,LOW,Overall Satisfaction,Care Outreach
+C21716,0.1869,LOW,Overall Satisfaction,Care Outreach
+C21717,0.3726,LOW,Overall Satisfaction,Care Outreach
+C21718,0.0826,LOW,Days Since Last Visit,Care Outreach
+C21719,0.6928,MEDIUM,Overall Satisfaction,Care Outreach
+C21720,0.237,LOW,Overall Satisfaction,Care Outreach
+C21721,0.3149,LOW,Overall Satisfaction,Care Outreach
+C21722,0.4631,MEDIUM,Overall Satisfaction,Care Outreach
+C21723,0.3772,LOW,Overall Satisfaction,Care Outreach
+C21724,0.1703,LOW,Overall Satisfaction,Care Outreach
+C21725,0.1204,LOW,Missed Appointments,Care Outreach
+C21726,0.3149,LOW,Overall Satisfaction,Care Outreach
+C21727,0.1152,LOW,Distance To Facility Miles,Access Support
+C21728,0.2212,LOW,Overall Satisfaction,Care Outreach
+C21729,0.5702,MEDIUM,Overall Satisfaction,Care Outreach
+C21730,0.1194,LOW,Distance To Facility Miles,Access Support
+C21731,0.1012,LOW,Distance To Facility Miles,Access Support
+C21732,0.1851,LOW,Overall Satisfaction,Care Outreach
+C21733,0.0865,LOW,Days Since Last Visit,Care Outreach
+C21734,0.2173,LOW,Overall Satisfaction,Care Outreach
+C21735,0.0801,LOW,Days Since Last Visit,Care Outreach
+C21736,0.3072,LOW,Overall Satisfaction,Care Outreach
+C21737,0.1164,LOW,Days Since Last Visit,Care Outreach
+C21738,0.5762,MEDIUM,Overall Satisfaction,Care Outreach
+C21739,0.2035,LOW,Overall Satisfaction,Care Outreach
+C21740,0.0613,LOW,Days Since Last Visit,Care Outreach
+C21741,0.0567,LOW,Days Since Last Visit,Care Outreach
+C21742,0.4418,MEDIUM,Overall Satisfaction,Care Outreach
+C21743,0.4164,MEDIUM,Overall Satisfaction,Care Outreach
+C21744,0.0627,LOW,Days Since Last Visit,Care Outreach
+C21745,0.0668,LOW,Days Since Last Visit,Care Outreach
+C21746,0.1297,LOW,Days Since Last Visit,Care Outreach
+C21747,0.0539,LOW,Distance To Facility Miles,Access Support
+C21748,0.3476,LOW,Overall Satisfaction,Care Outreach
+C21749,0.0987,LOW,Overall Satisfaction,Care Outreach
+C21750,0.2445,LOW,Distance To Facility Miles,Access Support
+C21751,0.3478,LOW,Overall Satisfaction,Care Outreach
+C21752,0.0683,LOW,Days Since Last Visit,Care Outreach
+C21753,0.0911,LOW,Distance To Facility Miles,Access Support
+C21754,0.2298,LOW,Overall Satisfaction,Care Outreach
+C21755,0.056,LOW,Days Since Last Visit,Care Outreach
+C21756,0.0461,LOW,Days Since Last Visit,Care Outreach
+C21757,0.2476,LOW,Overall Satisfaction,Care Outreach
+C21758,0.2248,LOW,Overall Satisfaction,Care Outreach
+C21759,0.046,LOW,Days Since Last Visit,Care Outreach
+C21760,0.0318,LOW,Missed Appointments,Care Outreach
+C21761,0.392,LOW,Overall Satisfaction,Care Outreach
+C21762,0.0611,LOW,Tenure Months,Wellness & Loyalty
+C21763,0.0814,LOW,Missed Appointments,Care Outreach
+C21764,0.1547,LOW,Days Since Last Visit,Care Outreach
+C21765,0.1746,LOW,Overall Satisfaction,Care Outreach
+C21766,0.3078,LOW,Overall Satisfaction,Care Outreach
+C21767,0.5352,MEDIUM,Overall Satisfaction,Care Outreach
+C21768,0.2135,LOW,Distance To Facility Miles,Access Support
+C21769,0.2885,LOW,Overall Satisfaction,Care Outreach
+C21770,0.2947,LOW,Overall Satisfaction,Care Outreach
+C21771,0.0283,LOW,Missed Appointments,Care Outreach
+C21772,0.511,MEDIUM,Overall Satisfaction,Care Outreach
+C21773,0.1911,LOW,Overall Satisfaction,Care Outreach
+C21774,0.3116,LOW,Overall Satisfaction,Care Outreach
+C21775,0.1531,LOW,Overall Satisfaction,Care Outreach
+C21776,0.1023,LOW,Overall Satisfaction,Care Outreach
+C21777,0.0472,LOW,Days Since Last Visit,Care Outreach
+C21778,0.3186,LOW,Overall Satisfaction,Care Outreach
+C21779,0.1109,LOW,Distance To Facility Miles,Access Support
+C21780,0.2345,LOW,Overall Satisfaction,Care Outreach
+C21781,0.0678,LOW,Days Since Last Visit,Care Outreach
+C21782,0.1246,LOW,Days Since Last Visit,Care Outreach
+C21783,0.052,LOW,Days Since Last Visit,Care Outreach
+C21784,0.2518,LOW,Overall Satisfaction,Care Outreach
+C21785,0.2062,LOW,Overall Satisfaction,Care Outreach
+C21786,0.2227,LOW,Days Since Last Visit,Care Outreach
+C21787,0.0741,LOW,Days Since Last Visit,Care Outreach
+C21788,0.191,LOW,Days Since Last Visit,Care Outreach
+C21789,0.5377,MEDIUM,Overall Satisfaction,Care Outreach
+C21790,0.1048,LOW,Missed Appointments,Care Outreach
+C21791,0.0608,LOW,Days Since Last Visit,Care Outreach
+C21792,0.0642,LOW,Days Since Last Visit,Care Outreach
+C21793,0.2574,LOW,Overall Satisfaction,Care Outreach
+C21794,0.1764,LOW,Overall Satisfaction,Care Outreach
+C21795,0.4,LOW,Overall Satisfaction,Care Outreach
+C21796,0.1009,LOW,Days Since Last Visit,Care Outreach
+C21797,0.0945,LOW,Missed Appointments,Care Outreach
+C21798,0.2539,LOW,Overall Satisfaction,Care Outreach
+C21799,0.2337,LOW,Overall Satisfaction,Care Outreach
+C21800,0.3016,LOW,Overall Satisfaction,Care Outreach
+C21801,0.4136,MEDIUM,Overall Satisfaction,Care Outreach
+C21802,0.1563,LOW,Overall Satisfaction,Care Outreach
+C21803,0.0842,LOW,Tenure Months,Wellness & Loyalty
+C21804,0.2542,LOW,Overall Satisfaction,Care Outreach
+C21805,0.0782,LOW,Days Since Last Visit,Care Outreach
+C21806,0.196,LOW,Overall Satisfaction,Care Outreach
+C21807,0.0695,LOW,Days Since Last Visit,Care Outreach
+C21808,0.2594,LOW,Overall Satisfaction,Care Outreach
+C21809,0.148,LOW,Overall Satisfaction,Care Outreach
+C21810,0.0583,LOW,Missed Appointments,Care Outreach
+C21811,0.284,LOW,Overall Satisfaction,Care Outreach
+C21812,0.2095,LOW,Overall Satisfaction,Care Outreach
+C21813,0.272,LOW,Overall Satisfaction,Care Outreach
+C21814,0.0753,LOW,Days Since Last Visit,Care Outreach
+C21815,0.079,LOW,Missed Appointments,Care Outreach
+C21816,0.0717,LOW,Days Since Last Visit,Care Outreach
+C21817,0.2489,LOW,Overall Satisfaction,Care Outreach
+C21818,0.1413,LOW,Overall Satisfaction,Care Outreach
+C21819,0.0739,LOW,Missed Appointments,Care Outreach
+C21820,0.1348,LOW,Overall Satisfaction,Care Outreach
+C21821,0.1416,LOW,Overall Satisfaction,Care Outreach
+C21822,0.0789,LOW,Days Since Last Visit,Care Outreach
+C21823,0.0534,LOW,Distance To Facility Miles,Access Support
+C21824,0.2444,LOW,Overall Satisfaction,Care Outreach
+C21825,0.1787,LOW,Overall Satisfaction,Care Outreach
+C21826,0.322,LOW,Overall Satisfaction,Care Outreach
+C21827,0.1709,LOW,Tenure Months,Wellness & Loyalty
+C21828,0.2311,LOW,Overall Satisfaction,Care Outreach
+C21829,0.1376,LOW,Missed Appointments,Care Outreach
+C21830,0.126,LOW,Overall Satisfaction,Care Outreach
+C21831,0.193,LOW,Overall Satisfaction,Care Outreach
+C21832,0.0985,LOW,Missed Appointments,Care Outreach
+C21833,0.1615,LOW,Tenure Months,Wellness & Loyalty
+C21834,0.0506,LOW,Days Since Last Visit,Care Outreach
+C21835,0.4023,MEDIUM,Overall Satisfaction,Care Outreach
+C21836,0.2796,LOW,Overall Satisfaction,Care Outreach
+C21837,0.0986,LOW,Days Since Last Visit,Care Outreach
+C21838,0.3037,LOW,Overall Satisfaction,Care Outreach
+C21839,0.074,LOW,Distance To Facility Miles,Access Support
+C21840,0.1124,LOW,Days Since Last Visit,Care Outreach
+C21841,0.1256,LOW,Tenure Months,Wellness & Loyalty
+C21842,0.0539,LOW,Distance To Facility Miles,Access Support
+C21843,0.1382,LOW,Overall Satisfaction,Care Outreach
+C21844,0.0328,LOW,Days Since Last Visit,Care Outreach
+C21845,0.1013,LOW,Days Since Last Visit,Care Outreach
+C21846,0.1559,LOW,Tenure Months,Wellness & Loyalty
+C21847,0.1974,LOW,Overall Satisfaction,Care Outreach
+C21848,0.0423,LOW,Missed Appointments,Care Outreach
+C21849,0.2734,LOW,Overall Satisfaction,Care Outreach
+C21850,0.1196,LOW,Tenure Months,Wellness & Loyalty
+C21851,0.0753,LOW,Days Since Last Visit,Care Outreach
+C21852,0.3172,LOW,Overall Satisfaction,Care Outreach
+C21853,0.1847,LOW,Overall Satisfaction,Care Outreach
+C21854,0.3414,LOW,Overall Satisfaction,Care Outreach
+C21855,0.1375,LOW,Tenure Months,Wellness & Loyalty
+C21856,0.2512,LOW,Overall Satisfaction,Care Outreach
+C21857,0.1074,LOW,Distance To Facility Miles,Access Support
+C21858,0.067,LOW,Tenure Months,Wellness & Loyalty
+C21859,0.3151,LOW,Overall Satisfaction,Care Outreach
+C21860,0.0649,LOW,Days Since Last Visit,Care Outreach
+C21861,0.1249,LOW,Overall Satisfaction,Care Outreach
+C21862,0.142,LOW,Overall Satisfaction,Care Outreach
+C21863,0.0775,LOW,Days Since Last Visit,Care Outreach
+C21864,0.1424,LOW,Tenure Months,Wellness & Loyalty
+C21865,0.3941,LOW,Overall Satisfaction,Care Outreach
+C21866,0.0449,LOW,Missed Appointments,Care Outreach
+C21867,0.0415,LOW,Days Since Last Visit,Care Outreach
+C21868,0.0781,LOW,Days Since Last Visit,Care Outreach
+C21869,0.2054,LOW,Overall Satisfaction,Care Outreach
+C21870,0.0789,LOW,Days Since Last Visit,Care Outreach
+C21871,0.2051,LOW,Tenure Months,Wellness & Loyalty
+C21872,0.7169,HIGH,Overall Satisfaction,Care Outreach
+C21873,0.0341,LOW,Days Since Last Visit,Care Outreach
+C21874,0.1036,LOW,Missed Appointments,Care Outreach
+C21875,0.1559,LOW,Overall Satisfaction,Care Outreach
+C21876,0.2259,LOW,Distance To Facility Miles,Access Support
+C21877,0.098,LOW,Missed Appointments,Care Outreach
+C21878,0.4169,MEDIUM,Overall Satisfaction,Care Outreach
+C21879,0.1913,LOW,Overall Satisfaction,Care Outreach
+C21880,0.1952,LOW,Missed Appointments,Care Outreach
+C21881,0.2037,LOW,Overall Satisfaction,Care Outreach
+C21882,0.1149,LOW,Days Since Last Visit,Care Outreach
+C21883,0.0833,LOW,Days Since Last Visit,Care Outreach
+C21884,0.0648,LOW,BMI,Wellness & Loyalty
+C21885,0.1002,LOW,Distance To Facility Miles,Access Support
+C21886,0.0761,LOW,Days Since Last Visit,Care Outreach
+C21887,0.2508,LOW,Overall Satisfaction,Care Outreach
+C21888,0.0505,LOW,Days Since Last Visit,Care Outreach
+C21889,0.1031,LOW,Missed Appointments,Care Outreach
+C21890,0.3177,LOW,Overall Satisfaction,Care Outreach
+C21891,0.1237,LOW,Distance To Facility Miles,Access Support
+C21892,0.1574,LOW,Days Since Last Visit,Care Outreach
+C21893,0.1311,LOW,Days Since Last Visit,Care Outreach
+C21894,0.1841,LOW,Overall Satisfaction,Care Outreach
+C21895,0.0869,LOW,Days Since Last Visit,Care Outreach
+C21896,0.0866,LOW,Missed Appointments,Care Outreach
+C21897,0.3415,LOW,Overall Satisfaction,Care Outreach
+C21898,0.0871,LOW,Days Since Last Visit,Care Outreach
+C21899,0.126,LOW,Days Since Last Visit,Care Outreach
+C21900,0.245,LOW,Distance To Facility Miles,Access Support
+C21901,0.1638,LOW,Overall Satisfaction,Care Outreach
+C21902,0.1973,LOW,Missed Appointments,Care Outreach
+C21903,0.583,MEDIUM,Overall Satisfaction,Care Outreach
+C21904,0.4872,MEDIUM,Overall Satisfaction,Care Outreach
+C21905,0.3251,LOW,Days Since Last Visit,Care Outreach
+C21906,0.1011,LOW,Days Since Last Visit,Care Outreach
+C21907,0.0742,LOW,Days Since Last Visit,Care Outreach
+C21908,0.2109,LOW,Overall Satisfaction,Care Outreach
+C21909,0.3596,LOW,Overall Satisfaction,Care Outreach
+C21910,0.0705,LOW,Distance To Facility Miles,Access Support
+C21911,0.0355,LOW,Distance To Facility Miles,Access Support
+C21912,0.1827,LOW,Overall Satisfaction,Care Outreach
+C21913,0.1205,LOW,Days Since Last Visit,Care Outreach
+C21914,0.342,LOW,Overall Satisfaction,Care Outreach
+C21915,0.1412,LOW,Overall Satisfaction,Care Outreach
+C21916,0.2589,LOW,Overall Satisfaction,Care Outreach
+C21917,0.3088,LOW,Overall Satisfaction,Care Outreach
+C21918,0.2106,LOW,Overall Satisfaction,Care Outreach
+C21919,0.3187,LOW,Overall Satisfaction,Care Outreach
+C21920,0.0918,LOW,Missed Appointments,Care Outreach
+C21921,0.0514,LOW,Missed Appointments,Care Outreach
+C21922,0.0896,LOW,Days Since Last Visit,Care Outreach
+C21923,0.0641,LOW,Days Since Last Visit,Care Outreach
+C21924,0.0448,LOW,Days Since Last Visit,Care Outreach
+C21925,0.201,LOW,Distance To Facility Miles,Access Support
+C21926,0.0605,LOW,Days Since Last Visit,Care Outreach
+C21927,0.0602,LOW,Days Since Last Visit,Care Outreach
+C21928,0.1801,LOW,Overall Satisfaction,Care Outreach
+C21929,0.2256,LOW,Overall Satisfaction,Care Outreach
+C21930,0.0308,LOW,Days Since Last Visit,Care Outreach
+C21931,0.0489,LOW,Days Since Last Visit,Care Outreach
+C21932,0.2269,LOW,Overall Satisfaction,Care Outreach
+C21933,0.396,LOW,Overall Satisfaction,Care Outreach
+C21934,0.0971,LOW,Days Since Last Visit,Care Outreach
+C21935,0.143,LOW,Overall Satisfaction,Care Outreach
+C21936,0.1967,LOW,Overall Satisfaction,Care Outreach
+C21937,0.0908,LOW,Days Since Last Visit,Care Outreach
+C21938,0.031,LOW,Missed Appointments,Care Outreach
+C21939,0.0744,LOW,Days Since Last Visit,Care Outreach
+C21940,0.0562,LOW,Tenure Months,Wellness & Loyalty
+C21941,0.0391,LOW,Days Since Last Visit,Care Outreach
+C21942,0.0699,LOW,Days Since Last Visit,Care Outreach
+C21943,0.0556,LOW,Missed Appointments,Care Outreach
+C21944,0.3637,LOW,Overall Satisfaction,Care Outreach
+C21945,0.1765,LOW,Distance To Facility Miles,Access Support
+C21946,0.0873,LOW,Distance To Facility Miles,Access Support
+C21947,0.5732,MEDIUM,Overall Satisfaction,Care Outreach
+C21948,0.0639,LOW,Days Since Last Visit,Care Outreach
+C21949,0.2571,LOW,Overall Satisfaction,Care Outreach
+C21950,0.0996,LOW,Days Since Last Visit,Care Outreach
+C21951,0.163,LOW,Tenure Months,Wellness & Loyalty
+C21952,0.1154,LOW,Overall Satisfaction,Care Outreach
+C21953,0.0465,LOW,Days Since Last Visit,Care Outreach
+C21954,0.1861,LOW,Overall Satisfaction,Care Outreach
+C21955,0.1209,LOW,Days Since Last Visit,Care Outreach
+C21956,0.0499,LOW,Days Since Last Visit,Care Outreach
+C21957,0.2443,LOW,Overall Satisfaction,Care Outreach
+C21958,0.1433,LOW,Tenure Months,Wellness & Loyalty
+C21959,0.2967,LOW,Overall Satisfaction,Care Outreach
+C21960,0.0539,LOW,Days Since Last Visit,Care Outreach
+C21961,0.0925,LOW,Days Since Last Visit,Care Outreach
+C21962,0.4507,MEDIUM,Overall Satisfaction,Care Outreach
+C21963,0.2883,LOW,Tenure Months,Wellness & Loyalty
+C21964,0.3015,LOW,Overall Satisfaction,Care Outreach
+C21965,0.1352,LOW,Days Since Last Visit,Care Outreach
+C21966,0.3043,LOW,Overall Satisfaction,Care Outreach
+C21967,0.208,LOW,Overall Satisfaction,Care Outreach
+C21968,0.1512,LOW,Tenure Months,Wellness & Loyalty
+C21969,0.0529,LOW,Days Since Last Visit,Care Outreach
+C21970,0.4306,MEDIUM,Overall Satisfaction,Care Outreach
+C21971,0.0857,LOW,Days Since Last Visit,Care Outreach
+C21972,0.2432,LOW,Overall Satisfaction,Care Outreach
+C21973,0.0514,LOW,Days Since Last Visit,Care Outreach
+C21974,0.0607,LOW,Distance To Facility Miles,Access Support
+C21975,0.048,LOW,Distance To Facility Miles,Access Support
+C21976,0.2073,LOW,Overall Satisfaction,Care Outreach
+C21977,0.3082,LOW,Overall Satisfaction,Care Outreach
+C21978,0.2315,LOW,Overall Satisfaction,Care Outreach
+C21979,0.0404,LOW,BMI,Wellness & Loyalty
+C21980,0.2524,LOW,Overall Satisfaction,Care Outreach
+C21981,0.0953,LOW,Tenure Months,Wellness & Loyalty
+C21982,0.1178,LOW,Days Since Last Visit,Care Outreach
+C21983,0.1724,LOW,Overall Satisfaction,Care Outreach
+C21984,0.2684,LOW,Overall Satisfaction,Care Outreach
+C21985,0.1715,LOW,Overall Satisfaction,Care Outreach
+C21986,0.1651,LOW,Overall Satisfaction,Care Outreach
+C21987,0.0601,LOW,Overall Satisfaction,Care Outreach
+C21988,0.0435,LOW,Days Since Last Visit,Care Outreach
+C21989,0.0954,LOW,Days Since Last Visit,Care Outreach
+C21990,0.053,LOW,Days Since Last Visit,Care Outreach
+C21991,0.0889,LOW,Days Since Last Visit,Care Outreach
+C21992,0.0538,LOW,Days Since Last Visit,Care Outreach
+C21993,0.0736,LOW,Distance To Facility Miles,Access Support
+C21994,0.076,LOW,Days Since Last Visit,Care Outreach
+C21995,0.0763,LOW,Days Since Last Visit,Care Outreach
+C21996,0.0732,LOW,Missed Appointments,Care Outreach
+C21997,0.0778,LOW,Days Since Last Visit,Care Outreach
+C21998,0.6271,MEDIUM,Overall Satisfaction,Care Outreach
+C21999,0.2381,LOW,Overall Satisfaction,Care Outreach

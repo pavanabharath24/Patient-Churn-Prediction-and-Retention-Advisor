@@ -1,0 +1,201 @@
+MemberID,Churn_Probability,Risk_Tier,Top_Driver,Recommended_Action
+DEM-0000,0.1187,LOW,Star Rating,Plan quality action plan
+DEM-0001,0.4445,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0002,0.1453,LOW,Star Rating,Plan quality action plan
+DEM-0003,0.2733,LOW,Star Rating,Plan quality action plan
+DEM-0004,0.2924,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0005,0.2306,LOW,Medication Adherence,Adherence coaching & pill packs
+DEM-0006,0.2013,LOW,Missed Appointments,Transport & appointment reminders
+DEM-0007,0.5513,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0008,0.1484,LOW,Distance To Facility Miles,In-network expansion & telehealth
+DEM-0009,0.4006,MEDIUM,Days Since Last Visit,Re-engage & schedule a check-up
+DEM-0010,0.1574,LOW,Grievances 90d,Grievance resolution & escalation
+DEM-0011,0.2597,LOW,Dual Eligible,Dual-eligible benefits coordination
+DEM-0012,0.122,LOW,Dual Eligible,Dual-eligible benefits coordination
+DEM-0013,0.3964,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0014,0.1467,LOW,Medication Adherence,Adherence coaching & pill packs
+DEM-0015,0.2846,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0016,0.4794,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0017,0.3555,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0018,0.3885,LOW,Smoker,Smoking cessation & wellness coaching
+DEM-0019,0.4371,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0020,0.3418,LOW,Star Rating,Plan quality action plan
+DEM-0021,0.2509,LOW,Dependents,Family coverage review
+DEM-0022,0.2982,LOW,Days Since Last Visit,Re-engage & schedule a check-up
+DEM-0023,0.6564,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0024,0.2797,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0025,0.2567,LOW,Days Since Last Visit,Re-engage & schedule a check-up
+DEM-0026,0.4677,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0027,0.2098,LOW,Days Since Last Visit,Re-engage & schedule a check-up
+DEM-0028,0.0976,LOW,Dual Eligible,Dual-eligible benefits coordination
+DEM-0029,0.1801,LOW,Medication Adherence,Adherence coaching & pill packs
+DEM-0030,0.4294,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0031,0.2272,LOW,Grievances 90d,Grievance resolution & escalation
+DEM-0032,0.123,LOW,Star Rating,Plan quality action plan
+DEM-0033,0.5279,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0034,0.2745,LOW,Days Since Last Visit,Re-engage & schedule a check-up
+DEM-0035,0.3352,LOW,Days Since Last Visit,Re-engage & schedule a check-up
+DEM-0036,0.276,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0037,0.4268,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0038,0.3872,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0039,0.519,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0040,0.1875,LOW,Star Rating,Plan quality action plan
+DEM-0041,0.6298,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0042,0.1724,LOW,Star Rating,Plan quality action plan
+DEM-0043,0.1823,LOW,Distance To Facility Miles,In-network expansion & telehealth
+DEM-0044,0.2932,LOW,Dual Eligible,Dual-eligible benefits coordination
+DEM-0045,0.4534,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0046,0.1413,LOW,Star Rating,Plan quality action plan
+DEM-0047,0.1764,LOW,Star Rating,Plan quality action plan
+DEM-0048,0.2896,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0049,0.2039,LOW,Days Since Last Visit,Re-engage & schedule a check-up
+DEM-0050,0.4403,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0051,0.2631,LOW,Distance To Facility Miles,In-network expansion & telehealth
+DEM-0052,0.7034,HIGH,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0053,0.4737,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0054,0.2319,LOW,Distance To Facility Miles,In-network expansion & telehealth
+DEM-0055,0.4765,MEDIUM,Billing Issues,Billing audit & autopay enrollment
+DEM-0056,0.1775,LOW,Tenure Months,Tenure loyalty reward
+DEM-0057,0.2663,LOW,Distance To Facility Miles,In-network expansion & telehealth
+DEM-0058,0.177,LOW,Star Rating,Plan quality action plan
+DEM-0059,0.3853,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0060,0.1719,LOW,Star Rating,Plan quality action plan
+DEM-0061,0.229,LOW,BMI,Weight management & nutrition program
+DEM-0062,0.6452,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0063,0.3864,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0064,0.4121,MEDIUM,Star Rating,Plan quality action plan
+DEM-0065,0.4951,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0066,0.2153,LOW,Star Rating,Plan quality action plan
+DEM-0067,0.1416,LOW,Star Rating,Plan quality action plan
+DEM-0068,0.2688,LOW,Medication Adherence,Adherence coaching & pill packs
+DEM-0069,0.5848,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0070,0.2389,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0071,0.1409,LOW,BMI,Weight management & nutrition program
+DEM-0072,0.6059,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0073,0.2176,LOW,Billing Issues,Billing audit & autopay enrollment
+DEM-0074,0.1191,LOW,Dependents,Family coverage review
+DEM-0075,0.1163,LOW,Missed Appointments,Transport & appointment reminders
+DEM-0076,0.7056,HIGH,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0077,0.5117,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0078,0.2005,LOW,Dual Eligible,Dual-eligible benefits coordination
+DEM-0079,0.4846,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0080,0.2677,LOW,Days Since Last Visit,Re-engage & schedule a check-up
+DEM-0081,0.3707,LOW,Smoker,Smoking cessation & wellness coaching
+DEM-0082,0.6281,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0083,0.3601,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0084,0.3594,LOW,Pharmacy Fills,Mail-order & auto-refill enrollment
+DEM-0085,0.4581,MEDIUM,Smoker,Smoking cessation & wellness coaching
+DEM-0086,0.2978,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0087,0.2277,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0088,0.2819,LOW,Star Rating,Plan quality action plan
+DEM-0089,0.1205,LOW,Dependents,Family coverage review
+DEM-0090,0.2586,LOW,Days Since Last Visit,Re-engage & schedule a check-up
+DEM-0091,0.4062,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0092,0.3327,LOW,Star Rating,Plan quality action plan
+DEM-0093,0.3881,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0094,0.1879,LOW,Missed Appointments,Transport & appointment reminders
+DEM-0095,0.4469,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0096,0.5218,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0097,0.4277,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0098,0.263,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0099,0.1905,LOW,Smoker,Smoking cessation & wellness coaching
+DEM-0100,0.3431,LOW,Medication Adherence,Adherence coaching & pill packs
+DEM-0101,0.7201,HIGH,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0102,0.2912,LOW,Smoker,Smoking cessation & wellness coaching
+DEM-0103,0.5727,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0104,0.5024,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0105,0.3177,LOW,Smoker,Smoking cessation & wellness coaching
+DEM-0106,0.4202,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0107,0.2564,LOW,Distance To Facility Miles,In-network expansion & telehealth
+DEM-0108,0.1599,LOW,Medication Adherence,Adherence coaching & pill packs
+DEM-0109,0.505,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0110,0.6086,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0111,0.4027,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0112,0.1714,LOW,Days Since Last Visit,Re-engage & schedule a check-up
+DEM-0113,0.2877,LOW,Days Since Last Visit,Re-engage & schedule a check-up
+DEM-0114,0.4045,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0115,0.3558,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0116,0.2565,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0117,0.1813,LOW,Medication Adherence,Adherence coaching & pill packs
+DEM-0118,0.4111,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0119,0.2147,LOW,Dual Eligible,Dual-eligible benefits coordination
+DEM-0120,0.6457,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0121,0.3432,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0122,0.2341,LOW,Star Rating,Plan quality action plan
+DEM-0123,0.5609,MEDIUM,Star Rating,Plan quality action plan
+DEM-0124,0.1047,LOW,Age,Preventive screening outreach
+DEM-0125,0.5754,MEDIUM,Avg Out Of Pocket Cost,Cost-saving & assistance programs
+DEM-0126,0.4413,MEDIUM,Avg Out Of Pocket Cost,Cost-saving & assistance programs
+DEM-0127,0.0657,LOW,Medication Adherence,Adherence coaching & pill packs
+DEM-0128,0.1742,LOW,Pharmacy Fills,Mail-order & auto-refill enrollment
+DEM-0129,0.1327,LOW,Billing Issues,Billing audit & autopay enrollment
+DEM-0130,0.3446,LOW,Pharmacy Fills,Mail-order & auto-refill enrollment
+DEM-0131,0.2877,LOW,Avg Out Of Pocket Cost,Cost-saving & assistance programs
+DEM-0132,0.3301,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0133,0.3872,LOW,Avg Out Of Pocket Cost,Cost-saving & assistance programs
+DEM-0134,0.3278,LOW,Billing Issues,Billing audit & autopay enrollment
+DEM-0135,0.5576,MEDIUM,Billing Issues,Billing audit & autopay enrollment
+DEM-0136,0.1732,LOW,Smoker,Smoking cessation & wellness coaching
+DEM-0137,0.4087,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0138,0.2898,LOW,Billing Issues,Billing audit & autopay enrollment
+DEM-0139,0.1782,LOW,Avg Out Of Pocket Cost,Cost-saving & assistance programs
+DEM-0140,0.3342,LOW,Smoker,Smoking cessation & wellness coaching
+DEM-0141,0.1036,LOW,Tenure Months,Tenure loyalty reward
+DEM-0142,0.1154,LOW,Dependents,Family coverage review
+DEM-0143,0.4963,MEDIUM,Billing Issues,Billing audit & autopay enrollment
+DEM-0144,0.2089,LOW,Smoker,Smoking cessation & wellness coaching
+DEM-0145,0.3543,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0146,0.4734,MEDIUM,Avg Out Of Pocket Cost,Cost-saving & assistance programs
+DEM-0147,0.2446,LOW,Medication Adherence,Adherence coaching & pill packs
+DEM-0148,0.4904,MEDIUM,Smoker,Smoking cessation & wellness coaching
+DEM-0149,0.4512,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0150,0.308,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0151,0.357,LOW,Star Rating,Plan quality action plan
+DEM-0152,0.1448,LOW,Dependents,Family coverage review
+DEM-0153,0.2852,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0154,0.2662,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0155,0.2998,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0156,0.1858,LOW,Star Rating,Plan quality action plan
+DEM-0157,0.2387,LOW,Star Rating,Plan quality action plan
+DEM-0158,0.1503,LOW,Pharmacy Fills,Mail-order & auto-refill enrollment
+DEM-0159,0.3255,LOW,Avg Out Of Pocket Cost,Cost-saving & assistance programs
+DEM-0160,0.1287,LOW,Billing Issues,Billing audit & autopay enrollment
+DEM-0161,0.7325,HIGH,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0162,0.411,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0163,0.3404,LOW,Smoker,Smoking cessation & wellness coaching
+DEM-0164,0.0958,LOW,Smoker,Smoking cessation & wellness coaching
+DEM-0165,0.226,LOW,Avg Out Of Pocket Cost,Cost-saving & assistance programs
+DEM-0166,0.4483,MEDIUM,Days Since Last Visit,Re-engage & schedule a check-up
+DEM-0167,0.1745,LOW,Tenure Months,Tenure loyalty reward
+DEM-0168,0.4114,MEDIUM,Missed Appointments,Transport & appointment reminders
+DEM-0169,0.2153,LOW,Billing Issues,Billing audit & autopay enrollment
+DEM-0170,0.2408,LOW,Avg Out Of Pocket Cost,Cost-saving & assistance programs
+DEM-0171,0.2406,LOW,Smoker,Smoking cessation & wellness coaching
+DEM-0172,0.5969,MEDIUM,Billing Issues,Billing audit & autopay enrollment
+DEM-0173,0.2273,LOW,Days Since Last Visit,Re-engage & schedule a check-up
+DEM-0174,0.6786,MEDIUM,Billing Issues,Billing audit & autopay enrollment
+DEM-0175,0.3827,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0176,0.2263,LOW,Avg Out Of Pocket Cost,Cost-saving & assistance programs
+DEM-0177,0.0686,LOW,Days Since Last Visit,Re-engage & schedule a check-up
+DEM-0178,0.2546,LOW,Claim Denials,Appeal support for denied claims
+DEM-0179,0.1789,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0180,0.123,LOW,Claim Denials,Appeal support for denied claims
+DEM-0181,0.3312,LOW,Avg Out Of Pocket Cost,Cost-saving & assistance programs
+DEM-0182,0.1488,LOW,Star Rating,Plan quality action plan
+DEM-0183,0.3988,LOW,Avg Out Of Pocket Cost,Cost-saving & assistance programs
+DEM-0184,0.1451,LOW,Billing Issues,Billing audit & autopay enrollment
+DEM-0185,0.5057,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0186,0.2287,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0187,0.1261,LOW,Grievances 90d,Grievance resolution & escalation
+DEM-0188,0.372,LOW,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0189,0.4111,MEDIUM,Days Since Last Visit,Re-engage & schedule a check-up
+DEM-0190,0.271,LOW,Claim Denials,Appeal support for denied claims
+DEM-0191,0.2882,LOW,Avg Out Of Pocket Cost,Cost-saving & assistance programs
+DEM-0192,0.205,LOW,Pharmacy Fills,Mail-order & auto-refill enrollment
+DEM-0193,0.2949,LOW,Billing Issues,Billing audit & autopay enrollment
+DEM-0194,0.334,LOW,Smoker,Smoking cessation & wellness coaching
+DEM-0195,0.6648,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0196,0.6493,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination
+DEM-0197,0.3654,LOW,Avg Out Of Pocket Cost,Cost-saving & assistance programs
+DEM-0198,0.2388,LOW,Dependents,Family coverage review
+DEM-0199,0.4586,MEDIUM,Overall Satisfaction,Satisfaction call & care coordination

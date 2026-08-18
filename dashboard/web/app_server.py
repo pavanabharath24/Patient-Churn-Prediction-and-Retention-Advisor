@@ -1,0 +1,520 @@
+import threading
+import os
+import time
+from werkzeug.utils import secure_filename
+import pandas as pd
+import numpy as np
+import joblib
+import shap
+from flask import Flask, jsonify, render_template, request, send_from_directory, make_response
+
+app = Flask(__name__, static_folder="static", template_folder="templates")
+APP_DIR = os.path.dirname(os.path.abspath(__file__))
+UPLOAD_DIR = os.path.join(APP_DIR, "uploads")
+os.makedirs(UPLOAD_DIR, exist_ok=True)
+
+@app.after_request
+def add_cache_headers(response):
+    if response.content_type and 'text/html' in response.content_type:
+        response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
+        response.headers['Pragma'] = 'no-cache'
+        response.headers['Expires'] = '0'
+    return response
+
+@app.route('/')
+def serve_root():
+    return render_template('index.html')
+
+# Load the expanded model
+model_artifacts = joblib.load("models/expanded_final_pipelines.pkl")
+pipelines = model_artifacts['models']
+preprocessor = model_artifacts['preprocessor']
+NUM_COLS = model_artifacts['NUM_COLS']
+CAT_COLS = model_artifacts['CAT_COLS']
+ALL_COLS = NUM_COLS + CAT_COLS
+best_thr = model_artifacts.get('best_thr', 0.37)
+
+# Using single XGBoost model
+
+preds = pd.read_csv("data/all_predictions.csv")
+MEMBER_VALUE_YEAR = 1800.0
+
+_train = pd.read_csv("data/real_world/A.0_train.csv")
+MEDIANS = _train[NUM_COLS].median()
+CAT_MODES = {c: _train[c].mode().iloc[0] for c in CAT_COLS}
+
+input_cols = ALL_COLS  # alias for compatibility
+
+def risk_label(p):
+    if p >= 0.7:
+        return "HIGH"
+    if p >= 0.4:
+        return "MEDIUM"
+    return "LOW"
+
+preds["Risk"] = preds["Churn_Probability"].apply(risk_label)
+
+ACTION_RULES = {
+    "Distance_To_Facility_Miles": ("Access Support", "In-network expansion & telehealth",
+                                   "Offer telehealth visits and transport assistance to the nearest in-network site"),
+    "Rural": ("Access Support", "Mobile clinic & telehealth access",
+              "Schedule mobile-clinic visits / telehealth for rural members"),
+    "Days_Since_Last_Visit": ("Care Outreach", "Re-engage & schedule a check-up",
+                              "Nurse-line outreach to book a check-up within two weeks"),
+    "Overall_Satisfaction": ("Care Outreach", "Satisfaction call & care coordination",
+                             "Care-coordinator call to understand the dissatisfaction and fix it"),
+    "Missed_Appointments": ("Care Outreach", "Transport & appointment reminders",
+                            "Provide transport assistance and reminder calls for appointments"),
+    "Sex": ("Care Outreach", "Personalized member touchpoint",
+            "Personalized wellness touchpoint by care team"),
+    "City": ("Care Outreach", "Personalized member touchpoint",
+             "Personalized wellness touchpoint by care team"),
+    "Medication_Adherence": ("Pharmacy Support", "Adherence coaching & pill packs",
+                             "Enroll in adherence coaching and medication sync-and-pack"),
+    "Pharmacy_Fills": ("Pharmacy Support", "Mail-order & auto-refill enrollment",
+                       "Enroll in mail-order pharmacy with automatic refills"),
+    "Avg_Out_Of_Pocket_Cost": ("Benefit Education", "Cost-saving & assistance programs",
+                               "Explain cost-sharing assistance, savings programs and provider discounts"),
+    "Premium_Delay_Days": ("Benefit Education", "Premium payment plan & subsidies",
+                           "Set up a payment plan and check subsidy eligibility"),
+    "Billing_Issues": ("Benefit Education", "Billing audit & autopay enrollment",
+                       "Audit billing history and enroll in autopay"),
+    "Claim_Denials": ("Benefit Education", "Appeal support for denied claims",
+                      "File appeals for denied claims with utilization review"),
+    "Prior_Auth_Delays": ("Benefit Education", "Prior-auth expedite & case manager",
+                          "Expedite prior authorizations through a case manager"),
+    "Plan_Type": ("Benefit Education", "Plan-fit review & alternative match",
+                  "Review plan fit and match an alternative plan design"),
+    "Grievances_90d": ("Service Recovery", "Grievance resolution & escalation",
+                       "Resolve open grievances and escalate unresolved complaints"),
+    "Service_Contacts": ("Service Recovery", "Dedicated rep & root-cause fix",
+                         "Assign a dedicated rep to fix repeated service issues"),
+    "Star_Rating": ("Service Recovery", "Plan quality action plan",
+                    "Build a CMS star-rating improvement plan for the member's plan"),
+    "Chronic_Burden": ("Care Management", "Chronic care management enrollment",
+                       "Enroll in chronic care management with a nurse navigator"),
+    "BloodPressure": ("Care Management", "Hypertension care program",
+                      "Enroll in blood-pressure monitoring program"),
+    "Diabetes": ("Care Management", "Diabetes management program",
+                 "Enroll in diabetes management and glucose monitoring"),
+    "Hereditary_Diseases": ("Care Management", "Preventive genetics screening",
+                            "Offer preventive screening for hereditary risks"),
+    "Age": ("Care Management", "Preventive screening outreach",
+            "Age-appropriate preventive screening outreach"),
+    "Smoker": ("Wellness & Loyalty", "Smoking cessation & wellness coaching",
+               "Offer smoking-cessation and wellness coaching"),
+    "BMI": ("Wellness & Loyalty", "Weight management & nutrition program",
+            "Offer weight management and nutrition coaching"),
+    "Tenure_Months": ("Wellness & Loyalty", "Tenure loyalty reward",
+                      "Offer a loyalty reward for long-tenured members"),
+    "Dependents": ("Wellness & Loyalty", "Family coverage review",
+                   "Review family coverage and dependent benefits"),
+    "Dual_Eligible": ("Wellness & Loyalty", "Dual-eligible benefits coordination",
+                      "Coordinate Medicare-Medicaid benefits for the member"),
+}
+
+def map_action(feature):
+    """Returns (program, action, detail). Granular action per top SHAP driver."""
+    f = feature.lower().replace("num__", "").replace("cat__", "")
+    for key, (prog, act, det) in ACTION_RULES.items():
+        if f == key.lower():
+            return prog, act, det
+    if "days_since_last_visit" in f:
+        return ACTION_RULES["Days_Since_Last_Visit"]
+    if "satisfaction" in f:
+        return ACTION_RULES["Overall_Satisfaction"]
+    if "cost" in f or "premium" in f or "billing" in f or "denial" in f or "prior_auth" in f:
+        return ACTION_RULES["Avg_Out_Of_Pocket_Cost"]
+    if "pharmacy" in f or "adherence" in f or "medication" in f:
+        return ACTION_RULES["Medication_Adherence"]
+    if "grievance" in f or "service" in f or "star_rating" in f or "rural" in f:
+        return ACTION_RULES["Grievances_90d"]
+    if "plan" in f:
+        return ACTION_RULES["Plan_Type"]
+    if "distance" in f:
+        return ACTION_RULES["Distance_To_Facility_Miles"]
+    return "Care Outreach", "Standard retention touchpoint", "Care-coordinator follow-up"
+
+DRIVER_CACHE = {}
+ACTION_COUNTS = {}
+GLOBAL_DRIVERS = []
+_explainer = None
+
+def clean_name(f):
+    n = f.replace("num__", "").replace("cat__", "")
+    return " ".join(w if w.isupper() else w.capitalize() for w in n.split("_"))
+
+def get_explainer():
+    if _explainer is None:
+        build_shap_cache()
+    return _explainer
+
+def build_shap_cache():
+    global _explainer
+    model = pipelines["XGBoost"]
+    raw_model = model.named_steps['model']  # Extract model from Pipeline
+    _explainer = shap.TreeExplainer(raw_model)
+    cache = preds if len(preds) <= 3000 else preds.sample(3000, random_state=42)
+    x = cache[input_cols]
+    x_t = preprocessor.transform(x)
+    sv = _explainer.shap_values(x_t)
+    fnames = preprocessor.get_feature_names_out()
+    mean_abs = np.abs(sv).mean(axis=0)
+    order = np.argsort(-mean_abs)
+    GLOBAL_DRIVERS.extend([
+        {"feature": clean_name(fnames[i]), "importance": round(float(mean_abs[i]), 4)}
+        for i in order[:10]
+    ])
+    for pos, member_id in enumerate(cache["MemberID"]):
+        top_idx = np.argsort(-sv[pos])[:3]
+        drivers = []
+        for i in top_idx:
+            program, action, detail = map_action(fnames[i])
+            drivers.append({"feature": clean_name(fnames[i]), "score": round(float(sv[pos, i]), 3),
+                            "program": program, "action": action, "detail": detail})
+        DRIVER_CACHE[member_id] = drivers
+        ACTION_COUNTS[drivers[0]["program"]] = ACTION_COUNTS.get(drivers[0]["program"], 0) + 1
+
+print("App ready — upload a dataset to start")
+
+def member_drivers(member_id):
+    return ACTIVE["drivers"].get(member_id, [])
+
+ACTIVE = {
+    "source": None,
+    "filename": None,
+    "preds": None,
+    "drivers": {},
+    "actions": {},
+    "global_drivers": [],
+}
+
+def set_active(frame, drivers, actions, global_drivers, source, filename):
+    ACTIVE["preds"] = frame
+    ACTIVE["drivers"] = drivers
+    ACTIVE["actions"] = actions
+    ACTIVE["global_drivers"] = global_drivers
+    ACTIVE["source"] = source
+    ACTIVE["filename"] = filename
+
+def reset_active():
+    ACTIVE["preds"] = None
+    ACTIVE["drivers"] = {}
+    ACTIVE["actions"] = {}
+    ACTIVE["global_drivers"] = []
+    ACTIVE["source"] = None
+    ACTIVE["filename"] = None
+
+@app.route("/api/dataset")
+def dataset():
+    p = ACTIVE["preds"]
+    return jsonify({
+        "source": ACTIVE["source"],
+        "filename": ACTIVE["filename"],
+        "total": len(p) if p is not None else 0,
+        "has_data": p is not None,
+    })
+
+@app.route("/api/overview")
+def overview():
+    if ACTIVE["preds"] is None:
+        return jsonify({"status": "nodata", "total": 0}), 200
+    p = ACTIVE["preds"]
+    n = len(p)
+    high = int((p["Risk"] == "HIGH").sum())
+    med = int((p["Risk"] == "MEDIUM").sum())
+    low = int((p["Risk"] == "LOW").sum())
+    action_counts = {}
+    for member_id, drivers in ACTIVE["drivers"].items():
+        action = drivers[0]["program"]
+        action_counts[action] = action_counts.get(action, 0) + 1
+    return jsonify({
+        "total": n,
+        "high": high,
+        "medium": med,
+        "low": low,
+        "high_pct": round(high / n * 100, 1),
+        "medium_pct": round(med / n * 100, 1),
+        "low_pct": round(low / n * 100, 1),
+        "action_counts": action_counts,
+        "global_drivers": ACTIVE["global_drivers"],
+    })
+
+@app.route("/api/members")
+def members():
+    if ACTIVE["preds"] is None:
+        return jsonify({"count": 0, "columns": [], "members": []}), 200
+    risk = request.args.get("risk", "ALL")
+    q = request.args.get("q", "").strip()
+    view = ACTIVE["preds"].copy()
+    
+    if risk != "ALL":
+        view = view[view["Risk"] == risk]
+    if q:
+        view = view[view["MemberID"].astype(str).str.contains(q, case=False, na=False)]
+    view = view.sort_values("Churn_Probability", ascending=False)
+    
+    cols_to_skip = ["Churn_Probability", "Risk", "Top_Driver", "Recommended_Action"]
+    dynamic_cols = [c for c in view.columns if c not in cols_to_skip]
+    
+    members = []
+    for _, r in view.head(500).iterrows():
+        drv = ACTIVE["drivers"].get(str(r["MemberID"]), [])
+        
+        dynamic_data = {}
+        for c in dynamic_cols:
+            val = r[c]
+            if pd.isna(val):
+                dynamic_data[c] = "—"
+            elif isinstance(val, float):
+                dynamic_data[c] = round(val, 2)
+            else:
+                dynamic_data[c] = str(val)
+
+        row_data = {
+            "id": r["MemberID"],
+            "prob": round(float(r["Churn_Probability"]) * 100, 1),
+            "risk": r["Risk"],
+            "driver": drv[0]["feature"] if drv else "—",
+            "program": drv[0].get("program", drv[0].get("action", "—")) if drv else "—",
+            "action": drv[0].get("action", "—") if drv else "—",
+            "dynamic_data": dynamic_data
+        }
+        members.append(row_data)
+        
+    return jsonify({
+        "count": len(view),
+        "columns": dynamic_cols,
+        "members": members,
+    })
+
+@app.route("/api/member/<member_id>")
+def member(member_id):
+    if ACTIVE["preds"] is None:
+        return jsonify({"error": "no data"}), 404
+    p = ACTIVE["preds"]
+    row = p[p["MemberID"] == member_id].iloc[0]
+    drivers = member_drivers(member_id)
+    return jsonify({
+        "id": row["MemberID"],
+        "age": int(row["Age"]) if "Age" in p.columns and pd.notna(row["Age"]) else 0,
+        "sex": row["Sex"] if "Sex" in p.columns else "—",
+        "plan": row["Plan_Type"] if "Plan_Type" in p.columns else "—",
+        "city": row["City"] if "City" in p.columns else "—",
+        "prob": round(float(row["Churn_Probability"]) * 100, 1),
+        "risk": row["Risk"],
+        "drivers": drivers,
+        "program": drivers[0].get("program", drivers[0].get("action", "")) if drivers else "",
+        "action": drivers[0].get("action", "") if drivers else "",
+        "detail": drivers[0].get("detail", "") if drivers else "",
+    })
+
+@app.route("/api/impact")
+def impact():
+    if ACTIVE["preds"] is None:
+        return jsonify({"high_flagged": 0, "success_rate": 30, "saved_members": 0,
+                        "revenue": 0, "member_value": MEMBER_VALUE_YEAR}), 200
+    success = int(request.args.get("success", 30))
+    high = ACTIVE["preds"][ACTIVE["preds"]["Churn_Probability"] >= 0.7]
+    saved = len(high) * success / 100
+    revenue = saved * MEMBER_VALUE_YEAR
+    return jsonify({
+        "high_flagged": len(high),
+        "success_rate": success,
+        "saved_members": round(saved),
+        "revenue": round(revenue),
+        "member_value": MEMBER_VALUE_YEAR,
+    })
+
+@app.route("/api/reset", methods=["POST"])
+def reset():
+    reset_active()
+    return jsonify({"status": "ok"})
+
+@app.route("/api/predict", methods=["POST"])
+def predict_upload():
+    f = request.files.get("file")
+    if f is None or not f.filename:
+        return jsonify({"error": "No file uploaded"}), 400
+    fname = secure_filename(f.filename)
+    if not fname.endswith(".csv"):
+        return jsonify({"error": "Only CSV files are supported"}), 400
+    try:
+        user = pd.read_csv(f)
+    except Exception:
+        return jsonify({"error": "Could not read CSV — check the format"}), 400
+    if user.empty:
+        return jsonify({"error": "The file has no rows"}), 400
+    if len(user) > 50000:
+        return jsonify({"error": "Too many rows — the open-source predictor is capped at 50,000 members"}), 400
+
+    found = [c for c in input_cols if c in user.columns]
+    warnings = []
+    if len(found) < len(input_cols):
+        missing = [c for c in input_cols if c not in user.columns]
+        warnings.append(f"{len(missing)} columns missing — auto-filled with training medians/modes: {', '.join(missing[:8])}{'…' if len(missing) > 8 else ''}")
+
+    id_col = user.columns[0] if user.shape[1] >= 1 else None
+    ids = user.iloc[:, 0].astype(str) if id_col is not None else [f"ROW_{i}" for i in range(len(user))]
+
+    X_u = pd.DataFrame(index=user.index)
+    for c in NUM_COLS:
+        X_u[c] = pd.to_numeric(user[c], errors="coerce") if c in user.columns else np.nan
+        X_u[c] = X_u[c].fillna(MEDIANS[c])
+    for c in CAT_COLS:
+        X_u[c] = (user[c].fillna(CAT_MODES[c]).astype(str) if c in user.columns else CAT_MODES[c])
+
+    proba = pipelines["XGBoost"].predict_proba(X_u[input_cols])[:, 1]
+
+    drivers_map = {}
+    action_counts = {}
+    global_drivers = []
+    n = len(user)
+    SHAP_CAP = 3000
+    if n <= SHAP_CAP:
+        sample_idx = np.arange(n)
+    else:
+        top_risk = np.argsort(-proba)[:500]                    # biggest-risk members always explained
+        rest = np.setdiff1d(np.arange(n), top_risk)
+        sample_idx = np.concatenate([top_risk, np.random.default_rng(42).choice(rest, SHAP_CAP - 500, replace=False)])
+        warnings.append(f"Driver explanations computed on a stratified sample of {SHAP_CAP} members (file has {n:,})")
+    x_t = preprocessor.transform(X_u.iloc[sample_idx][input_cols])
+    sv = get_explainer().shap_values(x_t)
+    fnames = preprocessor.get_feature_names_out()
+    top3 = np.argsort(-sv, axis=1)[:, :3]
+    mean_abs = np.abs(sv).mean(axis=0)
+    order = np.argsort(-mean_abs)
+    global_drivers = [{"feature": clean_name(fnames[i]), "importance": round(float(mean_abs[i]), 4)} for i in order[:10]]
+    global_top = clean_name(fnames[order[0]])
+    driver_col = [""] * n
+    action_col = [""] * n
+    for k, pos in enumerate(sample_idx):
+        drv = []
+        for j in range(3):
+            feat = fnames[top3[k, j]]
+            program, action, detail = map_action(feat)
+            drv.append({"feature": clean_name(feat), "score": round(float(sv[k, top3[k, j]]), 3),
+                        "program": program, "action": action, "detail": detail})
+        drivers_map[str(ids[pos])] = drv
+        action_counts[drv[0]["program"]] = action_counts.get(drv[0]["program"], 0) + 1
+        driver_col[pos] = drv[0]["feature"]
+        action_col[pos] = drv[0]["program"]
+    fallback_program, fallback_action, fallback_detail = map_action(global_top)
+    for pos in np.setdiff1d(np.arange(n), sample_idx):       # fallback: global top driver
+        drivers_map[str(ids[pos])] = [{"feature": global_top, "score": 0.0,
+                                       "program": fallback_program, "action": fallback_action,
+                                       "detail": fallback_detail}]
+        action_counts[fallback_program] = action_counts.get(fallback_program, 0) + 1
+        driver_col[pos] = global_top
+        action_col[pos] = fallback_program
+
+    risks = np.where(proba >= 0.7, "HIGH", np.where(proba >= 0.4, "MEDIUM", "LOW"))
+
+    active_frame = user.copy()
+    if id_col is not None and id_col != "MemberID":
+        active_frame = active_frame.rename(columns={id_col: "MemberID"})
+    elif "MemberID" not in active_frame.columns:
+        active_frame.insert(0, "MemberID", ids)
+
+    active_frame["Churn_Probability"] = proba
+    active_frame["Risk"] = risks
+    set_active(active_frame, drivers_map, action_counts, global_drivers,
+               f"your upload — {fname}", fname)
+
+    out = pd.DataFrame({
+        "MemberID": ids,
+        "Churn_Probability": proba.round(4),
+        "Risk_Tier": risks,
+        "Top_Driver": driver_col,
+        "Recommended_Action": action_col,
+    })
+    stamp = time.strftime("%Y%m%d_%H%M%S")
+    out_path = os.path.join(UPLOAD_DIR, f"results_{stamp}.csv")
+    out.to_csv(out_path, index=False)
+
+    rows = []
+    for i in range(len(out)):
+        rows.append({
+            "id": out.iloc[i]["MemberID"], "prob": round(float(proba[i]) * 100, 1),
+            "risk": risks[i], "driver": driver_col[i] or "—", "action": action_col[i] or "—",
+        })
+
+    return jsonify({
+        "total": int(len(user)),
+        "high": int((risks == "HIGH").sum()),
+        "medium": int((risks == "MEDIUM").sum()),
+        "low": int((risks == "LOW").sum()),
+        "rows": rows[:500],
+        "warnings": warnings,
+        "download_url": "/api/download/" + os.path.basename(out_path),
+        "dataset": {"source": f"your upload — {fname}", "total": int(len(user))},
+    })
+
+@app.route("/api/predict_single", methods=["POST"])
+def predict_single():
+    data = request.get_json(silent=True) or {}
+    member_id = str(data.get("MemberID", "SINGLE-001"))
+
+    X_u = pd.DataFrame(index=[0])
+    for c in NUM_COLS:
+        v = data.get(c)
+        if v is None:
+            X_u[c] = MEDIANS[c]
+        else:
+            try:
+                X_u[c] = float(v)
+            except (TypeError, ValueError):
+                X_u[c] = MEDIANS[c]
+    for c in CAT_COLS:
+        v = data.get(c)
+        if v is None or str(v) == "":
+            X_u[c] = CAT_MODES[c]
+        else:
+            X_u[c] = str(v)
+
+    proba = pipelines["XGBoost"].predict_proba(X_u[input_cols])[:, 1]
+    p = float(proba[0])
+    risk = risk_label(p)
+
+    drivers = []
+    contributions = []
+    try:
+        x_t = preprocessor.transform(X_u[input_cols])
+        sv = get_explainer().shap_values(x_t)[0]
+        fnames = preprocessor.get_feature_names_out()
+        order = np.argsort(-np.abs(sv))
+        top3 = order[:3]
+        for i in top3:
+            program, action, detail = map_action(fnames[i])
+            drivers.append({"feature": clean_name(fnames[i]), "score": round(float(sv[i]), 3),
+                            "program": program, "action": action, "detail": detail})
+        contributions = [{"feature": clean_name(fnames[i]), "score": round(float(sv[i]), 4)}
+                         for i in order[:10]]
+    except Exception:
+        pass
+
+    return jsonify({
+        "id": member_id,
+        "prob": round(p * 100, 1),
+        "risk": risk,
+        "drivers": drivers,
+        "program": drivers[0]["program"] if drivers else "Care Outreach",
+        "action": drivers[0]["action"] if drivers else "Standard retention touchpoint",
+        "detail": drivers[0]["detail"] if drivers else "Care-coordinator follow-up",
+        "contributions": contributions,
+        "member_value": MEMBER_VALUE_YEAR,
+    })
+
+@app.route("/api/download/<fname>")
+def download(fname):
+    return send_from_directory(UPLOAD_DIR, fname, as_attachment=True)
+
+# Fallback catch-all for single page app routing
+@app.route('/<path:path>')
+def catch_all(path):
+    if path.startswith('api/'):
+        return jsonify({"error": "Not found"}), 404
+    return render_template('index.html')
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8501)), threaded=True)

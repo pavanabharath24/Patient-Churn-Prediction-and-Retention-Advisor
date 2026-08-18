@@ -1,0 +1,201 @@
+MemberID,Churn_Probability,Risk_Tier,Top_Driver,Recommended_Action
+DEM-0000,0.1132,LOW,Star Rating,Service Recovery
+DEM-0001,0.5128,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0002,0.1444,LOW,Distance To Facility Miles,Care Outreach
+DEM-0003,0.4102,MEDIUM,Days Since Last Visit,Care Outreach
+DEM-0004,0.4648,MEDIUM,Grievances 90d,Service Recovery
+DEM-0005,0.4622,MEDIUM,Star Rating,Service Recovery
+DEM-0006,0.1321,LOW,Medication Adherence,Pharmacy Support
+DEM-0007,0.6369,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0008,0.1542,LOW,Distance To Facility Miles,Care Outreach
+DEM-0009,0.4634,MEDIUM,Days Since Last Visit,Care Outreach
+DEM-0010,0.08,LOW,Grievances 90d,Service Recovery
+DEM-0011,0.2505,LOW,Days Since Last Visit,Care Outreach
+DEM-0012,0.044,LOW,Dual Eligible,Care Outreach
+DEM-0013,0.8001,HIGH,Overall Satisfaction,Care Outreach
+DEM-0014,0.2288,LOW,Star Rating,Service Recovery
+DEM-0015,0.2427,LOW,Overall Satisfaction,Care Outreach
+DEM-0016,0.5899,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0017,0.6383,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0018,0.4591,MEDIUM,Distance To Facility Miles,Care Outreach
+DEM-0019,0.4293,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0020,0.5697,MEDIUM,Grievances 90d,Service Recovery
+DEM-0021,0.5635,MEDIUM,Star Rating,Service Recovery
+DEM-0022,0.4703,MEDIUM,Days Since Last Visit,Care Outreach
+DEM-0023,0.7167,HIGH,Overall Satisfaction,Care Outreach
+DEM-0024,0.2893,LOW,Days Since Last Visit,Care Outreach
+DEM-0025,0.3128,LOW,Days Since Last Visit,Care Outreach
+DEM-0026,0.6119,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0027,0.1871,LOW,Days Since Last Visit,Care Outreach
+DEM-0028,0.1011,LOW,Star Rating,Service Recovery
+DEM-0029,0.3646,LOW,Star Rating,Service Recovery
+DEM-0030,0.5551,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0031,0.1377,LOW,Medication Adherence,Pharmacy Support
+DEM-0032,0.1773,LOW,Distance To Facility Miles,Care Outreach
+DEM-0033,0.5122,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0034,0.5259,MEDIUM,Days Since Last Visit,Care Outreach
+DEM-0035,0.4026,MEDIUM,Distance To Facility Miles,Care Outreach
+DEM-0036,0.4726,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0037,0.3882,LOW,Days Since Last Visit,Care Outreach
+DEM-0038,0.7127,HIGH,Overall Satisfaction,Care Outreach
+DEM-0039,0.7522,HIGH,Overall Satisfaction,Care Outreach
+DEM-0040,0.1454,LOW,Days Since Last Visit,Care Outreach
+DEM-0041,0.6245,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0042,0.2134,LOW,Star Rating,Service Recovery
+DEM-0043,0.3776,LOW,Smoker,Care Outreach
+DEM-0044,0.36,LOW,Dual Eligible,Care Outreach
+DEM-0045,0.7641,HIGH,Overall Satisfaction,Care Outreach
+DEM-0046,0.0628,LOW,Star Rating,Service Recovery
+DEM-0047,0.1904,LOW,Star Rating,Service Recovery
+DEM-0048,0.3764,LOW,Overall Satisfaction,Care Outreach
+DEM-0049,0.1695,LOW,Days Since Last Visit,Care Outreach
+DEM-0050,0.3943,LOW,Overall Satisfaction,Care Outreach
+DEM-0051,0.2431,LOW,Distance To Facility Miles,Care Outreach
+DEM-0052,0.5792,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0053,0.4709,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0054,0.341,LOW,Star Rating,Service Recovery
+DEM-0055,0.7143,HIGH,Overall Satisfaction,Care Outreach
+DEM-0056,0.1793,LOW,Distance To Facility Miles,Care Outreach
+DEM-0057,0.5177,MEDIUM,Star Rating,Service Recovery
+DEM-0058,0.0729,LOW,Star Rating,Service Recovery
+DEM-0059,0.3786,LOW,Overall Satisfaction,Care Outreach
+DEM-0060,0.229,LOW,Medication Adherence,Pharmacy Support
+DEM-0061,0.1957,LOW,Dependents,Care Outreach
+DEM-0062,0.5251,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0063,0.542,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0064,0.4834,MEDIUM,Days Since Last Visit,Care Outreach
+DEM-0065,0.7501,HIGH,Distance To Facility Miles,Care Outreach
+DEM-0066,0.2843,LOW,Star Rating,Service Recovery
+DEM-0067,0.1461,LOW,Distance To Facility Miles,Care Outreach
+DEM-0068,0.2384,LOW,Medication Adherence,Pharmacy Support
+DEM-0069,0.7664,HIGH,Overall Satisfaction,Care Outreach
+DEM-0070,0.2878,LOW,Overall Satisfaction,Care Outreach
+DEM-0071,0.1006,LOW,Distance To Facility Miles,Care Outreach
+DEM-0072,0.5844,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0073,0.3925,LOW,Distance To Facility Miles,Care Outreach
+DEM-0074,0.0745,LOW,Distance To Facility Miles,Care Outreach
+DEM-0075,0.1841,LOW,Distance To Facility Miles,Care Outreach
+DEM-0076,0.8247,HIGH,Overall Satisfaction,Care Outreach
+DEM-0077,0.7018,HIGH,Overall Satisfaction,Care Outreach
+DEM-0078,0.1268,LOW,Grievances 90d,Service Recovery
+DEM-0079,0.7635,HIGH,Overall Satisfaction,Care Outreach
+DEM-0080,0.2698,LOW,Age,Care Outreach
+DEM-0081,0.5825,MEDIUM,Distance To Facility Miles,Care Outreach
+DEM-0082,0.8157,HIGH,Overall Satisfaction,Care Outreach
+DEM-0083,0.3277,LOW,Overall Satisfaction,Care Outreach
+DEM-0084,0.5249,MEDIUM,Billing Issues,Benefit Education
+DEM-0085,0.7555,HIGH,Days Since Last Visit,Care Outreach
+DEM-0086,0.3541,LOW,Overall Satisfaction,Care Outreach
+DEM-0087,0.4095,MEDIUM,Medication Adherence,Pharmacy Support
+DEM-0088,0.4167,MEDIUM,Smoker,Care Outreach
+DEM-0089,0.1021,LOW,Age,Care Outreach
+DEM-0090,0.2481,LOW,Smoker,Care Outreach
+DEM-0091,0.626,MEDIUM,Distance To Facility Miles,Care Outreach
+DEM-0092,0.4382,MEDIUM,Days Since Last Visit,Care Outreach
+DEM-0093,0.3419,LOW,Overall Satisfaction,Care Outreach
+DEM-0094,0.3107,LOW,Distance To Facility Miles,Care Outreach
+DEM-0095,0.8631,HIGH,Overall Satisfaction,Care Outreach
+DEM-0096,0.6835,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0097,0.8445,HIGH,Overall Satisfaction,Care Outreach
+DEM-0098,0.1497,LOW,Overall Satisfaction,Care Outreach
+DEM-0099,0.3247,LOW,Smoker,Care Outreach
+DEM-0100,0.2725,LOW,Billing Issues,Benefit Education
+DEM-0101,0.8031,HIGH,Overall Satisfaction,Care Outreach
+DEM-0102,0.3231,LOW,Smoker,Care Outreach
+DEM-0103,0.6971,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0104,0.422,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0105,0.2984,LOW,Grievances 90d,Service Recovery
+DEM-0106,0.3535,LOW,Overall Satisfaction,Care Outreach
+DEM-0107,0.1584,LOW,Distance To Facility Miles,Care Outreach
+DEM-0108,0.1609,LOW,Distance To Facility Miles,Care Outreach
+DEM-0109,0.5003,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0110,0.7364,HIGH,Overall Satisfaction,Care Outreach
+DEM-0111,0.8423,HIGH,Overall Satisfaction,Care Outreach
+DEM-0112,0.2137,LOW,Grievances 90d,Service Recovery
+DEM-0113,0.5867,MEDIUM,Days Since Last Visit,Care Outreach
+DEM-0114,0.6816,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0115,0.7547,HIGH,Days Since Last Visit,Care Outreach
+DEM-0116,0.4127,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0117,0.1362,LOW,Distance To Facility Miles,Care Outreach
+DEM-0118,0.5547,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0119,0.1505,LOW,Days Since Last Visit,Care Outreach
+DEM-0120,0.7739,HIGH,Overall Satisfaction,Care Outreach
+DEM-0121,0.3244,LOW,Overall Satisfaction,Care Outreach
+DEM-0122,0.1704,LOW,Overall Satisfaction,Care Outreach
+DEM-0123,0.7037,HIGH,Dependents,Care Outreach
+DEM-0124,0.1096,LOW,Distance To Facility Miles,Care Outreach
+DEM-0125,0.696,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0126,0.5633,MEDIUM,Avg Out Of Pocket Cost,Benefit Education
+DEM-0127,0.0368,LOW,Age,Care Outreach
+DEM-0128,0.1577,LOW,BMI,Care Outreach
+DEM-0129,0.1143,LOW,Billing Issues,Benefit Education
+DEM-0130,0.6324,MEDIUM,Billing Issues,Benefit Education
+DEM-0131,0.246,LOW,Avg Out Of Pocket Cost,Benefit Education
+DEM-0132,0.3812,LOW,Overall Satisfaction,Care Outreach
+DEM-0133,0.4861,MEDIUM,Avg Out Of Pocket Cost,Benefit Education
+DEM-0134,0.4105,MEDIUM,Billing Issues,Benefit Education
+DEM-0135,0.7452,HIGH,Billing Issues,Benefit Education
+DEM-0136,0.2366,LOW,Smoker,Care Outreach
+DEM-0137,0.4365,MEDIUM,Billing Issues,Benefit Education
+DEM-0138,0.4951,MEDIUM,Billing Issues,Benefit Education
+DEM-0139,0.1616,LOW,Avg Out Of Pocket Cost,Benefit Education
+DEM-0140,0.2495,LOW,Avg Out Of Pocket Cost,Benefit Education
+DEM-0141,0.0661,LOW,Missed Appointments,Care Outreach
+DEM-0142,0.107,LOW,Dependents,Care Outreach
+DEM-0143,0.4929,MEDIUM,Billing Issues,Benefit Education
+DEM-0144,0.3124,LOW,Smoker,Care Outreach
+DEM-0145,0.4798,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0146,0.4271,MEDIUM,Avg Out Of Pocket Cost,Benefit Education
+DEM-0147,0.179,LOW,Medication Adherence,Pharmacy Support
+DEM-0148,0.4853,MEDIUM,Smoker,Care Outreach
+DEM-0149,0.5056,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0150,0.3401,LOW,Overall Satisfaction,Care Outreach
+DEM-0151,0.2724,LOW,Billing Issues,Benefit Education
+DEM-0152,0.1394,LOW,Smoker,Care Outreach
+DEM-0153,0.3086,LOW,Overall Satisfaction,Care Outreach
+DEM-0154,0.2053,LOW,Overall Satisfaction,Care Outreach
+DEM-0155,0.4864,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0156,0.163,LOW,Star Rating,Service Recovery
+DEM-0157,0.2305,LOW,Avg Out Of Pocket Cost,Benefit Education
+DEM-0158,0.0747,LOW,Days Since Last Visit,Care Outreach
+DEM-0159,0.4296,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0160,0.0964,LOW,Billing Issues,Benefit Education
+DEM-0161,0.8694,HIGH,Overall Satisfaction,Care Outreach
+DEM-0162,0.4695,MEDIUM,Overall Satisfaction,Care Outreach
+DEM-0163,0.4841,MEDIUM,Smoker,Care Outreach
+DEM-0164,0.1024,LOW,Smoker,Care Outreach
+DEM-0165,0.19,LOW,Avg Out Of Pocket Cost,Benefit Education
+DEM-0166,0.7621,HIGH,Distance To Facility Miles,Care Outreach
+DEM-0167,0.128,LOW,Star Rating,Service Recovery
+DEM-0168,0.5031,MEDIUM,Smoker,Care Outreach
+DEM-0169,0.3094,LOW,Dependents,Care Outreach
+DEM-0170,0.187,LOW,Avg Out Of Pocket Cost,Benefit Education
+DEM-0171,0.2962,LOW,Smoker,Care Outreach
+DEM-0172,0.6529,MEDIUM,Billing Issues,Benefit Education
+DEM-0173,0.2401,LOW,Days Since Last Visit,Care Outreach
+DEM-0174,0.7658,HIGH,Billing Issues,Benefit Education
+DEM-0175,0.2239,LOW,Overall Satisfaction,Care Outreach
+DEM-0176,0.1977,LOW,Avg Out Of Pocket Cost,Benefit Education
+DEM-0177,0.0352,LOW,Days Since Last Visit,Care Outreach
+DEM-0178,0.2638,LOW,Claim Denials,Benefit Education
+DEM-0179,0.2177,LOW,Overall Satisfaction,Care Outreach
+DEM-0180,0.0876,LOW,Distance To Facility Miles,Care Outreach
+DEM-0181,0.3875,LOW,Avg Out Of Pocket Cost,Benefit Education
+DEM-0182,0.1063,LOW,Billing Issues,Benefit Education
+DEM-0183,0.444,MEDIUM,Avg Out Of Pocket Cost,Benefit Education
+DEM-0184,0.083,LOW,Billing Issues,Benefit Education
+DEM-0185,0.5832,MEDIUM,Days Since Last Visit,Care Outreach
+DEM-0186,0.2361,LOW,Overall Satisfaction,Care Outreach
+DEM-0187,0.0495,LOW,Grievances 90d,Service Recovery
+DEM-0188,0.4177,MEDIUM,Days Since Last Visit,Care Outreach
+DEM-0189,0.5118,MEDIUM,Days Since Last Visit,Care Outreach
+DEM-0190,0.2269,LOW,Dependents,Care Outreach
+DEM-0191,0.4091,MEDIUM,Avg Out Of Pocket Cost,Benefit Education
+DEM-0192,0.2314,LOW,Smoker,Care Outreach
+DEM-0193,0.5303,MEDIUM,Billing Issues,Benefit Education
+DEM-0194,0.4084,MEDIUM,Claim Denials,Benefit Education
+DEM-0195,0.3787,LOW,Overall Satisfaction,Care Outreach
+DEM-0196,0.8654,HIGH,Overall Satisfaction,Care Outreach
+DEM-0197,0.3317,LOW,Star Rating,Service Recovery
+DEM-0198,0.2829,LOW,Dependents,Care Outreach
+DEM-0199,0.4584,MEDIUM,Overall Satisfaction,Care Outreach

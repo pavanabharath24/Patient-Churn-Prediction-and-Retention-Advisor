@@ -1,0 +1,201 @@
+MemberID,Churn_Probability,Risk_Tier,Top_Driver,Recommended_Action
+MEM-0183,0.0358,LOW,Service Contacts,Service Recovery
+MEM-0109,0.8671,HIGH,Days Since Last Visit,Care Outreach
+MEM-0126,0.0257,LOW,Service Contacts,Service Recovery
+MEM-0039,0.8334,HIGH,Days Since Last Visit,Care Outreach
+MEM-0009,0.8185,HIGH,Premium Delay Days,Benefit Education
+MEM-0083,0.6116,MEDIUM,Prior Auth Delays,Benefit Education
+MEM-0103,0.5314,MEDIUM,Avg Out Of Pocket Cost,Benefit Education
+MEM-0197,0.0299,LOW,Service Contacts,Service Recovery
+MEM-0112,0.5229,MEDIUM,Overall Satisfaction,Care Outreach
+MEM-0006,0.7586,HIGH,Premium Delay Days,Benefit Education
+MEM-0179,0.0312,LOW,BMI,Care Outreach
+MEM-0026,0.7631,HIGH,Premium Delay Days,Benefit Education
+MEM-0034,0.83,HIGH,Premium Delay Days,Benefit Education
+MEM-0041,0.717,HIGH,Claim Denials,Benefit Education
+MEM-0108,0.8909,HIGH,Days Since Last Visit,Care Outreach
+MEM-0194,0.0166,LOW,Diabetes,Care Outreach
+MEM-0182,0.0359,LOW,BMI,Care Outreach
+MEM-0157,0.0349,LOW,Service Contacts,Service Recovery
+MEM-0052,0.853,HIGH,Days Since Last Visit,Care Outreach
+MEM-0065,0.5298,MEDIUM,Rural,Service Recovery
+MEM-0017,0.8298,HIGH,Premium Delay Days,Benefit Education
+MEM-0199,0.0288,LOW,Service Contacts,Service Recovery
+MEM-0071,0.5192,MEDIUM,Prior Auth Delays,Benefit Education
+MEM-0037,0.8197,HIGH,Overall Satisfaction,Care Outreach
+MEM-0181,0.0351,LOW,BMI,Care Outreach
+MEM-0193,0.0337,LOW,Service Contacts,Service Recovery
+MEM-0178,0.0262,LOW,Service Contacts,Service Recovery
+MEM-0105,0.8404,HIGH,Service Contacts,Service Recovery
+MEM-0033,0.774,HIGH,Premium Delay Days,Benefit Education
+MEM-0152,0.033,LOW,Service Contacts,Service Recovery
+MEM-0007,0.8894,HIGH,Overall Satisfaction,Care Outreach
+MEM-0047,0.7419,HIGH,Rural,Service Recovery
+MEM-0143,0.0144,LOW,Diabetes,Care Outreach
+MEM-0123,0.7695,HIGH,Overall Satisfaction,Care Outreach
+MEM-0141,0.0294,LOW,Service Contacts,Service Recovery
+MEM-0082,0.8845,HIGH,Days Since Last Visit,Care Outreach
+MEM-0184,0.0349,LOW,Service Contacts,Service Recovery
+MEM-0053,0.7568,HIGH,Rural,Service Recovery
+MEM-0072,0.8509,HIGH,Days Since Last Visit,Care Outreach
+MEM-0166,0.0274,LOW,Age,Care Outreach
+MEM-0133,0.0306,LOW,Service Contacts,Service Recovery
+MEM-0151,0.0172,LOW,BMI,Care Outreach
+MEM-0045,0.8442,HIGH,Days Since Last Visit,Care Outreach
+MEM-0150,0.0185,LOW,Prior Auth Delays,Benefit Education
+MEM-0127,0.0275,LOW,Service Contacts,Service Recovery
+MEM-0172,0.0226,LOW,Service Contacts,Service Recovery
+MEM-0087,0.7518,HIGH,Days Since Last Visit,Care Outreach
+MEM-0073,0.6659,MEDIUM,Service Contacts,Service Recovery
+MEM-0014,0.8198,HIGH,Premium Delay Days,Benefit Education
+MEM-0174,0.0324,LOW,Service Contacts,Service Recovery
+MEM-0092,0.6086,MEDIUM,Avg Out Of Pocket Cost,Benefit Education
+MEM-0176,0.0409,LOW,Service Contacts,Service Recovery
+MEM-0042,0.8799,HIGH,Days Since Last Visit,Care Outreach
+MEM-0088,0.5027,MEDIUM,Prior Auth Delays,Benefit Education
+MEM-0098,0.6073,MEDIUM,Avg Out Of Pocket Cost,Benefit Education
+MEM-0004,0.6871,MEDIUM,Premium Delay Days,Benefit Education
+MEM-0050,0.8237,HIGH,Overall Satisfaction,Care Outreach
+MEM-0117,0.533,MEDIUM,Claim Denials,Benefit Education
+MEM-0099,0.5963,MEDIUM,Avg Out Of Pocket Cost,Benefit Education
+MEM-0051,0.8409,HIGH,Overall Satisfaction,Care Outreach
+MEM-0142,0.0219,LOW,Prior Auth Delays,Benefit Education
+MEM-0162,0.0268,LOW,Service Contacts,Service Recovery
+MEM-0144,0.0188,LOW,Service Contacts,Service Recovery
+MEM-0145,0.0173,LOW,Service Contacts,Service Recovery
+MEM-0093,0.6864,MEDIUM,Days Since Last Visit,Care Outreach
+MEM-0190,0.0242,LOW,Service Contacts,Service Recovery
+MEM-0089,0.7656,HIGH,Service Contacts,Service Recovery
+MEM-0106,0.5991,MEDIUM,Grievances 90d,Service Recovery
+MEM-0118,0.593,MEDIUM,Overall Satisfaction,Care Outreach
+MEM-0085,0.7734,HIGH,Service Contacts,Service Recovery
+MEM-0131,0.0171,LOW,BMI,Care Outreach
+MEM-0163,0.0489,LOW,Service Contacts,Service Recovery
+MEM-0066,0.788,HIGH,Days Since Last Visit,Care Outreach
+MEM-0116,0.352,LOW,Prior Auth Delays,Benefit Education
+MEM-0019,0.7519,HIGH,Premium Delay Days,Benefit Education
+MEM-0029,0.5194,MEDIUM,Avg Out Of Pocket Cost,Benefit Education
+MEM-0111,0.5864,MEDIUM,Overall Satisfaction,Care Outreach
+MEM-0068,0.6867,MEDIUM,Days Since Last Visit,Care Outreach
+MEM-0025,0.8281,HIGH,Premium Delay Days,Benefit Education
+MEM-0010,0.8094,HIGH,Premium Delay Days,Benefit Education
+MEM-0069,0.3531,LOW,Prior Auth Delays,Benefit Education
+MEM-0177,0.0345,LOW,Service Contacts,Service Recovery
+MEM-0003,0.7763,HIGH,Premium Delay Days,Benefit Education
+MEM-0058,0.9152,HIGH,Days Since Last Visit,Care Outreach
+MEM-0137,0.0218,LOW,Service Contacts,Service Recovery
+MEM-0055,0.634,MEDIUM,Rural,Service Recovery
+MEM-0032,0.8242,HIGH,Service Contacts,Service Recovery
+MEM-0049,0.9288,HIGH,Days Since Last Visit,Care Outreach
+MEM-0024,0.7785,HIGH,Premium Delay Days,Benefit Education
+MEM-0078,0.3722,LOW,Service Contacts,Service Recovery
+MEM-0114,0.3444,LOW,Claim Denials,Benefit Education
+MEM-0121,0.4079,MEDIUM,Overall Satisfaction,Care Outreach
+MEM-0086,0.493,MEDIUM,Service Contacts,Service Recovery
+MEM-0167,0.0317,LOW,Service Contacts,Service Recovery
+MEM-0134,0.0333,LOW,Service Contacts,Service Recovery
+MEM-0030,0.7628,HIGH,Premium Delay Days,Benefit Education
+MEM-0147,0.0335,LOW,Service Contacts,Service Recovery
+MEM-0160,0.0416,LOW,Service Contacts,Service Recovery
+MEM-0200,0.0459,LOW,Service Contacts,Service Recovery
+MEM-0185,0.0326,LOW,Service Contacts,Service Recovery
+MEM-0124,0.4197,MEDIUM,Overall Satisfaction,Care Outreach
+MEM-0107,0.5918,MEDIUM,Avg Out Of Pocket Cost,Benefit Education
+MEM-0158,0.0198,LOW,Age,Care Outreach
+MEM-0188,0.0383,LOW,Service Contacts,Service Recovery
+MEM-0015,0.7971,HIGH,Premium Delay Days,Benefit Education
+MEM-0095,0.8427,HIGH,Days Since Last Visit,Care Outreach
+MEM-0035,0.842,HIGH,Premium Delay Days,Benefit Education
+MEM-0168,0.0303,LOW,Service Contacts,Service Recovery
+MEM-0067,0.8227,HIGH,Service Contacts,Service Recovery
+MEM-0153,0.0351,LOW,Service Contacts,Service Recovery
+MEM-0173,0.0258,LOW,Diabetes,Care Outreach
+MEM-0180,0.0379,LOW,Service Contacts,Service Recovery
+MEM-0091,0.6583,MEDIUM,Avg Out Of Pocket Cost,Benefit Education
+MEM-0031,0.8527,HIGH,Premium Delay Days,Benefit Education
+MEM-0164,0.0344,LOW,Service Contacts,Service Recovery
+MEM-0043,0.8395,HIGH,Overall Satisfaction,Care Outreach
+MEM-0012,0.8945,HIGH,Days Since Last Visit,Care Outreach
+MEM-0020,0.7644,HIGH,Premium Delay Days,Benefit Education
+MEM-0027,0.7691,HIGH,Premium Delay Days,Benefit Education
+MEM-0048,0.9044,HIGH,Days Since Last Visit,Care Outreach
+MEM-0165,0.0306,LOW,Service Contacts,Service Recovery
+MEM-0192,0.04,LOW,BMI,Care Outreach
+MEM-0097,0.7881,HIGH,Days Since Last Visit,Care Outreach
+MEM-0075,0.3399,LOW,Service Contacts,Service Recovery
+MEM-0187,0.0335,LOW,Service Contacts,Service Recovery
+MEM-0175,0.0224,LOW,Service Contacts,Service Recovery
+MEM-0018,0.8532,HIGH,Premium Delay Days,Benefit Education
+MEM-0102,0.8258,HIGH,Days Since Last Visit,Care Outreach
+MEM-0077,0.6993,MEDIUM,Days Since Last Visit,Care Outreach
+MEM-0186,0.0292,LOW,Service Contacts,Service Recovery
+MEM-0159,0.0305,LOW,Service Contacts,Service Recovery
+MEM-0056,0.7262,HIGH,Claim Denials,Benefit Education
+MEM-0046,0.5623,MEDIUM,Days Since Last Visit,Care Outreach
+MEM-0120,0.3629,LOW,Service Contacts,Service Recovery
+MEM-0060,0.8508,HIGH,Days Since Last Visit,Care Outreach
+MEM-0005,0.8049,HIGH,Premium Delay Days,Benefit Education
+MEM-0079,0.612,MEDIUM,Service Contacts,Service Recovery
+MEM-0096,0.7077,HIGH,Avg Out Of Pocket Cost,Benefit Education
+MEM-0125,0.477,MEDIUM,Overall Satisfaction,Care Outreach
+MEM-0161,0.0214,LOW,Service Contacts,Service Recovery
+MEM-0154,0.0221,LOW,Service Contacts,Service Recovery
+MEM-0063,0.4792,MEDIUM,Claim Denials,Benefit Education
+MEM-0001,0.8441,HIGH,Premium Delay Days,Benefit Education
+MEM-0136,0.0229,LOW,Service Contacts,Service Recovery
+MEM-0028,0.7955,HIGH,Premium Delay Days,Benefit Education
+MEM-0148,0.0445,LOW,Service Contacts,Service Recovery
+MEM-0101,0.6285,MEDIUM,Avg Out Of Pocket Cost,Benefit Education
+MEM-0084,0.6995,MEDIUM,Days Since Last Visit,Care Outreach
+MEM-0070,0.7489,HIGH,Service Contacts,Service Recovery
+MEM-0119,0.5782,MEDIUM,Overall Satisfaction,Care Outreach
+MEM-0171,0.033,LOW,BMI,Care Outreach
+MEM-0132,0.0436,LOW,Service Contacts,Service Recovery
+MEM-0074,0.7449,HIGH,Days Since Last Visit,Care Outreach
+MEM-0022,0.6087,MEDIUM,Premium Delay Days,Benefit Education
+MEM-0135,0.0363,LOW,Prior Auth Delays,Benefit Education
+MEM-0100,0.715,HIGH,Days Since Last Visit,Care Outreach
+MEM-0155,0.0398,LOW,Service Contacts,Service Recovery
+MEM-0191,0.0183,LOW,BMI,Care Outreach
+MEM-0110,0.8453,HIGH,Days Since Last Visit,Care Outreach
+MEM-0122,0.6619,MEDIUM,Overall Satisfaction,Care Outreach
+MEM-0149,0.0169,LOW,BMI,Care Outreach
+MEM-0156,0.0331,LOW,Service Contacts,Service Recovery
+MEM-0129,0.0202,LOW,Service Contacts,Service Recovery
+MEM-0061,0.8965,HIGH,Overall Satisfaction,Care Outreach
+MEM-0038,0.916,HIGH,Days Since Last Visit,Care Outreach
+MEM-0169,0.0372,LOW,Service Contacts,Service Recovery
+MEM-0128,0.025,LOW,Prior Auth Delays,Benefit Education
+MEM-0113,0.4699,MEDIUM,Overall Satisfaction,Care Outreach
+MEM-0196,0.0391,LOW,Service Contacts,Service Recovery
+MEM-0146,0.0354,LOW,Service Contacts,Service Recovery
+MEM-0023,0.5619,MEDIUM,Premium Delay Days,Benefit Education
+MEM-0198,0.035,LOW,Service Contacts,Service Recovery
+MEM-0115,0.2877,LOW,Overall Satisfaction,Care Outreach
+MEM-0140,0.0283,LOW,Service Contacts,Service Recovery
+MEM-0002,0.6346,MEDIUM,Premium Delay Days,Benefit Education
+MEM-0081,0.6935,MEDIUM,Days Since Last Visit,Care Outreach
+MEM-0080,0.784,HIGH,Days Since Last Visit,Care Outreach
+MEM-0139,0.0157,LOW,Service Contacts,Service Recovery
+MEM-0044,0.917,HIGH,Days Since Last Visit,Care Outreach
+MEM-0138,0.0466,LOW,Service Contacts,Service Recovery
+MEM-0094,0.5655,MEDIUM,Avg Out Of Pocket Cost,Benefit Education
+MEM-0130,0.0365,LOW,Service Contacts,Service Recovery
+MEM-0040,0.9015,HIGH,Days Since Last Visit,Care Outreach
+MEM-0057,0.2869,LOW,Rural,Service Recovery
+MEM-0059,0.9089,HIGH,Days Since Last Visit,Care Outreach
+MEM-0104,0.906,HIGH,Days Since Last Visit,Care Outreach
+MEM-0008,0.7935,HIGH,Premium Delay Days,Benefit Education
+MEM-0016,0.7812,HIGH,Premium Delay Days,Benefit Education
+MEM-0054,0.9017,HIGH,Days Since Last Visit,Care Outreach
+MEM-0011,0.8337,HIGH,Premium Delay Days,Benefit Education
+MEM-0013,0.8152,HIGH,Premium Delay Days,Benefit Education
+MEM-0189,0.0376,LOW,Service Contacts,Service Recovery
+MEM-0195,0.0336,LOW,Service Contacts,Service Recovery
+MEM-0076,0.7063,HIGH,Service Contacts,Service Recovery
+MEM-0170,0.0368,LOW,Service Contacts,Service Recovery
+MEM-0062,0.7709,HIGH,Service Contacts,Service Recovery
+MEM-0036,0.8056,HIGH,Days Since Last Visit,Care Outreach
+MEM-0090,0.3428,LOW,Service Contacts,Service Recovery
+MEM-0064,0.9076,HIGH,Days Since Last Visit,Care Outreach
+MEM-0021,0.8155,HIGH,Premium Delay Days,Benefit Education
